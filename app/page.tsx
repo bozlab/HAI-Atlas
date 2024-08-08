@@ -5,7 +5,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { MoveDownLeft, MoveUpRight, User } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
-import { MyResponsiveGeoMap } from "@/components/geo-map";
+import RotatableGeoMap  from "@/components/geo-map";
 
 export default function HomePage() {
   return (
@@ -23,9 +23,9 @@ export default function HomePage() {
             Welcome to Health-AI Ethics Atlas
           </h1>
           <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-            An interactive web application designed to illustrate the application
-            and development of ethical concepts in medical AI (Artificial
-            Intelligence) across various nations.
+            An interactive web application designed to illustrate the
+            application and development of ethical concepts in medical AI
+            (Artificial Intelligence) across various nations.
           </p>
           <div className="space-x-4">
             <Link href="/login" className={cn(buttonVariants({ size: "lg" }))}>
@@ -42,15 +42,18 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* <section
+      <section id="geo map">
+        <div className="container" style={{ width: "100%", height: "700px" }}>
+          <RotatableGeoMap />
+        </div>
+      </section>
+      <section
         id="statistics"
         className="container space-y-5 py-3 dark:bg-transparent md:py-3 lg:py-1"
-      > */}
-        {/* <div className="w-full py-10 lg:py-20"> */}
-          <div className="container" style={{ width: '100%', height: '500px' }}>
-            <MyResponsiveGeoMap/>
-            {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      >
+        <div className="w-full py-10 lg:py-20">
+          <div className="container mx-auto">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
               <div className="flex gap-4 flex-col items-start">
                 <div>
                   <Badge>Platform</Badge>
@@ -119,10 +122,10 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
-        {/* </div> */}
-      {/* </section> */}
+        </div>
+      </section>
       <section
         id="features"
         className="container space-y-6 bg-slate-50 py-3 dark:bg-transparent md:py-3 lg:py-1"
