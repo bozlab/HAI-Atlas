@@ -14,6 +14,9 @@ pnpm dev
 bun dev
 ```
 
+![Screenshots 01](<./screenshots/localhost_3000_%20(1).png>)
+![Screenshots 02](./screenshots/localhost_3000_.png)
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
