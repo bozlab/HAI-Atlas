@@ -6,6 +6,8 @@ import { cn } from "@/lib/utils";
 import { MoveDownLeft, MoveUpRight, User } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import RotatableGeoMap  from "@/components/geo-map";
+import { OrganizationTypePieChartComponent } from "@/components/charts/organization-type-pie-chart";
+import { PublishedYearsBarChartComponent } from "@/components/charts/published-years-bar-chart";
 
 export default function HomePage() {
   return (
@@ -148,32 +150,34 @@ export default function HomePage() {
               </div>
               <div className="flex flex-col sm:grid sm:grid-cols-2 lg:grid  lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 <div className="bg-muted h-full w-full rounded-md aspect-square p-6 flex justify-between flex-col lg:col-span-2 lg:row-span-2">
-                  <User className="w-8 h-8 stroke-1" />
-                  <div className="flex flex-col">
+                  {/* <User className="w-8 h-8 stroke-1" /> */}
+                  {/* <div className="flex flex-col">
                     <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices
+                      Pay supplier invoices test
                     </h3>
                     <p className="text-muted-foreground max-w-xs text-base">
                       Our goal is to streamline SMB trade, making it easier and
                       faster than ever.
                     </p>
-                  </div>
+                  </div> */}
+                  <OrganizationTypePieChartComponent/>
                 </div>
 
                 <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-                  <User className="w-8 h-8 stroke-1" />
-                  <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices
+                  {/* <User className="w-8 h-8 stroke-1" /> */}
+                  {/* <div className="flex flex-col"> */}
+                    <PublishedYearsBarChartComponent/>
+                    {/* <h3 className="text-xl tracking-tight">
+                      Pay supplier invoices test
                     </h3>
                     <p className="text-muted-foreground max-w-xs text-base">
                       Our goal is to streamline SMB trade, making it easier and
                       faster than ever.
-                    </p>
-                  </div>
+                    </p> */}
+                  {/* </div> */}
                 </div>
 
-                <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
+                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
                   <User className="w-8 h-8 stroke-1" />
                   <div className="flex flex-col">
                     <h3 className="text-xl tracking-tight">
@@ -184,9 +188,9 @@ export default function HomePage() {
                       faster than ever.
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
+                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
                   <User className="w-8 h-8 stroke-1" />
                   <div className="flex flex-col">
                     <h3 className="text-xl tracking-tight">
@@ -197,9 +201,9 @@ export default function HomePage() {
                       faster than ever.
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
+                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
                   <User className="w-8 h-8 stroke-1" />
                   <div className="flex flex-col">
                     <h3 className="text-xl tracking-tight">
@@ -210,9 +214,9 @@ export default function HomePage() {
                       faster than ever.
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
+                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
                   <User className="w-8 h-8 stroke-1" />
                   <div className="flex flex-col">
                     <h3 className="text-xl tracking-tight">
@@ -223,9 +227,9 @@ export default function HomePage() {
                       faster than ever.
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
+                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
                   <User className="w-8 h-8 stroke-1" />
                   <div className="flex flex-col">
                     <h3 className="text-xl tracking-tight">
@@ -236,9 +240,9 @@ export default function HomePage() {
                       faster than ever.
                     </p>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="bg-muted h-full rounded-md p-6 flex justify-between flex-col lg:col-span-2">
+                {/* <div className="bg-muted h-full rounded-md p-6 flex justify-between flex-col lg:col-span-2">
                   <User className="w-8 h-8 stroke-1" />
                   <div className="flex flex-col">
                     <h3 className="text-xl tracking-tight">
@@ -249,7 +253,7 @@ export default function HomePage() {
                       faster than ever.
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
