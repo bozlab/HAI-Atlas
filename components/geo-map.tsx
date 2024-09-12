@@ -93,9 +93,10 @@ const RotatableGeoMap: React.FC = () => {
         features={worldCountries.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
         projectionTranslation={[0.5, 0.5]}
-        projectionType="orthographic"
+        projectionType="naturalEarth1"
         projectionScale={350}
-        projectionRotation={projectionRotation}
+        projectionRotation={[ 0, 0, 0 ]}
+        // projectionRotation={projectionRotation}
         fillColor="#eeeeee"
         borderWidth={0.5}
         borderColor="#333333"
