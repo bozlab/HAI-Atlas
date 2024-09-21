@@ -53,7 +53,7 @@ export default async function HomePage() {
         </div>
       </section>
       <section id="geo map">
-        <div className="container" style={{ width: "100%", height: "700px" }}>
+        <div className="container" style={{ width: "100%", height: "630px" }}>
           <RotatableGeoMap data={geoData} />
         </div>
       </section>
