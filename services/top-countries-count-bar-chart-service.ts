@@ -34,7 +34,7 @@ export async function getTopCountriesByResourceCount(): Promise<CountryResourceC
   const sortedCountries = Object.entries(countryCount)
     .map(([country, resourceCount]) => ({ country, resourceCount }))
     .sort((a, b) => b.resourceCount - a.resourceCount)
-    .slice(0, 4) // Get the top 4 countries
+    .slice(0, 3) // Get the top 3 countries
 
   return sortedCountries
 }

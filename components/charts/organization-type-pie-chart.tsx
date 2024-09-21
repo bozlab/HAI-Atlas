@@ -49,7 +49,7 @@ export function OrganizationTypePieChartComponent({
   return (
     <Card className="flex flex-col">
       <CardHeader className="items-center pb-0">
-        <CardTitle>Organization Type</CardTitle>
+        <CardTitle className="text-lg font-semibold">Organization Type</CardTitle>
         <CardDescription>{totalResources} Total Resources</CardDescription>
       </CardHeader>
       <CardContent className="flex-1 pb-0">
@@ -63,11 +63,6 @@ export function OrganizationTypePieChartComponent({
           </PieChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter className="flex-col gap-2 text-sm">
-        <div className="flex items-center gap-2 font-medium leading-none">
-          Resources count based on published organization type
-        </div>
-      </CardFooter>
     </Card>
   )
 }

@@ -1,26 +1,48 @@
 'use client';
 
+import React, { useState, useEffect } from 'react';
 import { ResponsiveChoroplethCanvas } from '@nivo/geo';
-import { CountryGeoMapData } from '@/services/geo-map-service'; // Import the correct types
-import worldCountries from '@/data/world_countries.json'; // GeoJSON world map
+import { CountryGeoMapData } from '@/services/geo-map-service';
+import worldCountries from '@/data/world_countries.json';
 
 interface GeoMapProps {
-  data: CountryGeoMapData[]; // Accept the fetched data as props
+  data: CountryGeoMapData[];
 }
 
-// const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+function useWindowWidth() {
+  const [width, setWidth] = useState<number>(0);
+
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+    handleResize(); // Set initial width
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return width;
+}
 
 const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
+  const width = useWindowWidth();
+
+  let projectionScale = 100;
+  if (width >= 1024) {
+    projectionScale = 350;
+  } else if (width >= 768) {
+    projectionScale = 250;
+  } else {
+    projectionScale = 150;
+  }
+
   return (
-    <div style={{ height: '700px' }}>
+    <div className="h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh]">
       <ResponsiveChoroplethCanvas
-            // Custom tooltip function
         tooltip={({ feature }) => {
-          // Use the correct key from your GeoJSON properties for the country code
-          const countryId = (feature as any).properties?.iso_a3 || 'Unknown'; // Adjust according to the key in your GeoJSON
-          const countryName = (feature as any).properties?.name || 'Unknown'; // Access country name from properties
-          
-          const countryData = data.find((item) => item.id === countryId); // Find the data by country code
+          const countryId = (feature as any).properties?.iso_a3 || 'Unknown';
+          const countryName = (feature as any).properties?.name || 'Unknown';
+          const countryData = data.find((item) => item.id === countryId);
 
           return (
             <div
@@ -29,7 +51,7 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
                 color: '#000',
                 padding: '10px',
                 borderRadius: '4px',
-                border: `1px solid ${'rgba(0, 0, 0, 0.1)'}`,
+                border: `1px solid rgba(0, 0, 0, 0.1)`,
                 maxWidth: '300px',
               }}
             >
@@ -39,8 +61,14 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
               <ul>
                 {countryData?.resourceList.map((resource) => (
                   <li key={resource.id}>
-                    <a href={resource.mainLink} target="_blank" rel="noopener noreferrer" style={{ color:'#000' }}>
-                      Resource {resource.id} - Published on {new Date(resource.publicationDate).toLocaleDateString()}
+                    <a
+                      href={resource.mainLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{ color: '#000' }}
+                    >
+                      Resource {resource.id} - Published on{' '}
+                      {new Date(resource.publicationDate).toLocaleDateString()}
                     </a>
                   </li>
                 ))}
@@ -48,13 +76,13 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
             </div>
           );
         }}
-        data={data} // Pass the fetched data
-        features={worldCountries.features} // GeoJSON features for the map
+        data={data}
+        features={worldCountries.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-        colors="RdBu"
-        domain={[0, 1000000]} // Adjust based on your resource counts
+        colors="nivo"
+        domain={[0, 1000000]}
         projectionType="naturalEarth1"
-        projectionScale={350}
+        projectionScale={projectionScale}
         projectionTranslation={[0.5, 0.5]}
         projectionRotation={[0, 0, 0]}
         enableGraticule={true}
@@ -68,6 +96,7 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
 };
 
 export default GeoMap;
+
 
 
 

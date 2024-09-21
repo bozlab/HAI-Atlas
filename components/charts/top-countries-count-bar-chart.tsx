@@ -46,8 +46,8 @@ export function TopCountriesCountBarChartComponent({
 
   return (
     <Card>
-      <CardHeader>
-        <CardTitle>Top 4 Countries</CardTitle>
+      <CardHeader className="flex flex-col items-center text-center">
+        <CardTitle className="text-lg font-semibold">Top 3 Countries</CardTitle>
         <CardDescription>
           Showing the top countries by the number of resources
         </CardDescription>
@@ -98,11 +98,6 @@ export function TopCountriesCountBarChartComponent({
           </BarChart>
         </ChartContainer>
       </CardContent>
-      <CardFooter className="flex-col items-start gap-2 text-sm">
-        <div className="flex gap-2 font-medium leading-none">
-          Total resource count for the top 4 countries
-        </div>
-      </CardFooter>
     </Card>
   );
 }
