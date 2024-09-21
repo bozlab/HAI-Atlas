@@ -1,112 +1,74 @@
-"use client"
+'use client';
 
-import { ResponsiveGeoMap } from "@nivo/geo";
-import worldCountries from "./../data/world_countries.json";
-import { useEffect, useRef, useState } from "react";
+import { ResponsiveChoroplethCanvas } from '@nivo/geo';
+import { CountryGeoMapData } from '@/services/geo-map-service'; // Import the correct types
+import worldCountries from '@/data/world_countries.json'; // GeoJSON world map
 
-// make sure parent container have a defined height when using
-// responsive component, otherwise height will be 0 and
-// no chart will be rendered.
-// website examples showcase many properties,
-// you'll often use just a few of them.
-const RotatableGeoMap: React.FC = () => {
-  const [projectionRotation, setProjectionRotation] = useState<[number, number, number]>([155, -13, 134]);
-  const [isDragging, setIsDragging] = useState<boolean>(false);
-  const [startRotation, setStartRotation] = useState<[number, number]>([0, 0]);
-  const containerRef = useRef<HTMLDivElement>(null);
+interface GeoMapProps {
+  data: CountryGeoMapData[]; // Accept the fetched data as props
+}
 
-  const handleMouseDown = (event: MouseEvent) => {
-    setIsDragging(true);
-    setStartRotation([event.clientX, event.clientY]);
-  };
+// const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-  const handleTouchStart = (event: TouchEvent) => {
-    if (event.touches.length === 1) {
-      const touch = event.touches[0];
-      setIsDragging(true);
-      setStartRotation([touch.clientX, touch.clientY]);
-    }
-  };
-
-  const handleMouseMove = (event: MouseEvent) => {
-    if (isDragging && containerRef.current) {
-      const { clientX, clientY } = event;
-      const deltaX = clientX - startRotation[0];
-      const deltaY = clientY - startRotation[1];
-      const lambda = (deltaX / containerRef.current.clientWidth) * 360;
-      const phi = (deltaY / containerRef.current.clientHeight) * 180;
-      setProjectionRotation([projectionRotation[0] + lambda, projectionRotation[1] - phi, projectionRotation[2]]);
-      setStartRotation([clientX, clientY]);
-    }
-  };
-
-  const handleTouchMove = (event: TouchEvent) => {
-    if (isDragging && containerRef.current && event.touches.length === 1) {
-      const touch = event.touches[0];
-      const deltaX = touch.clientX - startRotation[0];
-      const deltaY = touch.clientY - startRotation[1];
-      const lambda = (deltaX / containerRef.current.clientWidth) * 360;
-      const phi = (deltaY / containerRef.current.clientHeight) * 180;
-      setProjectionRotation([projectionRotation[0] + lambda, projectionRotation[1] - phi, projectionRotation[2]]);
-      setStartRotation([touch.clientX, touch.clientY]);
-    }
-  };
-
-  const handleMouseUp = () => {
-    setIsDragging(false);
-  };
-
-  const handleTouchEnd = () => {
-    setIsDragging(false);
-  };
-
-  useEffect(() => {
-    const container = containerRef.current;
-    if (container) {
-      container.addEventListener('mousedown', handleMouseDown);
-      container.addEventListener('mousemove', handleMouseMove);
-      container.addEventListener('mouseup', handleMouseUp);
-      container.addEventListener('mouseleave', handleMouseUp);
-
-      container.addEventListener('touchstart', handleTouchStart);
-      container.addEventListener('touchmove', handleTouchMove);
-      container.addEventListener('touchend', handleTouchEnd);
-      container.addEventListener('touchcancel', handleTouchEnd);
-
-      return () => {
-        container.removeEventListener('mousedown', handleMouseDown);
-        container.removeEventListener('mousemove', handleMouseMove);
-        container.removeEventListener('mouseup', handleMouseUp);
-        container.removeEventListener('mouseleave', handleMouseUp);
-
-        container.removeEventListener('touchstart', handleTouchStart);
-        container.removeEventListener('touchmove', handleTouchMove);
-        container.removeEventListener('touchend', handleTouchEnd);
-        container.removeEventListener('touchcancel', handleTouchEnd);
-      };
-    }
-  }, [isDragging, startRotation, projectionRotation]);
-
+const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
   return (
-    <div ref={containerRef} style={{ height: '700px' }}>
-      <ResponsiveGeoMap
-        features={worldCountries.features}
+    <div style={{ height: '700px' }}>
+      <ResponsiveChoroplethCanvas
+            // Custom tooltip function
+        tooltip={({ feature }) => {
+          // Use the correct key from your GeoJSON properties for the country code
+          const countryId = (feature as any).properties?.iso_a3 || 'Unknown'; // Adjust according to the key in your GeoJSON
+          const countryName = (feature as any).properties?.name || 'Unknown'; // Access country name from properties
+          
+          const countryData = data.find((item) => item.id === countryId); // Find the data by country code
+
+          return (
+            <div
+              style={{
+                background: '#fff',
+                color: '#000',
+                padding: '10px',
+                borderRadius: '4px',
+                border: `1px solid ${'rgba(0, 0, 0, 0.1)'}`,
+                maxWidth: '300px',
+              }}
+            >
+              <strong>{countryName}</strong>
+              <br />
+              <strong>Resources: {countryData?.value || 0}</strong>
+              <ul>
+                {countryData?.resourceList.map((resource) => (
+                  <li key={resource.id}>
+                    <a href={resource.mainLink} target="_blank" rel="noopener noreferrer" style={{ color:'#000' }}>
+                      Resource {resource.id} - Published on {new Date(resource.publicationDate).toLocaleDateString()}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        }}
+        data={data} // Pass the fetched data
+        features={worldCountries.features} // GeoJSON features for the map
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-        projectionTranslation={[0.5, 0.5]}
+        colors="RdBu"
+        domain={[0, 1000000]} // Adjust based on your resource counts
         projectionType="naturalEarth1"
         projectionScale={350}
-        projectionRotation={[ 0, 0, 0 ]}
-        // projectionRotation={projectionRotation}
+        projectionTranslation={[0.5, 0.5]}
+        projectionRotation={[0, 0, 0]}
+        enableGraticule={true}
         fillColor="#eeeeee"
         borderWidth={0.5}
         borderColor="#333333"
-        enableGraticule={true}
         graticuleLineColor="#666666"
       />
     </div>
   );
 };
 
-export default RotatableGeoMap;
+export default GeoMap;
+
+
 
 

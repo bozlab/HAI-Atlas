@@ -12,9 +12,39 @@ datasource db {
 }
 
 model Resource {
-  id        Int      @id @default(autoincrement())
-  topic     String
-  email     String   @unique
-  image     String
-  createdAt DateTime @default(now())
+  id               Int       @id @unique @default(autoincrement())
+  mainLink         String
+  include          Boolean
+  countries        Country[] @relation("ResourceCountry") // New relation to Country
+  publisher        String[]
+  additionalLinks  String[]
+  publicationDate  DateTime
+  organizationType String[]
+  summary          String
+  nlp              NLP[]
+  createdAt        DateTime  @default(now())
+}
+
+model NLP {
+  id                 Int      @unique @default(autoincrement())
+  resourse           Resource @relation(fields: [resourseId], references: [id], onDelete: Cascade)
+  resourseId         Int
+  transparency       Int
+  justiceAndFairness Int
+  nonMaleficence     Int
+  responsibility     Int
+  privacy            Int
+  beneficence        Int
+  freedomAndAutonomy Int
+  trust              Int
+  sustainability     Int
+  dignity            Int
+  solidarity         Int
+}
+
+model Country {
+  id          String     @id @default(uuid())
+  name        String     @unique
+  countryCode String? // Optional field initially
+  resources   Resource[] @relation("ResourceCountry") // New relation to Resource
 }

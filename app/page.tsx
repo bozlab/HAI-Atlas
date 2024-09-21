@@ -3,13 +3,21 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { MoveDownLeft, MoveUpRight, User } from "lucide-react";
-import { Badge } from "@/components/ui/badge";
-import RotatableGeoMap  from "@/components/geo-map";
+import RotatableGeoMap from "@/components/geo-map";
 import { OrganizationTypePieChartComponent } from "@/components/charts/organization-type-pie-chart";
-import { PublishedYearsBarChartComponent } from "@/components/charts/published-years-bar-chart";
+import { getResourcesByOrganizationType } from "@/services/organization-type-pie-chart-service";
+import { PrinciplesCountBarChartComponent } from "@/components/charts/principles-count-bar-chart";
+import { getNLPPrincipleCounts } from "@/services/principles-count-bar-chart-service";
+import { getTopCountriesByResourceCount } from "@/services/top-countries-count-bar-chart-service";
+import { TopCountriesCountBarChartComponent } from "@/components/charts/top-countries-count-bar-chart";
+import { getCountryGeoMapData } from "@/services/geo-map-service";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const { totalResources, governmentCount, privateCount } =
+    await getResourcesByOrganizationType();
+  const principleCounts = await getNLPPrincipleCounts();
+  const topCountries = await getTopCountriesByResourceCount();
+  const geoData = await getCountryGeoMapData();
   return (
     <>
       <section className="space-y-6 pb-6 pt-6 md:pb-8 md:pt-10 lg:py-18">
@@ -46,215 +54,27 @@ export default function HomePage() {
       </section>
       <section id="geo map">
         <div className="container" style={{ width: "100%", height: "700px" }}>
-          <RotatableGeoMap />
+          <RotatableGeoMap data={geoData} />
         </div>
       </section>
-      <section
-        id="statistics"
-        className="container space-y-5 py-3 dark:bg-transparent md:py-3 lg:py-1"
-      >
-        <div className="w-full py-10 lg:py-20">
-          <div className="container mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-              <div className="flex gap-4 flex-col items-start">
-                <div>
-                  <Badge>Platform</Badge>
-                </div>
-                <div className="flex gap-2 flex-col">
-                  <h2 className="text-xl md:text-3xl tracking-tighter lg:max-w-xl font-regular text-left">
-                    This is the start of something new
-                  </h2>
-                  <p className="text-lg lg:max-w-sm leading-relaxed tracking-tight text-muted-foreground text-left">
-                    Managing a small business today is already tough. Avoid
-                    further complications by ditching outdated, tedious trade
-                    methods. Our goal is to streamline SMB trade, making it
-                    easier and faster than ever.
-                  </p>
-                </div>
-              </div>
-              <div className="flex justify-center items-center">
-                <div className="grid text-left grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 w-full gap-2">
-                  <div className="flex bg-muted gap-0 flex-col justify-between p-6 border rounded-md">
-                    <MoveUpRight className="w-4 h-4 mb-10 text-primary" />
-                    <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
-                      500.000
-                      <span className="text-muted-foreground text-sm tracking-normal">
-                        +20.1%
-                      </span>
-                    </h2>
-                    <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                      Monthly active users
-                    </p>
-                  </div>
-                  <div className="flex bg-muted gap-0 flex-col justify-between p-6 border rounded-md">
-                    <MoveDownLeft className="w-4 h-4 mb-10 text-destructive" />
-                    <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
-                      20.105
-                      <span className="text-muted-foreground text-sm tracking-normal">
-                        -2%
-                      </span>
-                    </h2>
-                    <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                      Daily active users
-                    </p>
-                  </div>
-                  <div className="flex bg-muted gap-0 flex-col justify-between p-6 border rounded-md">
-                    <MoveUpRight className="w-4 h-4 mb-10 text-primary" />
-                    <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
-                      $523.520
-                      <span className="text-muted-foreground text-sm tracking-normal">
-                        +8%
-                      </span>
-                    </h2>
-                    <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                      Monthly recurring revenue
-                    </p>
-                  </div>
-                  <div className="flex bg-muted gap-0 flex-col justify-between p-6 border rounded-md">
-                    <MoveUpRight className="w-4 h-4 mb-10 text-primary" />
-                    <h2 className="text-4xl tracking-tighter max-w-xl text-left font-regular flex flex-row gap-4 items-end">
-                      $1052
-                      <span className="text-muted-foreground text-sm tracking-normal">
-                        +2%
-                      </span>
-                    </h2>
-                    <p className="text-base leading-relaxed tracking-tight text-muted-foreground max-w-xl text-left">
-                      Cost per acquisition
-                    </p>
-                  </div>
-                </div>
-              </div>
+
+      <section className="py-6 md:py-10">
+        <div className="container mx-auto px-4">
+          <div className="grid grid-cols-4 gap-4">
+            <div className="col-span-4 md:col-span-2">
+              <PrinciplesCountBarChartComponent
+                principleCounts={principleCounts}
+              />
             </div>
-          </div>
-        </div>
-      </section>
-      <section
-        id="features"
-        className="container space-y-6 bg-slate-50 py-3 dark:bg-transparent md:py-3 lg:py-1"
-      >
-        <div className="w-full py-10 lg:py-10">
-          <div className="container mx-auto">
-            <div className="flex flex-col gap-10">
-              <div className="flex gap-4 flex-col items-start">
-                <div>
-                  <Badge>Platform</Badge>
-                </div>
-                <div className="flex gap-2 flex-col">
-                  <h2 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular text-left">
-                    Something new!
-                  </h2>
-                  <p className="text-lg max-w-xl lg:max-w-lg leading-relaxed tracking-tight text-muted-foreground  text-left">
-                    Managing a small business today is already tough.
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col sm:grid sm:grid-cols-2 lg:grid  lg:grid-cols-3 xl:grid-cols-4 gap-8">
-                <div className="bg-muted h-full w-full rounded-md aspect-square p-6 flex justify-between flex-col lg:col-span-2 lg:row-span-2">
-                  {/* <User className="w-8 h-8 stroke-1" /> */}
-                  {/* <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices test
-                    </h3>
-                    <p className="text-muted-foreground max-w-xs text-base">
-                      Our goal is to streamline SMB trade, making it easier and
-                      faster than ever.
-                    </p>
-                  </div> */}
-                  <OrganizationTypePieChartComponent/>
-                </div>
-
-                <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-                  {/* <User className="w-8 h-8 stroke-1" /> */}
-                  {/* <div className="flex flex-col"> */}
-                    <PublishedYearsBarChartComponent/>
-                    {/* <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices test
-                    </h3>
-                    <p className="text-muted-foreground max-w-xs text-base">
-                      Our goal is to streamline SMB trade, making it easier and
-                      faster than ever.
-                    </p> */}
-                  {/* </div> */}
-                </div>
-
-                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-                  <User className="w-8 h-8 stroke-1" />
-                  <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices
-                    </h3>
-                    <p className="text-muted-foreground max-w-xs text-base">
-                      Our goal is to streamline SMB trade, making it easier and
-                      faster than ever.
-                    </p>
-                  </div>
-                </div> */}
-
-                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-                  <User className="w-8 h-8 stroke-1" />
-                  <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices
-                    </h3>
-                    <p className="text-muted-foreground max-w-xs text-base">
-                      Our goal is to streamline SMB trade, making it easier and
-                      faster than ever.
-                    </p>
-                  </div>
-                </div> */}
-
-                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-                  <User className="w-8 h-8 stroke-1" />
-                  <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices
-                    </h3>
-                    <p className="text-muted-foreground max-w-xs text-base">
-                      Our goal is to streamline SMB trade, making it easier and
-                      faster than ever.
-                    </p>
-                  </div>
-                </div> */}
-
-                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-                  <User className="w-8 h-8 stroke-1" />
-                  <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices
-                    </h3>
-                    <p className="text-muted-foreground max-w-xs text-base">
-                      Our goal is to streamline SMB trade, making it easier and
-                      faster than ever.
-                    </p>
-                  </div>
-                </div> */}
-
-                {/* <div className="bg-muted h-full rounded-md aspect-square p-6 flex justify-between flex-col">
-                  <User className="w-8 h-8 stroke-1" />
-                  <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices
-                    </h3>
-                    <p className="text-muted-foreground max-w-xs text-base">
-                      Our goal is to streamline SMB trade, making it easier and
-                      faster than ever.
-                    </p>
-                  </div>
-                </div> */}
-
-                {/* <div className="bg-muted h-full rounded-md p-6 flex justify-between flex-col lg:col-span-2">
-                  <User className="w-8 h-8 stroke-1" />
-                  <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Pay supplier invoices
-                    </h3>
-                    <p className="text-muted-foreground max-w-xs text-base">
-                      Our goal is to streamline SMB trade, making it easier and
-                      faster than ever.
-                    </p>
-                  </div>
-                </div> */}
-              </div>
+            <div className="col-span-4 md:col-span-1">
+              <OrganizationTypePieChartComponent
+                totalResources={totalResources}
+                governmentCount={governmentCount}
+                privateCount={privateCount}
+              />
+            </div>
+            <div className="col-span-4 md:col-span-1">
+              <TopCountriesCountBarChartComponent topCountries={topCountries} />
             </div>
           </div>
         </div>
