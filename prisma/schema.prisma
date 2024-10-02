@@ -14,14 +14,15 @@ datasource db {
 model Resource {
   id               Int       @id @unique @default(autoincrement())
   mainLink         String
+  name             String? // New optional name field
   include          Boolean
   countries        Country[] @relation("ResourceCountry") // New relation to Country
   publisher        String[]
   additionalLinks  String[]
   publicationDate  DateTime
   organizationType String[]
-  summary          String
-  nlp              NLP[]
+  summary          String? // Optional summary field
+  nlp              NLP[] // List of NLP (cannot be optional, but can be empty)
   createdAt        DateTime  @default(now())
 }
 

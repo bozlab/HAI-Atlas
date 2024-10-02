@@ -1,55 +1,110 @@
 import { PrismaClient } from '@prisma/client';
+import fs from 'fs';
+import csvParser from 'csv-parser';
 
 const prisma = new PrismaClient();
 
 async function main() {
-  // Find the country in data/world_countries.json. Sometimes the country name will be bit tricky to find
-  // for example, in there, there is no United Kingdom. there is only "England". use a json visualizer to read the json file.
-  const uk = await prisma.country.findUnique({
-    where: { name: 'England' },
-  });
+  let addedResourcesCount = 0;
 
-  if (!uk) {
-    console.error('Country "England" not found in the database');
-    process.exit(1);
-  }
+  // Read CSV file from the same folder
+  fs.createReadStream('prisma/HAI-Atlas-Paper-final_links.csv') // Adjust file path as per your setup
+    .pipe(csvParser({
+      mapHeaders: ({ header, index }): string | null => {
+        const headersMap: { [key: number]: string } = {
+          0: 'mainLink', // A column (Main Link)
+          1: 'includeYN', // B column (Include(Y/N))
+          2: 'name', // C column (Name of the document)
+          3: 'country', // D column (Country)
+          4: 'publisher', // E column (Publisher)
+          5: 'additionalLinks', // F column (Link to main Document)
+          6: 'publicationDate', // G column (Publication Date)
+          7: 'organizationType', // H column (Organization Type)
+          8: 'summary' // I column (Text Summary)
+        };
+        return headersMap[index] || null;
+      }
+    }))
+    .on('data', async (row) => {
+      try {
+        // Extract fields from the CSV row
+        const mainLink = row.mainLink ? row.mainLink.trim() : null;
 
-  // Create a new Resource and connect it to the existing UK entry
-  const resource = await prisma.resource.create({
-    data: {
-      mainLink: 'https://www.turing.ac.uk/sites/default/files/2019-08/understanding_artificial_intelligence_ethics_and_safety.pdf',
-      include: true,
-      publicationDate: new Date('2019-01-01'), // Assuming January 1st as the publication date was not fully provided
-      organizationType: ['Research Institute', 'Private'],
-      publisher: ['Alan Turing Institute'],
-      additionalLinks: [],
-      summary:
-        "This guide provides ethical principles for AI development in the public sector, emphasizing fairness, transparency, accountability, and sustainability for responsible innovation.",
-      countries: {
-        connect: [{ id: uk.id }],
-      },
-      nlp: {
-        create: {
-          transparency: 157,
-          justiceAndFairness: 167,
-          nonMaleficence: 198,
-          responsibility: 96,
-          privacy: 15,
-          beneficence: 5,
-          freedomAndAutonomy: 12,
-          trust: 16,
-          sustainability: 18,
-          dignity: 5,
-          solidarity: 3,
-        },
-      },
-    },
-    include: {
-      countries: true, // Include related countries in the response
-    },
-  });
+        // Ensure mainLink is not null or empty
+        if (!mainLink || mainLink === '') {
+          console.error('Main Link is missing or empty for the document:', row.name);
+          return; // Skip this record if mainLink is missing or empty
+        }
 
-  console.log('Resource created:', resource);
+        if (row.country === 'Global') return; // Skip if country is "Global"
+
+        // Convert "Include(Y/N)" field from 1 to true
+        const include = row.includeYN === '1';
+
+        // Handle country connections
+        const countries = [];
+        const countryNames = row.country.split(',').map((c: any) => c.trim());
+        let validCountries = true;
+
+        for (const countryName of countryNames) {
+          const country = await prisma.country.findUnique({
+            where: { name: countryName },
+          });
+          if (country) {
+            countries.push({ id: country.id });
+          } else {
+            console.error(`Country "${countryName}" not found in the database. Skipping record.`);
+            validCountries = false;
+            break; // Skip the record if any country is missing
+          }
+        }
+
+        if (!validCountries) return; // Skip if any country was not found
+
+        // Create a new resource
+        const resource = await prisma.resource.create({
+          data: {
+            mainLink, // Ensure mainLink is provided
+            include,
+            publicationDate: new Date(row.publicationDate || '2000-01-01'), // Default date if missing
+            organizationType: row.organizationType.split(',').map((type: string) => type.trim()), // Split by commas
+            publisher: row.publisher.split(',').map((pub: string) => pub.trim()), // Handle multiple publishers
+            additionalLinks: row.additionalLinks ? [row.additionalLinks] : [], // Add as array if present
+            summary: row.name + ": " + row.summary, // Combine name and summary
+            countries: {
+              connect: countries, // Connect the countries found
+            },
+            nlp: {
+              create: {
+                transparency: 0,
+                justiceAndFairness: 0,
+                nonMaleficence: 0,
+                responsibility: 0,
+                privacy: 0,
+                beneficence: 0,
+                freedomAndAutonomy: 0,
+                trust: 0,
+                sustainability: 0,
+                dignity: 0,
+                solidarity: 0,
+              },
+            },
+          },
+          include: {
+            countries: true, // Include the related countries in the response
+          },
+        });
+
+        // Keep track of added resources
+        addedResourcesCount++;
+        console.log(`Resource added:`, resource);
+      } catch (error:any) {
+        console.error(`Error processing record: ${error.message}`);
+      }
+    })
+    .on('end', () => {
+      console.log(`Finished processing CSV. Total resources added: ${addedResourcesCount}`);
+    });
 }
 
 main()
@@ -62,6 +117,6 @@ main()
   });
 
 
-// use "npm run seed" to run the script. 
+
 
 
