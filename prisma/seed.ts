@@ -20,7 +20,8 @@ async function main() {
           5: 'additionalLinks', // F column (Link to main Document)
           6: 'publicationDate', // G column (Publication Date)
           7: 'organizationType', // H column (Organization Type)
-          8: 'summary' // I column (Text Summary)
+          8: 'summary', // I column (Text Summary)
+          9: 'nlpData' // J column (Text-mining, NLP data)
         };
         return headersMap[index] || null;
       }
@@ -61,6 +62,50 @@ async function main() {
 
         if (!validCountries) return; // Skip if any country was not found
 
+        // Parse NLP data from the 'Text-mining' column (which corresponds to your J column)
+        const nlpLines = row['nlpData'].split('\n').map((line: string) => line.trim());
+        const nlpValues: { [key: string]: number } = {};
+
+        nlpLines.forEach((line:any) => {
+          const [key, value] = line.split(':').map((part: string) => part.trim());
+
+          // Map NLP keys correctly (handling hyphens and spaces)
+          const nlpKeyMapping: { [key: string]: string } = {
+            'Transparency': 'transparency',
+            'Justice and fairness': 'justiceAndFairness',
+            'Non-maleficence': 'nonMaleficence',
+            'Responsibility': 'responsibility',
+            'Privacy': 'privacy',
+            'Beneficence': 'beneficence',
+            'Freedom and autonomy': 'freedomAndAutonomy',
+            'Trust': 'trust',
+            'Sustainability': 'sustainability',
+            'Dignity': 'dignity',
+            'Solidarity': 'solidarity',
+          };
+
+          const mappedKey = nlpKeyMapping[key] || key.toLowerCase().replace(/\s+/g, '');
+          nlpValues[mappedKey] = parseInt(value, 10) || 0;
+        });
+
+        // Default NLP values if missing in the CSV row
+        const nlpDefaults = {
+          transparency: 0,
+          justiceAndFairness: 0,
+          nonMaleficence: 0,
+          responsibility: 0,
+          privacy: 0,
+          beneficence: 0,
+          freedomAndAutonomy: 0,
+          trust: 0,
+          sustainability: 0,
+          dignity: 0,
+          solidarity: 0,
+        };
+
+        // Merge parsed NLP values with default values
+        const nlp = { ...nlpDefaults, ...nlpValues };
+
         // Create a new resource
         const resource = await prisma.resource.create({
           data: {
@@ -76,17 +121,17 @@ async function main() {
             },
             nlp: {
               create: {
-                transparency: 0,
-                justiceAndFairness: 0,
-                nonMaleficence: 0,
-                responsibility: 0,
-                privacy: 0,
-                beneficence: 0,
-                freedomAndAutonomy: 0,
-                trust: 0,
-                sustainability: 0,
-                dignity: 0,
-                solidarity: 0,
+                transparency: nlp.transparency,
+                justiceAndFairness: nlp.justiceAndFairness,
+                nonMaleficence: nlp.nonMaleficence,
+                responsibility: nlp.responsibility,
+                privacy: nlp.privacy,
+                beneficence: nlp.beneficence,
+                freedomAndAutonomy: nlp.freedomAndAutonomy,
+                trust: nlp.trust,
+                sustainability: nlp.sustainability,
+                dignity: nlp.dignity,
+                solidarity: nlp.solidarity,
               },
             },
           },
@@ -98,7 +143,7 @@ async function main() {
         // Keep track of added resources
         addedResourcesCount++;
         console.log(`Resource added:`, resource);
-      } catch (error:any) {
+      } catch (error: any) {
         console.error(`Error processing record: ${error.message}`);
       }
     })
@@ -115,6 +160,7 @@ main()
   .finally(async () => {
     await prisma.$disconnect();
   });
+
 
 
 

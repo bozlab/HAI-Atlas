@@ -1,9 +1,9 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { ResponsiveChoroplethCanvas } from '@nivo/geo';
-import { CountryGeoMapData } from '@/services/geo-map-service';
-import worldCountries from '@/data/world_countries.json';
+import React, { useEffect, useState, useRef } from "react";
+import { ResponsiveChoroplethCanvas } from "@nivo/geo";
+import { CountryGeoMapData } from "@/services/geo-map-service";
+import worldCountries from "@/data/world_countries.json";
 
 interface GeoMapProps {
   data: CountryGeoMapData[];
@@ -17,8 +17,8 @@ function useWindowWidth() {
       setWidth(window.innerWidth);
     }
     handleResize(); // Set initial width
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return width;
@@ -26,6 +26,8 @@ function useWindowWidth() {
 
 const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
   const width = useWindowWidth();
+  const [selectedCountry, setSelectedCountry] = useState<any>(null);
+  const tooltipRef = useRef<HTMLDivElement>(null); // Reference for the tooltip
 
   let projectionScale = 100;
   if (width >= 1024) {
@@ -36,46 +38,40 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
     projectionScale = 150;
   }
 
-  return (
-    <div className="h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh]">
-      <ResponsiveChoroplethCanvas
-        tooltip={({ feature }) => {
-          const countryId = (feature as any).properties?.iso_a3 || 'Unknown';
-          const countryName = (feature as any).properties?.name || 'Unknown';
-          const countryData = data.find((item) => item.id === countryId);
+  const handleCountryClick = (feature: any) => {
+    const countryId = feature.id || "Unknown"; // Use `id` from GeoJSON
+    const countryData = data.find((item) => item.id === countryId);
+    if (countryData) {
+      setSelectedCountry({
+        name: feature.properties?.name || "Unknown",
+        data: countryData,
+      });
+    }
+  };
 
-          return (
-            <div
-              style={{
-                background: '#fff',
-                color: '#000',
-                padding: '10px',
-                borderRadius: '4px',
-                border: `1px solid rgba(0, 0, 0, 0.1)`,
-                maxWidth: '300px',
-              }}
-            >
-              <strong>{countryName}</strong>
-              <br />
-              <strong>Resources: {countryData?.value || 0}</strong>
-              <ul>
-                {countryData?.resourceList.map((resource) => (
-                  <li key={resource.id}>
-                    <a
-                      href={resource.mainLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{ color: '#000' }}
-                    >
-                      Resource {resource.id} - Published on{' '}
-                      {new Date(resource.publicationDate).toLocaleDateString()}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          );
-        }}
+  const handleClickOutside = (event: MouseEvent) => {
+    if (
+      tooltipRef.current &&
+      !tooltipRef.current.contains(event.target as Node)
+    ) {
+      setSelectedCountry(null); // Hide the tooltip if clicked outside
+    }
+  };
+
+  useEffect(() => {
+    // Add event listener to detect clicks outside the tooltip
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      // Cleanup the event listener when the component is unmounted
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  return (
+    <div className="h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] relative">
+      <ResponsiveChoroplethCanvas
+        tooltip={() => null} // Disable hover-based tooltip
+        onClick={(feature) => handleCountryClick(feature)} // Show tooltip on click
         data={data}
         features={worldCountries.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
@@ -91,13 +87,48 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
         borderColor="#333333"
         graticuleLineColor="#666666"
       />
+      {/* Show tooltip if a country is clicked */}
+      {selectedCountry && (
+        <div
+          ref={tooltipRef} // Attach ref to the tooltip element
+          className="bg-white dark:bg-gray-800 dark:text-gray-200 text-black p-3 rounded-md shadow-md border border-gray-300 dark:border-gray-700 max-w-[300px] absolute"
+          style={{
+            maxHeight: "400px",
+            overflowY: "auto",
+            top: "20%",
+            left: "20%",
+            zIndex: 1000, // Ensure the tooltip appears above other content
+            pointerEvents: "auto", // Make sure it's clickable
+          }}
+        >
+          <strong>{selectedCountry.name}</strong>
+          <br />
+          <strong>
+            Resources: {selectedCountry.data.resourceList?.length ?? 0}
+          </strong>
+          {selectedCountry.data.resourceList?.length > 0 ? (
+            <ul className="mt-2 space-y-1 max-h-[200px] overflow-y-auto">
+              {selectedCountry.data.resourceList.map((resource: any) => (
+                <li key={resource.id}>
+                  <a
+                    href={resource.mainLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 dark:text-blue-300"
+                  >
+                    Resource {resource.name} - Published on{" "}
+                    {new Date(resource.publicationDate).toLocaleDateString()}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <div>No resources available</div>
+          )}
+        </div>
+      )}
     </div>
   );
 };
 
 export default GeoMap;
-
-
-
-
-

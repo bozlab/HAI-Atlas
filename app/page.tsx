@@ -5,16 +5,30 @@ import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import RotatableGeoMap from "@/components/geo-map";
 import { OrganizationTypePieChartComponent } from "@/components/charts/organization-type-pie-chart";
-import { getResourcesByOrganizationType } from "@/services/organization-type-pie-chart-service";
 import { PrinciplesCountBarChartComponent } from "@/components/charts/principles-count-bar-chart";
 import { getNLPPrincipleCounts } from "@/services/principles-count-bar-chart-service";
 import { getTopCountriesByResourceCount } from "@/services/top-countries-count-bar-chart-service";
 import { TopCountriesCountBarChartComponent } from "@/components/charts/top-countries-count-bar-chart";
 import { getCountryGeoMapData } from "@/services/geo-map-service";
+import { getResourcesByOrganizationType } from "@/services/organization-type-pie-chart-service";
 
 export default async function HomePage() {
-  const { totalResources, governmentCount, privateCount } =
-    await getResourcesByOrganizationType();
+  const {
+    totalResources,
+    governmentCount,
+    privateCount,
+    nonprofitCount,
+    intergovernmentalCount,
+    interOrganizationalPartnershipCount,
+    governmentRegulatedProfessionalOrgCount,
+    multisocietyConsortiumCount,
+    researchInitiativeCount,
+    independentGovernmentalOrgCount,
+    internationalNGOCount,
+    specializedAgencyCount,
+    globalTradeAssociationCount,
+    multisectorConsortiumCount,
+  } = await getResourcesByOrganizationType();
   const principleCounts = await getNLPPrincipleCounts();
   const topCountries = await getTopCountriesByResourceCount();
   const geoData = await getCountryGeoMapData();
@@ -71,6 +85,23 @@ export default async function HomePage() {
                 totalResources={totalResources}
                 governmentCount={governmentCount}
                 privateCount={privateCount}
+                nonprofitCount={nonprofitCount}
+                intergovernmentalCount={intergovernmentalCount}
+                interOrganizationalPartnershipCount={
+                  interOrganizationalPartnershipCount
+                }
+                governmentRegulatedProfessionalOrgCount={
+                  governmentRegulatedProfessionalOrgCount
+                }
+                multisocietyConsortiumCount={multisocietyConsortiumCount}
+                researchInitiativeCount={researchInitiativeCount}
+                independentGovernmentalOrgCount={
+                  independentGovernmentalOrgCount
+                }
+                internationalNGOCount={internationalNGOCount}
+                specializedAgencyCount={specializedAgencyCount}
+                globalTradeAssociationCount={globalTradeAssociationCount}
+                multisectorConsortiumCount={multisectorConsortiumCount}
               />
             </div>
             <div className="col-span-4 md:col-span-1">

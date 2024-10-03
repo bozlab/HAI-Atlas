@@ -24,11 +24,21 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
     --radius: 0.5rem;
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+
+    /* Sequential colors for chart segments */
+    --chart-1: 12 76% 61%; /* Government */
+    --chart-2: 173 58% 39%; /* Private */
+    --chart-3: 197 37% 24%; /* Non-profit */
+    --chart-4: 43 74% 66%; /* Intergovernmental */
+    --chart-5: 27 87% 67%; /* Inter-organizational partnership */
+    --chart-6: 30 80% 65%; /* Gov-Regulated Professional Org */
+    --chart-7: 270 65% 50%; /* Multisociety Consortium */
+    --chart-8: 130 70% 40%; /* Research Initiative */
+    --chart-9: 290 60% 55%; /* Independent Governmental Org */
+    --chart-10: 200 65% 55%; /* Intl Non-Governmental Org */
+    --chart-11: 340 75% 55%; /* Specialized Agency */
+    --chart-12: 180 60% 45%; /* Global Trade Association */
+    --chart-13: 250 65% 55%; /* Multisector Consortium */
     --red: 0 72.2% 50.6%;
     --green: 142.1 76.2% 36.3%;
     --blue: 221.2 83.2% 53.3%;
@@ -54,14 +64,21 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+
+    /* Sequential colors for dark mode */
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
-    --red: 0 72.2% 50.6%;
-    --green: 142.1 76.2% 36.3%;
-    --blue: 221.2 83.2% 53.3%;
+    --chart-6: 45 80% 60%;
+    --chart-7: 220 50% 50%;
+    --chart-8: 250 65% 40%;
+    --chart-9: 270 60% 55%;
+    --chart-10: 160 70% 50%;
+    --chart-11: 300 65% 55%;
+    --chart-12: 190 70% 45%;
+    --chart-13: 230 70% 60%;
   }
 }
 

@@ -1,6 +1,6 @@
 // prisma/geoMapService.ts
 
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -8,7 +8,7 @@ export interface CountryGeoMapData {
   id: string; // Country code (e.g., 'USA', 'AFG')
   value: number; // Resource count for that country
   resourceList: Array<{
-    id: number;
+    id: string;
     mainLink: string;
     publicationDate: Date;
     organizationType: string[];
@@ -40,7 +40,7 @@ export async function getCountryGeoMapData(): Promise<CountryGeoMapData[]> {
   const transformedResult = result
     .filter((country) => country.resources.length > 0) // Only include countries with resources
     .map((country) => ({
-      id: country.countryCode ?? 'Unknown', // Use 'Unknown' for null countryCode
+      id: country.countryCode ?? "Unknown", // Use 'Unknown' for null countryCode
       value: country.resources.length, // Number of resources
       resourceList: country.resources.map((resource) => ({
         id: resource.id,
@@ -52,6 +52,3 @@ export async function getCountryGeoMapData(): Promise<CountryGeoMapData[]> {
 
   return transformedResult;
 }
-
-
-

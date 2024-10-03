@@ -12,7 +12,7 @@ datasource db {
 }
 
 model Resource {
-  id               Int       @id @unique @default(autoincrement())
+  id               String       @id @unique @default(uuid())
   mainLink         String
   name             String? // New optional name field
   include          Boolean
@@ -27,9 +27,9 @@ model Resource {
 }
 
 model NLP {
-  id                 Int      @unique @default(autoincrement())
-  resourse           Resource @relation(fields: [resourseId], references: [id], onDelete: Cascade)
-  resourseId         Int
+  id                 String   @id   @unique @default(uuid())
+  resource           Resource? @relation(fields: [resourceId], references: [id], onDelete: Cascade)
+  resourceId         String?
   transparency       Int
   justiceAndFairness Int
   nonMaleficence     Int
@@ -44,7 +44,7 @@ model NLP {
 }
 
 model Country {
-  id          String     @id @default(uuid())
+  id          String     @id @unique @default(uuid())
   name        String     @unique
   countryCode String? // Optional field initially
   resources   Resource[] @relation("ResourceCountry") // New relation to Resource
