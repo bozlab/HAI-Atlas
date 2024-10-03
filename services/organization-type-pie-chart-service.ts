@@ -10,16 +10,7 @@ export interface ResourceCounts {
   governmentCount: number
   privateCount: number
   nonprofitCount: number
-  intergovernmentalCount: number
-  interOrganizationalPartnershipCount: number
-  governmentRegulatedProfessionalOrgCount: number
-  multisocietyConsortiumCount: number
-  researchInitiativeCount: number
-  independentGovernmentalOrgCount: number
-  internationalNGOCount: number
-  specializedAgencyCount: number
-  globalTradeAssociationCount: number
-  multisectorConsortiumCount: number
+  othersCount: number
 }
 
 export async function getResourcesByOrganizationType(): Promise<ResourceCounts> {
@@ -41,39 +32,34 @@ export async function getResourcesByOrganizationType(): Promise<ResourceCounts> 
       : r.organizationType === type)
     .reduce((acc, curr) => acc + curr._count.id, 0)
 
-  // Get the count for each organization type
+  // Get the count for Government, Private, and Non-profit types
   const governmentCount = getCount('Government')
   const privateCount = getCount('Private')
   const nonprofitCount = getCount('Non-profit')
-  const intergovernmentalCount = getCount('Intergovernmental')
-  const interOrganizationalPartnershipCount = getCount('Inter-organizational partnership')
-  const governmentRegulatedProfessionalOrgCount = getCount('Government-regulated professional organization')
-  const multisocietyConsortiumCount = getCount('Multisociety consortium')
-  const researchInitiativeCount = getCount('Research Initiative')
-  const independentGovernmentalOrgCount = getCount('Independent governmental organization')
-  const internationalNGOCount = getCount('International non-governmental organization')
-  const specializedAgencyCount = getCount('Specialized agency')
-  const globalTradeAssociationCount = getCount('Global trade association')
-  const multisectorConsortiumCount = getCount('Multisector consortium')
 
-  // Return the counts for all organization types
+  // Combine the counts for all other organization types
+  const othersCount = resourceData
+    .filter((r) => {
+      const organizationType = Array.isArray(r.organizationType)
+        ? r.organizationType
+        : [r.organizationType]
+
+      // List of types that will not be part of "Others"
+      const excludedTypes = ['Government', 'Private', 'Non-profit']
+      return !organizationType.some((type) => excludedTypes.includes(type))
+    })
+    .reduce((acc, curr) => acc + curr._count.id, 0)
+
+  // Return the counts for total, Government, Private, Non-profit, and Others
   return {
     totalResources,
     governmentCount,
     privateCount,
     nonprofitCount,
-    intergovernmentalCount,
-    interOrganizationalPartnershipCount,
-    governmentRegulatedProfessionalOrgCount,
-    multisocietyConsortiumCount,
-    researchInitiativeCount,
-    independentGovernmentalOrgCount,
-    internationalNGOCount,
-    specializedAgencyCount,
-    globalTradeAssociationCount,
-    multisectorConsortiumCount,
+    othersCount,
   }
 }
+
 
 
 

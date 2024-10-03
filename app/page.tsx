@@ -18,16 +18,7 @@ export default async function HomePage() {
     governmentCount,
     privateCount,
     nonprofitCount,
-    intergovernmentalCount,
-    interOrganizationalPartnershipCount,
-    governmentRegulatedProfessionalOrgCount,
-    multisocietyConsortiumCount,
-    researchInitiativeCount,
-    independentGovernmentalOrgCount,
-    internationalNGOCount,
-    specializedAgencyCount,
-    globalTradeAssociationCount,
-    multisectorConsortiumCount,
+    othersCount,
   } = await getResourcesByOrganizationType();
   const principleCounts = await getNLPPrincipleCounts();
   const topCountries = await getTopCountriesByResourceCount();
@@ -66,11 +57,12 @@ export default async function HomePage() {
           </div>
         </div>
       </section>
-      <section id="geo map">
-        <div className="container" style={{ width: "100%", height: "630px" }}>
-          <RotatableGeoMap data={geoData} />
-        </div>
-      </section>
+      <section id="geo-map">
+  <div className="container" style={{ width: "100%", height: "100vh" }}>
+    <RotatableGeoMap data={geoData} />
+  </div>
+</section>
+
 
       <section className="py-6 md:py-10">
         <div className="container mx-auto px-4">
@@ -86,22 +78,7 @@ export default async function HomePage() {
                 governmentCount={governmentCount}
                 privateCount={privateCount}
                 nonprofitCount={nonprofitCount}
-                intergovernmentalCount={intergovernmentalCount}
-                interOrganizationalPartnershipCount={
-                  interOrganizationalPartnershipCount
-                }
-                governmentRegulatedProfessionalOrgCount={
-                  governmentRegulatedProfessionalOrgCount
-                }
-                multisocietyConsortiumCount={multisocietyConsortiumCount}
-                researchInitiativeCount={researchInitiativeCount}
-                independentGovernmentalOrgCount={
-                  independentGovernmentalOrgCount
-                }
-                internationalNGOCount={internationalNGOCount}
-                specializedAgencyCount={specializedAgencyCount}
-                globalTradeAssociationCount={globalTradeAssociationCount}
-                multisectorConsortiumCount={multisectorConsortiumCount}
+                othersCount={othersCount}
               />
             </div>
             <div className="col-span-4 md:col-span-1">

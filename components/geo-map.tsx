@@ -116,7 +116,7 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
                     rel="noopener noreferrer"
                     className="text-blue-500 dark:text-blue-300"
                   >
-                    Resource {resource.name} - Published on{" "}
+                    {resource.name} - Published on{" "}
                     {new Date(resource.publicationDate).toLocaleDateString()}
                   </a>
                 </li>
