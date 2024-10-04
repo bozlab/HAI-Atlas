@@ -31,7 +31,7 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
 
   let projectionScale = 100;
   if (width >= 1024) {
-    projectionScale = 350;
+    projectionScale = 250;
   } else if (width >= 768) {
     projectionScale = 250;
   } else {
