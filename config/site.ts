@@ -34,8 +34,8 @@ export const siteConfig = {
     // },
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/selenbzkt",
+    github: "https://github.com/iamrmrishan/HAI-Atlas",
     docs: "https://ui.shadcn.com",
   },
 };

@@ -16,7 +16,8 @@ model Resource {
   mainLink         String
   name             String? // New optional name field
   include          Boolean
-  countries        Country[] @relation("ResourceCountry") // New relation to Country
+  countries        Country[] @relation("ResourceCountry") // Countries relation is inherently optional, as it can be empty
+  isGlobal         Boolean?
   publisher        String[]
   additionalLinks  String[]
   publicationDate  DateTime
