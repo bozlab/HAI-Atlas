@@ -351,115 +351,1198 @@ Trust: 9
 Sustainability: 15
 Dignity: 4
 Solidarity: 1",,32,
-https://www.hhs.gov/programs/topic-sites/ai/strategy/index.html,1,Artificial Intelligence (AI) Strategy,United States,U.S. Department of Health and Human Services,https://www.hhs.gov/sites/default/files/hhs-ai-strategy.pdf,January 2021,Government,"The U.S. Department of Health and Human Services' AI Strategy outlines a plan to leverage artificial intelligence to enhance health and human services, foster innovation, and ensure ethical, trustworthy AI adoption across the department to improve public health and well-being.",,,,
-https://www.usaid.gov/cii/ai-in-global-health,1,Artificial Intelligence in Global Health Defining a Collective Path Forward,United States,U.S. Agency for International Development,https://www.usaid.gov/sites/default/files/2022-05/AI-in-Global-Health_webFinal_508.pdf,,Government,"The document outlines the potential for artificial intelligence (AI) to revolutionize global health by improving access, quality, and cost-effectiveness in low- and middle-income countries (LMICs), while also identifying critical challenges such as data availability, sustainability, privacy, regulatory barriers, and integration into existing health systems, and emphasizing the need for coordinated investments to scale these solutions effectively.",,,,
-https://cihr-irsc.gc.ca/e/53244.html,1,"Building a Strategy for Artificial Intelligence in Public Health: Centering Partnership, Equity, and Interdisciplinarity",Canada,Canadian Institute of Health Research,https://cihr-irsc.gc.ca/e/documents/bbe_ai_public_summary-en.pdf,December 2021,Government,"The report emphasizes the need for AI in public health to be guided by equity, transparency, and interdisciplinary collaboration, while addressing challenges like data interoperability and capacity building, to ensure AI serves public health needs and reduces health inequities.",,,,
-https://www.gov.uk/government/publications/g7-health-track-digital-health-final-reports/deliverable-1-principles-for-the-evaluation-of-artificial-intelligence-or-machine-learning-enabled-medical-devices-to-assure-safety-effectiveness-an,1,"Deliverable 1: principles for the evaluation of artificial intelligence or machine learning-enabled medical devices to assure safety, effectiveness and ethicality",England,Department of Health & Social Care,https://www.gov.uk/government/publications/g7-health-track-digital-health-final-reports/deliverable-1-principles-for-the-evaluation-of-artificial-intelligence-or-machine-learning-enabled-medical-devices-to-assure-safety-effectiveness-an,December 2021,Government,"Harmonized principles for the clinical evaluation and international deployment of AI/ML-enabled medical devices are being established by G7 nations, with an emphasis placed on safety, performance, ethics, and inclusivity to promote trustworthy innovation in healthcare.",,,,
-https://www.medmalrx.com/?ai-governance-for-health-care/,1,Generating Evidence for Artificial Intelligence Based Medical Devices: A Framework for Training Validation and Evaluation,Global,World Health Organization ,https://iris.who.int/bitstream/handle/10665/349093/9789240038462-eng.pdf?sequence=1,November 2021,Intergovernmental,"The document outlines a framework for the training, validation, and evaluation of artificial intelligence-based medical devices (AI-SaMD) to ensure their safety, performance, and ethical use in healthcare, with a particular focus on global health contexts and low- and middle-income countries (LMICs).",,,,
-https://publications.parliament.uk/pa/cm5803/cmselect/cmsctech/1769/report.html,1,The governance of artificial intelligence: interim report,England,"House of Commons Science, Innovation and Technology Committee",https://committees.parliament.uk/publications/41130/documents/205611/default/,July 2023,Government,"The interim report discusses the governance challenges and opportunities posed by the rapid development and deployment of AI, emphasizing the need for regulatory frameworks that balance innovation with public safety, accountability, and ethical considerations, while addressing issues such as bias, privacy, transparency, and international coordination.",,,,
-https://assets.publishing.service.gov.uk/media/662fce1e9e82181baa98a988/MHRA_Impact-of-AI-on-the-regulation-of-medical-products.pdf,1,Impact of AI on the regulation of medical products Implementing the AI White Paper principles,England,Medicines and Healthcare products Regulatory Agency,https://assets.publishing.service.gov.uk/media/662fce1e9e82181baa98a988/MHRA_Impact-of-AI-on-the-regulation-of-medical-products.pdf,April 2024,Government,"The report outlines the MHRA's approach to regulating AI in medical products, emphasizing the application of the Pro-innovation AI White Paper's principles to ensure safety, transparency, and fairness while promoting responsible innovation in healthcare.",,,,
-https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20210709_8.pdf,1,AI Governance in Japan Ver. 1.1 REPORT FROM THE EXPERT GROUP ON HOW AI PRINCIPLES SHOULD BE IMPLEMENTED,Japan,Ministry of Economy Trade and Industry,https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20210709_8.pdf,July 2021,Government,"The report discusses AI governance trends in Japan and globally, emphasizing a risk-based, multi-stakeholder approach, balancing innovation with regulation, and advocating for soft laws to guide AI principles implementation while promoting transparency, fairness, and international harmonization.",,,,
-https://www.gsk.com/media/10977/gsk-position-on-responsible-ai.pdf,1,Our position on Responsible Artificial Intelligence (AI),England,Gsk,https://www.gsk.com/media/10977/gsk-position-on-responsible-ai.pdf,February 2024,Private,"GSK's Responsible AI policy outlines their commitment to developing and using AI responsibly in biopharma, emphasizing ethical innovation, data privacy, fairness, transparency, and sector-specific regulation, while advocating for global collaboration and regulatory frameworks that balance innovation with risk management.",,,,
-https://www.manatt.com/insights/white-papers/2024/developing-effective-artificial-intelligence-gover,1,Developing Effective Artificial Intelligence Governance Models Key Insights for Health Systems,USA,UC Davis Health,https://www.manatt.com/Manatt/media/Documents/Articles/UCDH-AI-Governance_2024-05_d.pdf,May 2024,Non-profit,"This report outlines key insights and recommendations for developing effective AI governance models in health systems, emphasizing the need for multidisciplinary oversight, ethical frameworks, risk management, and strategic planning to responsibly implement AI technologies while addressing concerns like health equity, data privacy, and clinical accuracy.",,,,
-https://www.ihi.org/resources/white-papers/framework-effective-board-governance-health-system-quality,1,Framework for Effective Board Governance of Health System Quality,USA,Institute for Healthcare Improvement,File must be downloaded,2018,Non-profit,"This white paper presents a framework for effective board governance of health system quality, emphasizing the need for boards to prioritize quality, use structured assessment tools, and foster a culture of inquiry and commitment to ensure high-quality, safe, and equitable care across all dimensions of healthcare.",,,,
-https://www.astrazeneca.com/r-d/data-science-and-ai.html,1,"AstraZeneca Code of Ethics Values, Behaviours, and Policies","England, Sweden",Astra Zeneca,https://www.astrazeneca.com/content/dam/az/PDF/Sustainability/Code_of_Ethics_English.pdf,,,"AstraZeneca's Code of Ethics outlines the company's values, guiding principles, and global policies to ensure ethical, transparent, and responsible conduct in science, patient care, workplace behavior, and sustainability across all operations.",,,,
-https://www.ihi.org/sites/default/files/2024-05/Artificial-Intelligence-in-Health-Care-Implications-for-Safety.pdf,1,Artificial Intelligence in Health Care Implications for Patient and Workforce Safety,USA,Institute for Healthcare Improvement,https://www.ihi.org/sites/default/files/2024-05/Artificial-Intelligence-in-Health-Care-Implications-for-Safety.pdf,2024,Non-profit,"The report examines the potential benefits and risks of generative AI applications, emphasizing the need for careful integration into clinical workflows to enhance patient and workforce safety while addressing challenges such as accuracy, bias, and the preservation of human oversight.",,,,
-https://www.ihi.org/initiatives/ihi-lucian-leape-institute/patient-safety-ai,1,Patient Safety and Artificial Intelligence: Opportunities and Challenges for Care Delivery,USA,Institute for Healthcare Improvement,File must be downloaded,2024,Non-profit,"The report by the IHI Lucian Leape Institute discusses the opportunities and challenges posed by generative artificial intelligence (genAI) in healthcare, emphasizing its potential benefits for documentation, clinical decision support, and patient interaction, while also outlining the necessary governance, ethical considerations, and safety protocols required to ensure patient safety. ​​",,,,
-https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2023/11/Artificial-Intelligence-Governance-Policy-V1.0.docx,1,Artificial Intelligence (AI) Governance Policy,England,NHS Humber & North Yorkshire ICB,File must be downloaded,November 2023,Government,"The Artificial Intelligence Governance Policy for NHS Humber & North Yorkshire ICB establishes guidelines for the ethical, responsible, and compliant development, implementation, and monitoring of AI systems to enhance patient care while safeguarding personal data and ensuring accountability.",,,,
-https://advance.uky.edu/sites/default/files/2024-03/uk-advance-clinical-care-guidelines.pdf,1,Guidelines and Recommendations for the Use of Generative AI in Clinical Care,England,UK Advance,https://advance.uky.edu/sites/default/files/2024-03/uk-advance-clinical-care-guidelines.pdf,March 2024,Non-profit,"The UK ADVANCE guidelines and recommendations emphasize the responsible and ethical use of generative AI in clinical care, addressing key concerns such as data privacy, human accountability, accuracy, and bias while advocating for compliance with existing healthcare policies and governance structures.",,,,
-https://www.insideeulifesciences.com/2023/10/20/who-publishes-regulatory-considerations-on-ai-for-health/,1,Regulatory considerations on artificial intelligence for health,Global,World Health Organization ,https://iris.who.int/bitstream/handle/10665/373421/9789240078871-eng.pdf?sequence=1&isAllowed=y,2023,Intergovernmental,"This document provides an overview of regulatory considerations on AI for health that covers key general topic areas, namely: documentation and transparency, risk management and AI systems development lifecycle approach, intended use and analytical and clinical validation, AI related data quality, privacy and protection, and engagement and collaboration.",,,,
-https://www.coalitionforhealthai.org/papers/blueprint-for-trustworthy-ai_V1.0.pdf,1,BLUEPRINT FOR TRUSTWORTHY AI IMPLEMENTATION GUIDANCE AND ASSURANCE FOR HEALTHCARE,USA,Coalition for Health AI,https://www.coalitionforhealthai.org/papers/blueprint-for-trustworthy-ai_V1.0.pdf,April 2024,Inter-organizational partnership,"The ""Blueprint for Trustworthy AI Implementation Guidance and Assurance for Healthcare"" outlines essential principles and standards for the safe, effective, and equitable integration of artificial intelligence in healthcare, emphasizing the need for transparency, accountability, and bias management to enhance patient outcomes and trust in AI technologies.",,,,
-https://assets.publishing.service.gov.uk/media/6384bf98e90e0778a46ce99f/RHC_regulation_of_AI_as_a_Medical_Device_report.pdf,1,The Regulation of Artificial Intelligence as a Medical Device,England,Regulatory Horizons Council,https://assets.publishing.service.gov.uk/media/6384bf98e90e0778a46ce99f/RHC_regulation_of_AI_as_a_Medical_Device_report.pdf,November 2022,Independent governmental organization,"The report discusses the current regulatory landscape for AI in healthcare, identifies gaps in the existing regulatory framework, and provides recommendations to enhance patient safety and innovation through a comprehensive regulatory approach.",,,,
-https://www.iqvia.com/solutions/innovative-models/artificial-intelligence-and-machine-learning,1,Pragmatic Application of Healthcare AI Governance,USA,IQVIA,https://www.iqvia.com/library/white-papers/pragmatic-application-of-healthcare-ai-governance,June 2023,Private,"This document explores regulatory frameworks and guidelines for Artificial Intelligence (AI), highlights common foundational principles of best practice, and provides tangible examples of data and analytics management approaches to meet some of these best practice guidelines.",,,,
-https://www.safercare.vic.gov.au/sites/default/files/2023-07/Advisory%20-%20ChatGPT%20and%20Generative%20AI%20July%202023%20FINAL.pdf,1,Health service use of unregulated Artificial Intelligence (AI),Australia,Victoria State Government Department of Health,https://www.safercare.vic.gov.au/sites/default/files/2023-07/Advisory%20-%20ChatGPT%20and%20Generative%20AI%20July%202023%20FINAL.pdf,July 2023,Government,"The advisory outlines the interim guidelines for the safe use of unregulated generative AI in Victorian healthcare, emphasizing that such AI software should not be utilized for clinical purposes until it complies with national regulations and establishes local procedures for its use to ensure patient safety and regulatory obligations.",,,,
-https://www.abhi.org.uk/resource-hub/file/9348,1,The emergence of artificial intelligence and machine learning algorithms in healthcare: Recommendations to support governance and regulation,"England, USA",British Standards Institution& The Association for the Advancement of Medical Instrumentation,File must be downloaded,2019,Inter-organizational partnership,"The position paper outlines recommendations for the governance and regulation of artificial intelligence (AI) and machine learning algorithms in healthcare, emphasizing the need for standardization to ensure safety, transparency, and effective deployment of these technologies across healthcare systems.",,,,
-https://www.feam.eu/wp-content/uploads/Sustainable-AI-to-Drive-Global-Health-white-paper-11-Sep.pdf,1,Sustainable AI to Drive Global Health,Global,Federation of European Academies of Medicine - Independent working group ,https://www.feam.eu/wp-content/uploads/Sustainable-AI-to-Drive-Global-Health-white-paper-11-Sep.pdf,September 2023,Non-profit,"The white paper outlines the potential of data and artificial intelligence (AI) in enhancing healthcare within the European Union and globally, emphasizing the importance of trust, regulatory frameworks, and collaboration to leverage AI for improved patient outcomes and sustainable health practices.",,,,
-https://www.oecd.org/en/publications/2024/01/collective-action-for-responsible-ai-in-health_9a65136f.html,1,Collective action for responsible AI in health,Global,Organisation for Economic Co-operation and Development ,File must be downloaded,January 2024,Intergovernmental,"The document discusses the need for collective action to ensure responsible artificial intelligence (AI) practices in healthcare, highlighting various challenges and opportunities in deploying AI technologies, and emphasizing the importance of regulatory frameworks, ethical considerations, and stakeholder collaboration to enhance trust and effectiveness in AI applications within the health sector.",,,,
-https://www.bsigroup.com/en-GB/capabilities/medical-devices/ai-in-medical-devices/,1,AI Machine Learning and Medical Devices Methods and guidance on addressing safety,England,British Standards Institution,https://www.bsigroup.com/siteassets/pdf/en/insights-and-media/insights/white-papers/ai-machine-learning-and-medical-devices-bsi.pdf,,Non-profit,"The document outlines the methods and guidance for ensuring the safety and compliance of machine learning-enabled medical devices (MLMD) within the evolving regulatory landscape, emphasizing the importance of risk management, bias mitigation, and adherence to medical device regulations and standards.",,,,
-https://www.aomrc.org.uk/publication/artificial-intelligence-in-healthcare/,1,Artificial Intelligence in Healthcare,England,Academy of Medical Royal Colleges,https://www.aomrc.org.uk/publication/artificial-intelligence-in-healthcare/,January 2019,Non-profit,"The report from the Academy of Royal Medical Colleges discusses the current and potential future impact of Artificial Intelligence (AI) in healthcare, emphasizing the importance of patient safety, clinician involvement, ethical considerations, and the need for robust regulation as AI technologies are integrated into medical practice.",,,,
-https://news.nnlm.gov/region_5/american-college-of-physicians-releases-recommendations-for-ai-tools-in-healthcare/,1,Artificial Intelligence in the Provision of Health Care: An American College of Physicians Policy Position Paper,USA,American College of Physicians,https://www.acpjournals.org/doi/10.7326/M24-0146,June 2024,Non-profit,"The American College of Physicians (ACP) position paper outlines the organization's foundational positions and recommendations on the use of artificial intelligence (AI) and machine learning (ML) technologies in healthcare, emphasizing the need for patient-centeredness, privacy, transparency, and further research into their clinical and ethical implications while addressing concerns about their impact on the patient-physician relationship and health disparities.",,,,
-https://bipartisanpolicy.org/blog/first-into-the-breach-onc-final-rule-addressing-ai-transparency-in-health-care/,1,"Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing",USA,Health and Human Services Department,https://www.federalregister.gov/documents/2024/01/09/2023-28857/health-data-technology-and-interoperability-certification-program-updates-algorithm-transparency-and,September 2024,Government,"The final rule implements the EHR Reporting Program of the 21st Century Cures Act by establishing new certification requirements for health IT developers, updating certification criteria and standards to enhance interoperability, algorithm transparency, and information sharing while reducing burdens and costs for developers and users.",,,,
-https://www.advamed.org/member-center/resource-library/principles-for-artificial-intelligence-in-medical-technology/,1,Principles for Artificial Intelligence in Medical Technology,USA,Advanced Medical Technology Association,https://www.advamed.org/wp-content/uploads/2024/02/AI-Principles_1.pdf,,Non-profit,"The principles for artificial intelligence in medical technology emphasize promoting patient access, improving care in underserved communities, educating the public about AI's role, ensuring high-quality data to mitigate bias, providing appropriate incentives for adoption, ensuring clinician training, and protecting patient privacy and data security.",,,,
-https://www.hsa.gov.sg/docs/default-source/hprg-mdb/guidance-documents-for-medical-devices/regulatory-guidelines-for-software-medical-devices---a-life-cycle-approach_r2-(2022-apr)-pub.pdf,1,Regulatory Guidelines for Software Medical Devices – A Life Cycle Approach,Singapore,Health Sciences Authority,https://www.hsa.gov.sg/docs/default-source/hprg-mdb/guidance-documents-for-medical-devices/regulatory-guidelines-for-software-medical-devices---a-life-cycle-approach_r2-(2022-apr)-pub.pdf,April 2022,Government,"The ""Regulatory Guidelines for Software Medical Devices"" outlines a comprehensive life cycle approach to ensure the safety, effectiveness, and compliance of software medical devices, including requirements for quality management systems, pre-market registration, post-market management, and specific considerations for artificial intelligence and cybersecurity.",,,,
-https://researchbriefings.files.parliament.uk/documents/POST-PN-0637/POST-PN-0637.pdf,1,AI and Healthcare,England,The Parliamentary Office of Science and Technology,https://researchbriefings.files.parliament.uk/documents/POST-PN-0637/POST-PN-0637.pdf,December 2020,Government,"The POSTnote on AI and Healthcare outlines the potential benefits and challenges of integrating artificial intelligence into the healthcare system, emphasizing issues related to safety, privacy, workforce adaptation, and health inequalities, while highlighting the need for regulatory frameworks to ensure effective and ethical implementation.",,,,
-https://www3.weforum.org/docs/WEF_Patient_First_Health_with_Generative_AI_2024.pdf,1,Patient-First Health with Generative AI: Reshaping the Care Experience,Global,World Economic Forum,https://www3.weforum.org/docs/WEF_Patient_First_Health_with_Generative_AI_2024.pdf,January 2024,International non-governmental organization,"The white paper by the World Economic Forum and ZS discusses the transformative potential of generative AI in healthcare, highlighting its ability to enhance patient engagement, improve health outcomes, and address systemic challenges, while also identifying significant barriers to its adoption, such as mistrust, data limitations, and scalability issues.",,,,
-https://iris.paho.org/bitstream/handle/10665.2/53732/PAHOEIHIS21011_eng.pdf?sequence=5&isAllowed=y,1,Artificial Intelligence in Public Health |DIGITAL TRANSFORMATION TOOLKIT,Global,Pan American Health Organization,https://iris.paho.org/bitstream/handle/10665.2/53732/PAHOEIHIS21011_eng.pdf?sequence=5&isAllowed=y,2021,Specialized agency,"The document outlines guiding principles and applications of Artificial Intelligence in public health (AI4PH), emphasizing the importance of ethical considerations, data protection, and various AI components such as machine learning and natural language processing to enhance public health interventions while ensuring individual rights and equity.",,,,
-https://digital-transformation.hee.nhs.uk/binaries/content/assets/digital-transformation/dart-ed/developingconfidenceinai-oct2022.pdf,1,Developing healthcare workers’ confidence in AI,England,National Health Service,https://digital-transformation.hee.nhs.uk/binaries/content/assets/digital-transformation/dart-ed/developingconfidenceinai-oct2022.pdf,October 2022,Government,"The report outlines the development of educational pathways to enhance healthcare workers' confidence in utilizing artificial intelligence (AI) in medical practice, emphasizing the need for tailored training based on identified workforce archetypes and roles to ensure safe, effective, and ethical AI adoption in healthcare settings .",,,,
-https://society.asco.org/sites/new-www.asco.org/files/ASCO-AI-Principles-2024.pdf,1,Principles for the Responsible Use of Artificial Intelligence in Oncology,USA,American Society of Clinical Oncology (ASCO),https://society.asco.org/sites/new-www.asco.org/files/ASCO-AI-Principles-2024.pdf,2024,Non-profit,"The American Society of Clinical Oncology (ASCO) outlines six principles for the responsible use of artificial intelligence (AI) in oncology, emphasizing transparency, informed stakeholder engagement, equity, accountability, oversight, and human-centered application to enhance patient care while addressing ethical, legal, and operational challenges.",,,,
-https://www.ifpma.org/publications/ifpma-artificial-intelligence-principles/,1,Artificial intelligence (“AI”) ethics principles,Switzerland,International Federation of Pharmaceutical Manufacturers & Associations,File must be downloaded,July 2022,Non-profit,"The IFPMA outlines ethical principles for the responsible development and use of artificial intelligence (AI) in healthcare, emphasizing human empowerment, accountability, human control, fairness, privacy, security, transparency, and continuous adaptation to mitigate risks and biases associated with AI systems.",,,,
-https://www.americantelemed.org/wp-content/uploads/2023/10/ATA-AI-Principles-23-v2.pdf,1,The ATA’s Artificial Intelligence (AI) Principles,USA,American Telemedicine Association,https://www.americantelemed.org/wp-content/uploads/2023/10/ATA-AI-Principles-23-v2.pdf,October 2023,Non-profit,"The ATA's AI Principles emphasize the importance of trustworthy AI development in healthcare, advocating for accountability, transparency, bias mitigation, clear regulatory frameworks, economic workforce evolution, and privacy to enhance patient and provider trust and improve healthcare delivery, including in telehealth.",,,,
-https://www.techerati.com/press-release/acro-releases-principles-for-responsible-ai-in-clinical-research/,1,ACRO's Principles for Responsible AI,Global,The Association of Clinical Research Organizations,https://www.acrohealth.org/wp-content/uploads/2023/12/ACRO-AI-Principles-Final.pdf,December 2023,Global trade association ,"ACRO's Principles for Responsible AI outline essential guidelines for the development and use of AI technologies in drug development, emphasizing compliance with regulations, ethical considerations, multidisciplinary oversight, quality management, transparency, and continuous monitoring to ensure safe and effective integration into healthcare.",,,,
-https://law.queensu.ca/sites/lawwww/files/files/Research/MachineMD/trustworthy-artificial-intelligence-in-health.pdf,1,TRUSTWORTHY AI IN HEALTH,Global,Organisation for Economic Co-operation and Development ,https://law.queensu.ca/sites/lawwww/files/files/Research/MachineMD/trustworthy-artificial-intelligence-in-health.pdf,2020,Intergovernmental,"The OECD's background paper for the G20 AI Dialogue highlights the profound potential of AI to transform healthcare through improved efficiency and outcomes while emphasizing the need for careful governance, transparency, and accountability to mitigate risks associated with its implementation.",,,,
-https://www.hhs.gov/sites/default/files/hhs-trustworthy-ai-playbook.pdf,1,Trustworthy AI (TAI) Playbook,USA,U.S. DEPARTMENT OF HEALTH & HUMAN SERVICES,https://www.hhs.gov/sites/default/files/hhs-trustworthy-ai-playbook.pdf,September 2021,Government,"The HHS Trustworthy AI Playbook outlines essential principles and practices for ensuring that artificial intelligence (AI) systems used within government are fair, transparent, responsible, safe, and robust, emphasizing the importance of trustworthy AI to enhance efficacy and accountability in public service. ​​",,,,
-https://www.healthit.gov/sites/default/files/2023-12/Health_Sector_AI_Commitments_FINAL_120923.pdf,1,HEALTH SECTOR AI COMMITMENTS,USA,Assistant Secretary for Technology Policy,https://www.healthit.gov/sites/default/files/2023-12/Health_Sector_AI_Commitments_FINAL_120923.pdf,September 2023,Government,"Health sector organizations commit to leveraging frontier AI models to enhance healthcare delivery while ensuring safety, security, and trust through principles of fairness, appropriateness, validity, effectiveness, and safety (FAVES), alongside transparent practices and a robust risk management framework.",,,,
-https://www.pmcsa.ac.nz/our-principles-ai-in-healthcare/,1,Capturing the benefits of AI in healthcare for Aotearoa New Zealand,New Zealand,Prime Minister’s Chief Science Advisor,https://bpb-ap-se2.wpmucdn.com/blogs.auckland.ac.nz/dist/f/688/files/2023/12/PMCSA-AI-healthcare-LONG-REPORT-FINAL-pdf-version-v3.pdf,October 2023,Government,"The health sector commits to responsibly developing and deploying AI technologies to enhance healthcare delivery while ensuring patient safety, privacy, and adherence to principles of fairness, transparency, and accountability.",,,,
-https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf,1,Policy Position on Artificial Intelligence,USA,Pfizer,https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf,November 2023,Private,"Pfizer's policy position emphasizes the responsible and ethical use of artificial intelligence in healthcare, committing to principles of human empowerment, privacy, accountability, and transparency while advocating for supportive regulatory frameworks to foster innovation and mitigate risks.",,,,
-https://www.bsr.org/reports/BSR-AI-Human-Rights-Healthcare.pdf,1,AI and Human Rights in Healthcare,Global,Business for Social Responsibility,https://www.bsr.org/reports/BSR-AI-Human-Rights-Healthcare.pdf,October 2023,Non-profit,"The report explores the impact of artificial intelligence (AI) on human rights within the healthcare sector, highlighting associated risks and opportunities, while providing recommendations for companies to address these human rights concerns effectively.",,,,
-https://www.doh.gov.ae/-/media/E9C1470A575146B18015DEBE57E47F8D.ashx,1,Policy on Use of Artificial Intelligence (AI) in the Healthcare Sector of the Emirate of Abu Dhabi,United Arab Emirates,Abu Dhabi Department of Health,File must be downloaded,April 2018,Government,"The policy outlines the framework for integrating AI into healthcare, emphasizing principles of safety, transparency, and accountability while aiming to enhance healthcare quality and access while minimizing risks to patient safety.",,,,
-https://www.takeda.com/4a53a8/siteassets/system/who-we-are/companyinformation/positions--guidelines/takeda_position_use-of-ai.pdf,1,Takeda’s Position on Use of Artificial Intelligence (AI),Japan,Takeda,https://www.takeda.com/4a53a8/siteassets/system/who-we-are/companyinformation/positions--guidelines/takeda_position_use-of-ai.pdf,September 2022,Private,"Takeda's position on Artificial Intelligence (AI) emphasizes the ethical and responsible use of AI systems to drive innovation in healthcare while prioritizing medical benefits, promoting transparency, ensuring data security, and maintaining human oversight to enhance patient outcomes and societal trust.",,,,
-https://www.imdrf.org/sites/default/files/2024-06/Good%20machine%20learning%20practice%20for%20medical%20device%20development%20-%20Guiding%20Principles%20DRAFT%20for%20Consultation.pdf,1,Good machine learning practice for medical device development: Guiding principles - DRAFT,Global,International Medical Device Regulators Forum,https://www.imdrf.org/sites/default/files/2024-06/Good%20machine%20learning%20practice%20for%20medical%20device%20development%20-%20Guiding%20Principles%20DRAFT%20for%20Consultation.pdf,2024,Non-profit,"The draft document outlines guiding principles for Good Machine Learning Practice (GMLP) in the development of AI-enabled medical devices, emphasizing the importance of safety, effectiveness, ethical considerations, and continuous monitoring throughout the product lifecycle.",,,,
-https://aspe.hhs.gov/sites/default/files/documents/1348a9a067fd4d225981a822dfe25ea5/trustworthy-ai.pdf,1,Trustworthy Artificial Intelligence (TAI) for PatientCentered Outcomes Research (PCOR),USA,NORC at the University of Chicago,https://aspe.hhs.gov/sites/default/files/documents/1348a9a067fd4d225981a822dfe25ea5/trustworthy-ai.pdf,September 2023,Non-profit,"The report provides guidance for U.S. Department of Health and Human Services (HHS) agencies on managing AI throughout its lifecycle, highlighting six key principles of TAI—fairness, transparency, accountability, reliability, privacy, and security—and discusses the challenges and considerations for implementing these principles in patient-centered outcomes research. ​​",,,,
-https://www.elsevier.com/about/responsible-ai,1,Insights 2024 Attitudes Toward AI ,Netherlands,Elsevier,https://assets.ctfassets.net/o78em1y1w4i4/6BWRibyJNQLYkKWwKw7SVf/64c04b53ca9cc0795ac811f583f7eebb/Insights_2024_Attitudes_To_AI_Full_Report.pdf,July 2024,Private,"The report reveals that while researchers and clinicians globally recognize the potential of generative AI to transform knowledge discovery and research productivity, there are mixed sentiments regarding its ethical implications, with a significant emphasis on the need for transparency, accountability, and human oversight to build trust in AI tools. ​​",,,,
-https://www.gao.gov/assets/720/711471.pdf,1,Artificial Intelligence in Health Care Benefits and Challenges of Technologies to Augment Patient Care,USA,United States Government Accountability Office& National Academy of Medicine,https://www.gao.gov/assets/720/711471.pdf,November 2020,Inter-organizational partnership,"The GAO report on Artificial Intelligence in Health Care outlines the potential benefits of AI technologies in augmenting patient care, including improved treatment, reduced provider burden, and increased resource efficiency, while also highlighting significant challenges such as data access, bias, transparency, and privacy, and recommending policy options for enhancing AI integration and effectiveness in health settings. ​​",,,,
-https://www.fda.gov/files/medical%20devices/published/US-FDA-Artificial-Intelligence-and-Machine-Learning-Discussion-Paper.pdf,1,Proposed Regulatory Framework for Modifications to Artificial Intelligence/Machine Learning (AI/ML)-Based Software as a Medical Device (SaMD),USA,US Food and Drug Administration,https://www.fda.gov/files/medical%20devices/published/US-FDA-Artificial-Intelligence-and-Machine-Learning-Discussion-Paper.pdf,April 2019,Government,"The FDA's discussion paper on the proposed regulatory framework for modifications to AI/ML-based Software as a Medical Device (SaMD) outlines the potential benefits of these technologies in healthcare, emphasizes the need for a risk-based approach to regulation, and suggests a total product lifecycle (TPLC) regulatory framework that enables continuous improvement and real-world performance monitoring while ensuring patient safety and device effectiveness.",,,,
-https://ainowinstitute.org/publication/what-can-we-learn-from-the-fda-model-for-ai-regulation,1,What Can We Learn From the FDA Model for AI Regulation?,USA,AI Now Institute,https://ainowinstitute.org/wp-content/uploads/2024/01/AINow_FDA-for-AI-10-Key-Insights_Jan2024.pdf,January 2024,Non-profit,"The memo presents ten key insights from expert deliberations on the potential application of FDA-style regulatory interventions to artificial intelligence (AI), emphasizing the need for a nuanced approach that targets different points in the AI supply chain, addresses issues of efficacy and transparency, and incorporates pre-market approval and robust documentation requirements to enhance accountability and safety in AI development and deployment.",,,,
-https://assets.publishing.service.gov.uk/media/64cb71a547915a00142a91c4/a-pro-innovation-approach-to-ai-regulation-amended-web-ready.pdf,1,A pro-innovation approach to AI regulation,England,"Department for Science, Innovation&Technology",https://assets.publishing.service.gov.uk/media/64cb71a547915a00142a91c4/a-pro-innovation-approach-to-ai-regulation-amended-web-ready.pdf,March 2023,Government,"The document presents the UK government's pro-innovation approach to AI regulation, emphasizing the need for a principles-based regulatory framework that adapts to technological advancements while ensuring safety, accountability, and transparency across different sectors involved in AI development and deployment. ​​",,,,
-https://www.who.int/publications/m/item/artificial-intelligence-for-health,1,Artificial Intelligence for Health,Global,World Health Organization ,https://cdn.who.int/media/docs/default-source/digital-health-documents/who_brochure_ai_web.pdf?sfvrsn=aa4f4e3b_3&download=true,May 2024,Intergovernmental,"The World Health Organization (WHO) is committed to supporting the responsible deployment of artificial intelligence (AI) technologies in health systems worldwide by developing standards, policies, and guidance that promote safe, ethical, and equitable use of AI to enhance healthcare access and address challenges such as workforce gaps and resource limitations.",,,,
-https://www.ansi.org/standards-news/all-news/2021/03/3-29-21-ansi-releases-report-standardization-empowering-ai-enabled-systems-in-healthcare,1,STANDARDIZATION EMPOWERING AI-ENABLED SYSTEMS IN HEALTHCARE,USA,American National Standards Institute,"https://share.ansi.org/Shared%20Documents/News%20and%20Publications/Links%20Within%20Stories/Empowering%20AI-Enabled%20Systems,%20Workshop%20Report.pdf",March 2021,Private,"The report on the ""Standardization Empowering AI-Enabled Systems in Healthcare"" workshop highlights the necessity for coordinated standardization in AI technologies within healthcare to enhance data quality, trust, transparency, and governance frameworks, while addressing challenges related to the implementation and regulation of AI systems to ensure safety and effectiveness in medical applications.",,,,
-https://www.fiercehealthcare.com/ai-and-machine-learning/chai-releases-draft-rubric-quality-assurance-standards-healthcare-ai,1,Assurance Standards Guide Coalition for Health AI (CHAI),USA,Coalition for Health AI,https://chai.org/wp-content/uploads/2024/06/CHAI-Assurance-Standards-Guide-6-26-2024.pdf,2024,Inter-organizational partnership,"The CHAI Assurance Standards Guide serves as a comprehensive framework for developing and deploying AI in healthcare, emphasizing principles of usefulness, fairness, safety, transparency, and security, while integrating ethical considerations and practical guidance across the AI lifecycle to foster trust and accountability among stakeholders.",,,,
-https://www.nsai.ie/standards/sectors/healthcare-standards/digital-health-technologies,1,Digital Health Technologies and the future of healthcare,Ireland,National Standards Authority of Ireland,https://www.nsai.ie/images/uploads/standards/NSAI_Digital_Health_Technology_v2.0.pdf,,Government,"The article discusses the challenges and advancements in digital health technologies, emphasizing the regulatory frameworks for medical devices and in-vitro diagnostics in Europe, the importance of safety and performance standards, and the potential impact of artificial intelligence in healthcare, particularly regarding the proposed EU AI Act and its implications for high-risk AI systems in the medical sector.",,,,
-https://shop.cta.tech/products/the-use-of-artificial-intelligence-in-healthcare-trustworthiness-cta-2090,1,The Use of Artificial Intelligence in Health Care: Trustworthiness,USA,American National Standards Institute,https://shop.cta.tech/a/downloads/-/efd2ee85ccdc7a3b/ec5e054a4e4cfa5d,February 2021,Private,"The ANSI/CTA-2090 standard outlines the essential requirements and frameworks necessary for establishing trustworthiness in artificial intelligence (AI) applications within healthcare, emphasizing the importance of human, technical, and regulatory trust to ensure safety, effectiveness, and reliability in AI technologies used for clinical decision-making and patient care.",,,,
-https://haiweb.org/publication/factsheet-the-eu-medical-devices-regulation-and-the-ai-act/,1,THE EU MEDICAL DEVICES REGULATION AND THE EU AI ACT: A SHORT COMPARISON,Netherlands,Health Action International,https://haiweb.org/wp-content/uploads/2023/03/MDR-AIAct_OnePager_FINAL.pdf,March 2023,Non-profit,"The fact sheet compares the EU Medical Devices Regulation (MDR) and the proposed EU AI Act, highlighting that while both frameworks aim to ensure safety and protect fundamental rights in healthcare, the MDR focuses primarily on physical safety standards for medical devices, whereas the AI Act addresses fundamental rights but lacks specific provisions for health-related AI applications, necessitating improvements in data quality, algorithm transparency, and human rights assessments to prevent discrimination and harm.",,,,
-https://www.datadiversity.org/recommendations,1,"Recommendations for diversity, inclusivity, and generalisability in artificial intelligence health technologies and health datasets",England,STANDING Together Working Group,File must be downloaded,October 2023,Non-profit,"The STANDING Together collaboration has developed international consensus-based recommendations aimed at enhancing diversity, inclusivity, and generalisability in artificial intelligence health technologies and datasets, addressing potential algorithmic bias and health inequity by providing guidelines for comprehensive dataset documentation and equitable use of AI technologies throughout their development lifecycle.",,,,
-https://iris.paho.org/bitstream/handle/10665.2/57947/PAHOEIHIS230003_eng.pdf?sequence=1&isAllowed=y,1,Artificial intelligence Digital Transformation Toolkit,Global,Pan American Health Organization,https://iris.paho.org/bitstream/handle/10665.2/57947/PAHOEIHIS230003_eng.pdf?sequence=1&isAllowed=y,2023,Specialized agency,"The Pan American Health Organization (PAHO) outlines the importance of artificial intelligence (AI) as a guiding principle for digital transformation in the health sector, emphasizing the need for ethical implementation, cooperation among stakeholders, and strategies to overcome existing challenges and biases in AI development to enhance health equity and outcomes.",,,,
-https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/dart-ed/horizon-scanning/understanding-healthcare-workers-confidence-in-ai/chapter-3-governance/regulation-and-standards,1,Understanding healthcare workers’ confidence in artificial intelligence (AI),England,National Health Service,https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/dart-ed/horizon-scanning/understanding-healthcare-workers-confidence-in-ai/chapter-3-governance/regulation-and-standards,April 2023,Government,"This chapter details 4 main factors, as identified by interviewees for this research, that relate to the governance of artificial intelligence (AI) technologies and influence confidence in these technologies: regulation and standards; evaluation and validation; guidelines; and liability.",,,,
-https://eithealth.eu/wp-content/uploads/2020/03/EIT-Health-and-McKinsey_Transforming-Healthcare-with-AI.pdf,1,Transforming healthcare with AI: The impact on the workforce and organisations,Global,EITH Health & Mckinsey & Company,https://eithealth.eu/wp-content/uploads/2020/03/EIT-Health-and-McKinsey_Transforming-Healthcare-with-AI.pdf,March 2023,Multisector consortium,"The report outlines the transformative potential of artificial intelligence (AI) in healthcare, emphasizing the need for improved workforce training, data quality, and regulatory frameworks to effectively implement AI technologies that enhance patient care and operational efficiency.",,,,
-https://www.tga.gov.au/how-we-regulate/manufacturing/manufacture-medical-device/manufacture-specific-types-medical-devices/artificial-intelligence-ai-and-medical-device-software,1,Artificial Intelligence (AI) and medical device software,Australia,Department of Health and Aged Care,https://www.tga.gov.au/how-we-regulate/manufacturing/manufacture-medical-device/manufacture-specific-types-medical-devices/artificial-intelligence-ai-and-medical-device-software,May 2024,Government,"The document outlines the regulatory framework for artificial intelligence (AI) as a medical device in Australia, detailing when AI qualifies as such, the requirements for its safety and performance evidence, and the roles of generative AI and synthetic data in healthcare, while emphasizing the need for transparency and compliance with established medical device regulations.",,,,
-https://www.medical-device-regulation.eu/wp-content/uploads/2020/09/machine_learning_ai_in_medical_devices.pdf,1,MACHINE LEARNING AI IN MEDICAL DEVICES Adapting Regulatory Frameworks and Standards to Ensure Safety and Performance,USA,British Standards Institution& Association for the Advancement of Medical Instrumentation,https://www.medical-device-regulation.eu/wp-content/uploads/2020/09/machine_learning_ai_in_medical_devices.pdf,2020,Inter-organizational partnership,"The document discusses the unique challenges and regulatory needs associated with machine learning artificial intelligence (AI) in medical devices, emphasizing the necessity for adapted regulatory frameworks and standards to ensure safety, performance, and trustworthiness throughout the product lifecycle.",,,,
-https://www.medtecheurope.org/wp-content/uploads/2024/03/medical-technology-industry-perspective-on-the-final-ai-act-1.pdf,1,Medical technology industry perspective on the final AI Act,Belgium,MedTech Europe,https://www.medtecheurope.org/wp-content/uploads/2024/03/medical-technology-industry-perspective-on-the-final-ai-act-1.pdf,March 2024,Private,"MedTech Europe emphasizes the need for clarity and alignment between the AI Act and existing medical device regulations (MDR/IVDR) to ensure safe, effective integration of AI technologies in healthcare while avoiding unnecessary regulatory burdens and maintaining timely access to trustworthy medical innovations.",,,,
-https://www.ama.com.au/sites/default/files/2022-06/AMA%20Submission%20to%20Automated%20Decision%20Making%20and%20AI%20Regulation_Final.pdf,1,Automated Decision Making and AI Regulation,Australia,Australian Medical Association,https://www.ama.com.au/sites/default/files/2022-06/AMA%20Submission%20to%20Automated%20Decision%20Making%20and%20AI%20Regulation_Final.pdf,April 2022,Non-profit,"The Australian Medical Association (AMA) advocates for careful regulation of Artificial Intelligence (AI) and Automated Decision Making (ADM) in healthcare, emphasizing the need for clear principles that prioritize patient safety, ethical considerations, and equity, while avoiding a one-size-fits-all approach to legislation that could hinder innovation and trust in medical technologies.",,,,
-https://www.digitalhealth.net/2023/06/value-of-regulation-continues-to-rise-as-ai-and-health-technology-booms/,1,Evidence standards framework for digital health technologies,England,National Institute for Health and Care Excellence,https://www.nice.org.uk/corporate/ecd7/resources/evidence-standards-framework-for-digital-health-technologies-pdf-1124017457605,December 2018,Government,"The NICE Evidence Standards Framework for Digital Health Technologies outlines the necessary evidence standards to assess the value and effectiveness of digital health technologies in the UK health and social care system, emphasizing the importance of safety, quality, and equity in their deployment.",,,,
-https://www.hee.nhs.uk/news-blogs-events/news/ai-digital-healthcare-technologies-capability-framework-published,1,Artificial Intelligence (AI) and Digital Healthcare Technologies Capability framework,England,National Health Service,https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/dart-ed/horizon-scanning/ai-and-digital-healthcare-technologies/framework-structure/ethical-legal-and-regulatory-considerations,February 2023,Government,"The framework emphasizes the importance of ethical, legal, and regulatory considerations in the implementation of digital technologies, particularly Artificial Intelligence (AI), in healthcare, advocating for fairness, transparency, and equity to prevent biases and ensure responsible use.",,,,
-https://www.vde.com/topics-en/health/consulting/approval-of-ai-based-medical-devices-in-europe,1,Good practices for health applications of machine learning: Considerations for manufacturers and regulators,,Focus Group on Artificial Intelligence for Health (FG-AI4H),https://www.itu.int/dms_pub/itu-t/opb/fg/T-FG-AI4H-2022-2-PDF-E.pdf,September 2022,Intergovernmental,"The document discusses the ethical, legal, and regulatory considerations surrounding the use of Artificial Intelligence (AI) in healthcare, emphasizing the need for frameworks that promote equity, transparency, and fairness to mitigate biases and protect patient rights.",,,,
-https://www.nbcc.org/assets/ethics/EthicalPrinciples_for_AI.pdf,1,Ethical Principles for Artificial Intelligence in Counseling,USA,National Board for Certified Counselors,https://www.nbcc.org/assets/ethics/EthicalPrinciples_for_AI.pdf,April 2024,Non-profit,"The document outlines ethical principles for integrating artificial intelligence (AI) in counseling, emphasizing the importance of accountability, client welfare, competence, confidentiality, and transparency to ensure the responsible use of AI tools in clinical practice while prioritizing patient outcomes and ethical standards.",,,,
-https://www.ccne-ethique.fr/sites/default/files/2023-05/Opinion%20No.141.pdf,1,Medical Diagnosis and Artificial Intelligence: Ethical Issues,France,Comité National Pilote d'Éthique du Numérique,https://www.ccne-ethique.fr/sites/default/files/2023-05/Opinion%20No.141.pdf,November 2022,Independent governmental organization,"The joint opinion by the CCNE and CNPEN emphasizes the ethical considerations surrounding the use of artificial intelligence systems in medical diagnosis, advocating for human oversight, accountability, and the prioritization of patient welfare in the integration of AI technologies into healthcare .",,,,
-https://www.dermcoll.edu.au/wp-content/uploads/2022/11/ACD-Position-Statement-Use-of-Artifical-Intelligence-in-Dermatology-in-Australia-Nov-2022.pdf,1,Use of Artificial Intelligence in Dermatology in Australia,Australia,The Australasian College of Dermatologists,https://www.dermcoll.edu.au/wp-content/uploads/2022/11/ACD-Position-Statement-Use-of-Artifical-Intelligence-in-Dermatology-in-Australia-Nov-2022.pdf,November 2022,Non-profit,"The Australasian College of Dermatologists endorses the responsible development and ethical integration of artificial intelligence in dermatology, emphasizing patient welfare, transparency, and the need for regulatory approval while advocating for collaboration among stakeholders to ensure safe and effective clinical use.",,,,
-https://transform.england.nhs.uk/media/documents/NHSX_AI_report.pdf,1,Artificial Intelligence: How to get it right Putting policy into practice for safe data-driven innovation in health and care ,England,National Health Service,https://transform.england.nhs.uk/media/documents/NHSX_AI_report.pdf,October 2019,Government,"The NHSX report outlines the potential of artificial intelligence (AI) to enhance healthcare delivery in the UK, emphasizing the need for ethical governance, effective training for NHS staff, and a collaborative framework for safe implementation, while addressing challenges like data privacy and infrastructure improvements.",,,,
-https://iris.paho.org/handle/10665.2/59315,1,Artificial Intelligence Public Health Q&A on artificial intelligence for supporting public health,Global,Pan American Health Organization,https://iris.paho.org/bitstream/handle/10665.2/59315/PAHOEIHIS230030_eng.pdf?sequence=5&isAllowed=y,2024,Specialized agency,"The document outlines guiding principles for the ethical use of artificial intelligence (AI) in public health, emphasizing the importance of transparency, data protection, and accountability to ensure equitable access to healthcare and address potential biases inherent in AI systems .",,,,
-https://www.nuffieldbioethics.org/publications/ai-in-healthcare-and-research,1,Artificial intelligence (AI) in healthcare and research,England,The Nuffield Council on Bioethics,File must be downloaded,May 2018,Non-profit,"The document discusses the potential applications and ethical implications of artificial intelligence (AI) in healthcare, highlighting its capacity to improve disease detection, patient management, and healthcare delivery while also addressing concerns related to data quality, bias, accountability, and the necessity for transparent governance to ensure public trust and alignment with societal interests.",,,,
-https://www.novonordisk.com/data-privacy-and-user-rights/data-ethics.html,1,Data and AI ethics,Denmark,Novo Nordisk,https://www.novonordisk.com/data-privacy-and-user-rights/data-ethics.html,,Private,"Novo Nordisk has established data and AI ethics principles to guide ethical decision-making in data usage throughout its operations, emphasizing autonomy, transparency, data quality, fairness, responsible data sharing, and accountability, while ensuring that AI systems respect human rights and minimize bias through careful design and oversight.",,,,
-https://www.bsigroup.com/globalassets/localfiles/es-es/Medical%20devices/Documentos%20tecnicos/bsi-md-ai-ethical-whitepaper-es-gb.pdf,1,Ethical and trustworthy Artificial Intelligence BSI’s introduction to the European Artificial Intelligence Draft Act (AIA),England,British Standards Institution,https://www.bsigroup.com/globalassets/localfiles/es-es/Medical%20devices/Documentos%20tecnicos/bsi-md-ai-ethical-whitepaper-es-gb.pdf,,Non-profit,"The BSI's introduction to the European Artificial Intelligence Draft Act outlines the need for ethical and trustworthy AI, detailing its definitions, prohibited practices, requirements for high-risk AI systems, and the role of notified bodies, while emphasizing the act's potential global impact and the importance of transparency and accountability in AI deployment.",,,,
-https://www.acrrm.org.au/docs/default-source/all-files/college-submission---ethical-principles-of-ai-in-medicine.pdf?sfvrsn=f5064e97_6,1,Feedback on the RANZCR Draft Statement: Ethical Principles of Artificial Intelligence (AI) in Medicine,Australia,Australian College of Rural and Remote Medicine,https://www.acrrm.org.au/docs/default-source/all-files/college-submission---ethical-principles-of-ai-in-medicine.pdf?sfvrsn=f5064e97_6,September 2022,Non-profit,"The Australian College of Rural and Remote Medicine (ACRRM) provides feedback on the RANZCR Draft Statement regarding the ethical principles of artificial intelligence in medicine, emphasizing the importance of patient safety, data privacy, avoidance of bias, transparency, human values, shared responsibility, accountable governance, and alignment with WHO principles to ensure the effective and ethical use of AI in healthcare.",,,,
-https://www.eerstekamer.nl/bijlage/20201105/artificial_intelligence_in_health/document3/f=/vldiey9antv3.pdf,1,"Artificial intelligence in health care: medical, legal and ethical challenges ahead",Global,Council of Europe,https://www.eerstekamer.nl/bijlage/20201105/artificial_intelligence_in_health/document3/f=/vldiey9antv3.pdf,October 2020,Intergovernmental,"The report by the Committee on Social Affairs, Health and Sustainable Development emphasizes the transformative potential of artificial intelligence (AI) in healthcare, while highlighting the urgent need for comprehensive legal, ethical, and regulatory frameworks to address the associated risks to individual rights and public health, particularly in light of the rapid advancements and deployment of AI technologies.",,,,
-https://www.gov.uk/government/publications/g7-health-track-digital-health-final-reports/deliverable-2-principles-to-support-the-development-and-deployment-of-artificial-intelligence-or-machine-learning-enabled-medical-devices-across-juri,1,Deliverable 2: principles to support the development and deployment of artificial intelligence or machine learning-enabled medical devices across jurisdictions,England,Department of Health & Social Care,https://www.gov.uk/government/publications/g7-health-track-digital-health-final-reports/deliverable-2-principles-to-support-the-development-and-deployment-of-artificial-intelligence-or-machine-learning-enabled-medical-devices-across-juri,December 2021,Government,"The G7 policy paper outlines principles aimed at harmonizing the development and deployment of artificial intelligence (AI) and machine learning (ML)-enabled medical devices across jurisdictions to enhance patient safety, promote transparency, and foster responsible innovation, while addressing challenges related to data quality, model robustness, and ethical considerations in healthcare.",,,,
-https://www.medtecheurope.org/resource-library/medtech-europe-signs-joint-healthcare-statement-highlighting-how-the-ai-act-can-give-citizens-the-confidence-to-embrace-ai-enabled-medical-technologies/,1,Stakeholder joint statement on access to innovative healthcare under the Artificial Intelligence Act (AI Act),Belgium,MedTech Europe,https://www.medtecheurope.org/wp-content/uploads/2023/06/230619-ai-act-letter-with-healthcare-stakeholders_final.pdf,June 2023,Private,"The stakeholder joint statement emphasizes the need for the proposed AI Act to align with existing healthcare regulations, clarify definitions, establish a robust data governance framework, and ensure uniform implementation across EU member states to enhance patient safety and access to innovative AI-enabled healthcare solutions while fostering transparency and fairness within the healthcare ecosystem.",,,,
-https://news.mit.edu/2023/mit-group-releases-white-papers-governance-ai-1211,1,A Framework for U.S. AI Governance: Creating a Safe and Thriving AI Sector,USA,MIT Schwarzman College of Computing,https://computing.mit.edu/wp-content/uploads/2023/11/AIPolicyBrief.pdf,November 2023,Private,"The policy brief outlines a framework for U.S. AI governance focused on maintaining national AI leadership while ensuring the beneficial deployment of AI through established regulations, clear definitions, data governance, auditing mechanisms, and a proposed regulatory agency to address emerging challenges in AI technology.",,,,
-https://www.cadth.ca/sites/default/files/pdf/eh0070_overview_clinical_applications_of_AI.pdf,1,An Overview of Clinical Applications of Artificial Intelligence,Canada,Canadian Agency for Drugs and Technologies in Health,https://www.cadth.ca/sites/default/files/pdf/eh0070_overview_clinical_applications_of_AI.pdf,September 2018,Non-profit,"The CADTH report provides an overview of the clinical applications of artificial intelligence in healthcare, highlighting its potential to improve patient care and service delivery across various specialties, while also addressing challenges such as data reliance, regulatory considerations, ethical implications, and the need for clinician acceptance.",,,,
-https://lsmu.lt/wp-content/uploads/AI-Guidelines-ED.docx,1,"Guidelines of the Lithuanian University of Health Sciences, for the use of artificial intelligence in studies, research, innovation and clinical practice",Lithuania,Lithuanian University of Health Sciences,File must be downloaded,April 2024,Public research instituition,"The Lithuanian University of Health Sciences has established guidelines to ensure the ethical, legal, and socially responsible development and use of artificial intelligence (AI) technologies in education, research, and clinical practice, emphasizing human-centered approaches, data protection, and transparency.",,,,
-https://www.ace-hta.gov.sg/docs/default-source/default-library/artificial-intelligence-and-its-clinical-applications.pdf?sfvrsn=21dc796d_0,1,Artificial Intelligence and Its Clinical Applications,Singapore,Agency for Care Effectiveness,https://www.ace-hta.gov.sg/docs/default-source/default-library/artificial-intelligence-and-its-clinical-applications.pdf?sfvrsn=21dc796d_0,September 2020,Government,"The overview discusses the potential and challenges of artificial intelligence (AI) in clinical applications, emphasizing its ability to automate tasks such as disease detection and patient monitoring while highlighting regulatory considerations, implementation issues, and the need for ethical frameworks to ensure safe and effective use in healthcare.",,,,
-https://www.sfda.gov.sa/sites/default/files/2023-01/MDS-G010ML.pdf,1,Guidance on Artificial Intelligence (AI) and Machine Learning (ML) technologies based Medical Devices,Saudi Arabia,Saudi Food and Drug Authority,https://www.sfda.gov.sa/sites/default/files/2023-01/MDS-G010ML.pdf,November 2022,Government,"This guidance document outlines the requirements for obtaining Medical Devices Marketing Authorization (MDMA) for Artificial Intelligence (AI) and Machine Learning (ML) based medical devices in Saudi Arabia, detailing classification criteria, clinical evaluation, risk management, and quality management systems necessary for their regulatory compliance.",,,,
-https://www.sor.org/getmedia/26c8052b-86e7-4900-8057-d0852f9e5094/AI-Guidance-for-clinical-imaging-and-therapeutic-radiography-workforce-professionals_LLv1,1,Artificial intelligence: Guidance for clinical imaging and therapeutic radiography workforce professionals,England,The Society of Radiographers,https://www.sor.org/getmedia/26c8052b-86e7-4900-8057-d0852f9e5094/AI-Guidance-for-clinical-imaging-and-therapeutic-radiography-workforce-professionals_LLv1,,Non-profit,"This guidance document from the Society of Radiographers outlines recommendations for the integration of artificial intelligence (AI) in clinical imaging and therapeutic radiography in the UK, emphasizing the importance of collaboration among healthcare professionals, education, and stakeholder partnerships to enhance patient care and optimize AI technology development.",,,,
-https://researchbriefings.files.parliament.uk/documents/POST-PN-0708/POST-PN-0708.pdf,1,Policy implications of artificial intelligence (AI),England,The Parliamentary Office of Science and Technology,https://researchbriefings.files.parliament.uk/documents/POST-PN-0708/POST-PN-0708.pdf,January 2024,Government,"The POST note discusses the rapid development of artificial intelligence (AI) in the UK, highlighting its implications for security, privacy, and democratic processes, while outlining the government's pro-innovation regulatory approach, current legislation gaps, and the potential need for further legal frameworks to address issues such as automated decision-making, algorithmic bias, and workers' rights.",,,,
-https://www.gov.uk/government/publications/good-machine-learning-practice-for-medical-device-development-guiding-principles/good-machine-learning-practice-for-medical-device-development-guiding-principles,1,Good Machine Learning Practice for Medical Device Development: Guiding Principles,England,Medicines & Healthcare products Regulatory Agency,https://www.gov.uk/government/publications/good-machine-learning-practice-for-medical-device-development-guiding-principles/good-machine-learning-practice-for-medical-device-development-guiding-principles,October 2021,Government,"The FDA, Health Canada, and the UK’s MHRA have established 10 guiding principles for Good Machine Learning Practice (GMLP) to enhance the safety, effectiveness, and quality of AI/ML medical devices, emphasizing the importance of multi-disciplinary expertise, robust software engineering, representative clinical data, independent training and test datasets, tailored model design, human-AI collaboration, rigorous testing, clear user information, and ongoing performance monitoring.",,,,
-https://www.cpsm.mb.ca/news/advice-to-the-profession-on-the-responsible-use-of-artificial-intelligence-in-the-practice-of-medicine,1,Advice to the Profession: Responsible use of Artificial Intelligence in the Practice of Medicine,Canada,The College of Physicians & Surgeons of Manitoba,https://cpsm.mb.ca/assets/Advice/Advice%20to%20the%20profession%20-%20AI.pdf,June 2024,Non-profit,"The College of Physicians & Surgeons of Manitoba (CPSM) has issued guidance on the responsible and ethical use of generative artificial intelligence (GenAI) in medical practice, emphasizing the importance of education, accountability, informed consent, confidentiality, and equity to ensure safe and effective patient care.",,,,
-https://www.healthcapital.com/hcc/newsletter/05_17/PDF/AI.pdf,1,Artificial Intelligence in Healthcare - The Regulatory Environment,USA,HEALTH CAPITAL CONSULTANTS,https://www.healthcapital.com/hcc/newsletter/05_17/PDF/AI.pdf,May 2017,Private,"The article discusses the challenges of regulating artificial intelligence (AI) in healthcare, highlighting the lack of specific federal statutes, the potential conflicts with HIPAA regarding patient data, and the evolving role of AI in medical device innovation and public health oversight.",,,,
-https://cpsa.ca/wp-content/uploads/2023/08/AP_Artificial-Intelligence.pdf,1,Artificial Intelligence in Generated Patient Record Content,Canada,The College of Physicians & Surgeons of Alberta,https://cpsa.ca/wp-content/uploads/2023/08/AP_Artificial-Intelligence.pdf,September 2023,Public sector organization,"The document provides guidance from the College of Physicians & Surgeons of Alberta on the responsible use of generative artificial intelligence in patient record content, emphasizing the importance of patient consent, privacy protection, accuracy verification, and caution in clinical decision-making, while noting the current lack of comprehensive research and regulatory support in this area.",,,,
-https://smer.se/wp-content/uploads/2020/06/smer-2020-2-in-brief-artificial-intelligence-in-healthcare.pdf,1,Artificial intelligence in healthcare,Sweden,The Swedish National Council on Medical Ethics,https://smer.se/wp-content/uploads/2020/06/smer-2020-2-in-brief-artificial-intelligence-in-healthcare.pdf,2022,Government,"The publication discusses the potential and challenges of artificial intelligence (AI) in healthcare, emphasizing its ability to enhance diagnostics, treatment personalization, and operational efficiency, while also highlighting ethical, legal, and societal concerns related to patient safety, data privacy, bias, and the evolving roles of healthcare professionals.",,,,
-https://www.urban.org/sites/default/files/2023-09/Building%20Equitable%20Artificial%20Intelligence%20in%20Health%20Care.pdf,1,Building Equitable Artificial Intelligence in Health Care Addressing Current Challenges and Exploring Future Opportunities,USA,THE URBAN INSTITUTE,https://www.urban.org/sites/default/files/2023-09/Building%20Equitable%20Artificial%20Intelligence%20in%20Health%20Care.pdf,September 2023,Non-profit,"The paper examines the biases in AI applications within healthcare that can perpetuate health disparities, reviews current methods for evaluating and mitigating these biases, and discusses the need for equitable AI to improve health outcomes for underserved populations while calling for regulatory changes and better data practices.",,,,
-https://www.ema.europa.eu/en/documents/scientific-guideline/draft-reflection-paper-use-artificial-intelligence-ai-medicinal-product-lifecycle_en.pdf,1,Reflection paper on the use of Artificial Intelligence (AI) in 6 the medicinal product lifecycle - DRAFT,Global,European Medicines Agency,https://www.ema.europa.eu/en/documents/scientific-guideline/draft-reflection-paper-use-artificial-intelligence-ai-medicinal-product-lifecycle_en.pdf,2023,Intergovernmental,"The European Medicines Agency's reflection paper outlines considerations for the use of Artificial Intelligence (AI) and machine learning in the medicinal product lifecycle, addressing regulatory interactions, technical aspects, and ethical implications to ensure patient safety and data integrity.",,,,
-https://nam.edu/wp-content/uploads/2024/04/Artificial-Intelligence-in-Health-Health-Care-and-Biomedical-Science_final_4.8.24V2.pdf,1,"Artifi cial Intelligence in Health, Health Care, and Biomedical Science: An AI Code of Conduct Principles and Commitments Discussion Draft",USA,National Academy of Medicine,https://nam.edu/wp-content/uploads/2024/04/Artificial-Intelligence-in-Health-Health-Care-and-Biomedical-Science_final_4.8.24V2.pdf,April 2024,Non-profit,"The National Academy of Medicine's draft Code of Conduct framework for Artificial Intelligence in health, health care, and biomedical science outlines essential principles and commitments to ensure the responsible and equitable development and application of AI technologies while addressing associated risks and promoting collaboration among stakeholders.",,,,
-https://deviceology.net/ai-and-the-evolution-of-clinical-risk-safety-standards/,1,Unsure about AI digital clinical safety risks,England,Deviceology,https://deviceology.net/wp-content/uploads/2024/07/Unsure-about-AI-digital-clinical-safety-risks-1.pdf,July 2024,Private,"The document outlines the emerging clinical safety risks associated with the integration of artificial intelligence (AI) in healthcare, emphasizes the limitations of existing risk management standards, and proposes a new approach to governance that includes specific mitigation strategies for AI-related risks to ensure patient safety and compliance with ethical and regulatory standards.",,,,
-https://aihealthalliance.org/wp-content/uploads/2021/12/AAAiH_Roadmap_1Dec2021_FINAL.pdf,1,A ROADMAP FOR ARTIFICIAL INTELLIGENCE IN HEALTHCARE FOR AUSTRALIA,Australia,The Australian Alliance for Artificial Intelligence in Healthcare,https://aihealthalliance.org/wp-content/uploads/2021/12/AAAiH_Roadmap_1Dec2021_FINAL.pdf,December 2021,Non-profit,"The ""AI in Healthcare Roadmap for Australia"" outlines a comprehensive strategy to harness the potential of artificial intelligence in the healthcare sector, identifying key priorities such as safety, quality, ethics, privacy, governance, workforce development, and industry competitiveness, while providing actionable recommendations to ensure effective and responsible AI integration into healthcare services.",,,,
-https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies,1,Evidence standards framework for digital health technologies,England,National Institute for Health and Care Excellence,https://www.nice.org.uk/corporate/ecd7/resources/evidence-standards-framework-for-digital-health-technologies-pdf-1124017457605,August 2022,Government,"The NICE Evidence Standards Framework for Digital Health Technologies outlines the evidence requirements and standards necessary for evaluating the value and effectiveness of digital health technologies within the UK health and social care system, emphasizing safety, performance, economic impact, and considerations for design, deployment, and user acceptability.",,,,
-https://www.core-md.eu/artificial-intelligence-and-medical-devices-regulation-discussing-the-legal-framework-and-the-ethical-challenges-within-the-core-md-project/,1,REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the European Health Data Space,Global,EUROPEAN COMMISSION,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022PC0197,May 2022,Intergovernmental,"The European Health Data Space (EHDS) aims to enhance individuals' control over their electronic health data while facilitating secure access for researchers, innovators, and policymakers across the EU, thereby addressing existing barriers to data sharing, promoting interoperability, and supporting health-related research and emergency response initiatives.",,,,
-https://www.mfds.go.kr/eng/brd/m_40/view.do?seq=72628&srchFr=&srchTo=&srchWord=&srchTp=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&company_cd=&company_nm=&page=1,1,Guidance on Clinical Trials Design of Artificial Intelligence(AI)-based Medical Devices,Korea,National Institute of Food and Drug Safety Evaluation,File must be downloaded,July 2022,Government,"The guidance outlines the review and approval process for clinical trials involving machine learning-enabled medical devices, emphasizing considerations for designing retrospective studies, selecting test datasets, establishing reference standards, and assessing primary endpoints to ensure effective evaluation and regulatory compliance.",,,,
-https://www.mckinsey.com/industries/life-sciences/our-insights/generative-ai-in-the-pharmaceutical-industry-moving-from-hype-to-reality,1,Generative AI in the pharmaceutical industry: Moving from hype to reality,USA,McKinsey & Company,https://www.mckinsey.com/~/media/mckinsey/industries/life%20sciences/our%20insights/generative%20ai%20in%20the%20pharmaceutical%20industry%20moving%20from%20hype%20to%20reality/generative-ai-in-the-pharmaceutical-industry-moving-from-hype-to-reality-vf.pdf?shouldIndex=false,January 2024,Private,"The McKinsey report discusses the transformative potential of generative AI in the pharmaceutical industry, highlighting its ability to enhance drug discovery, streamline clinical trials, and optimize marketing efforts, with an estimated economic value of $60 billion to $110 billion annually, while emphasizing the need for strategic implementation and change management to fully realize its benefits.",,,,
-https://www.hca.wa.gov/assets/program/hca-artificial-intelligence-ethics-framework.pdf,1,Artificial Intelligence Ethics Framework,USA,The Washington State Health Care Authority,https://www.hca.wa.gov/assets/program/hca-artificial-intelligence-ethics-framework.pdf,March 2024,Government,"The HCA Artificial Intelligence Ethics Framework aims to guide the ethical evaluation and use of AI in healthcare, focusing on fairness, transparency, accountability, and compliance to protect client data while enhancing service delivery and health equity in Washington State.",,,,
-https://www.ranzcr.com/whats-on/news-media/ethical-principles-for-artificial-intelligence-for-medicine-version-2,1,Ethical Principles for AI in Medicine,"Australia, New Zealand",The Royal Australian and New Zealand College of Radiologists,https://www.ranzcr.com/our-work/artificial-intelligence,2023,Non-profit,"The ""Ethical Principles for AI in Medicine"" document by the Royal Australian and New Zealand College of Radiologists outlines nine key ethical principles to guide the safe, equitable, and responsible development and implementation of artificial intelligence tools in healthcare, emphasizing safety, privacy, bias minimization, transparency, and accountability.",,,,
-https://www.illumina.com/content/dam/illumina-marketing/documents/company/Artificial-Intelligence-Ethics-Principles.pdf,1,Ethical Artificial Intelligence Principles,USA,Illumina,https://www.illumina.com/content/dam/illumina-marketing/documents/company/Artificial-Intelligence-Ethics-Principles.pdf,,Private,"Illumina's ""Ethical Artificial Intelligence Principles"" outline the company's commitment to developing AI systems that prioritize transparency, diversity, values-driven design, and accountability to enhance human health through genomic insights while ensuring compliance with applicable laws.",,,,
-https://clias.iecs.org.ar/wp-content/uploads/2024/04/Documento-Tecnico-Numero-3-ENGLISH.pdf,1,Responsible Artificial Intelligence (AI): Keys to Applying Ethical Principles in AI Solutions in the Healthcare Field.,Latin America,Centro de Inteligencia Artificial y Salud para América Latina y el Caribe,https://clias.iecs.org.ar/wp-content/uploads/2024/04/Documento-Tecnico-Numero-3-ENGLISH.pdf,September 2023,Non-profit,"The document outlines ethical principles for the responsible application of artificial intelligence (AI) in healthcare, emphasizing the importance of transparency, diversity, and accountability while addressing biases in AI models to ensure equitable and beneficial healthcare solutions for all.",,,,
-https://www.gov.uk/government/news/uk-usa-and-canadian-regulators-identify-10-guiding-principles-to-be-addressed-when-medical-devices-use-ai-or-machine-learning-software,1,Good Machine Learning Practice for Medical Device Development: Guiding Principles,"USA, Canada, England","The U.S. Food and Drug Administration, Health Canada, and the United Kingdom’s Medicines and Healthcare products Regulatory Agency",https://assets.publishing.service.gov.uk/media/617921168fa8f52978e14c0b/GMLP_Guiding_Principles_FINAL.pdf,October 2021,Government,"The document outlines ten guiding principles for Good Machine Learning Practice (GMLP) in medical device development, established by regulatory agencies to promote safe, effective, and high-quality AI/ML medical devices, focusing on aspects like multi-disciplinary expertise, data representativeness, software security, user information, and ongoing monitoring.",,,,
-https://www.nationalnursesunited.org/sites/default/files/nnu/documents/0424_NursesPatients-BillOfRights_Principles-AI-Justice_flyer.pdf,1,Nurses and Patients’ Bill of Rights: Guiding Principles for A.I. Justice in Nursing and Health Care,USA,National Nurses United,https://www.nationalnursesunited.org/sites/default/files/nnu/documents/0424_NursesPatients-BillOfRights_Principles-AI-Justice_flyer.pdf,April 2024,Non-profit,"The document outlines the Nurses and Patients' Bill of Rights, emphasizing principles for ensuring that artificial intelligence in healthcare maintains high-quality, safe, and equitable patient care while protecting patient privacy and professional judgment.",,,,
+https://www.hhs.gov/programs/topic-sites/ai/strategy/index.html,1,Artificial Intelligence (AI) Strategy,USA,U.S. Department of Health and Human Services,https://www.hhs.gov/sites/default/files/hhs-ai-strategy.pdf,January 2021,Government,"The U.S. Department of Health and Human Services' AI Strategy outlines a plan to leverage artificial intelligence to enhance health and human services, foster innovation, and ensure ethical, trustworthy AI adoption across the department to improve public health and well-being.","Transparency: 1
+Justice and fairness: 0
+Non-maleficence: 5
+Responsibility: 3
+Privacy: 2
+Beneficence: 2
+Freedom and autonomy: 0
+Trust: 1
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,33,File had to be locally downloaded.
+https://www.usaid.gov/cii/ai-in-global-health,1,Artificial Intelligence in Global Health Defining a Collective Path Forward,USA,U.S. Agency for International Development,https://www.usaid.gov/sites/default/files/2022-05/AI-in-Global-Health_webFinal_508.pdf,,Government,"The document outlines the potential for artificial intelligence (AI) to revolutionize global health by improving access, quality, and cost-effectiveness in low- and middle-income countries (LMICs), while also identifying critical challenges such as data availability, sustainability, privacy, regulatory barriers, and integration into existing health systems, and emphasizing the need for coordinated investments to scale these solutions effectively.","Transparency: 0
+Justice and fairness: 2
+Non-maleficence: 13
+Responsibility: 0
+Privacy: 9
+Beneficence: 5
+Freedom and autonomy: 0
+Trust: 8
+Sustainability: 7
+Dignity: 0
+Solidarity: 0",,34,
+https://cihr-irsc.gc.ca/e/53244.html,1,"Building a Strategy for Artificial Intelligence in Public Health: Centering Partnership, Equity, and Interdisciplinarity",Canada,Canadian Institute of Health Research,https://cihr-irsc.gc.ca/e/documents/bbe_ai_public_summary-en.pdf,December 2021,Government,"The report emphasizes the need for AI in public health to be guided by equity, transparency, and interdisciplinary collaboration, while addressing challenges like data interoperability and capacity building, to ensure AI serves public health needs and reduces health inequities.","Transparency: 3
+Justice and fairness: 7
+Non-maleficence: 0
+Responsibility: 1
+Privacy: 0
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 2
+Sustainability: 1
+Dignity: 0
+Solidarity: 0",,35,
+https://www.gov.uk/government/publications/g7-health-track-digital-health-final-reports/deliverable-1-principles-for-the-evaluation-of-artificial-intelligence-or-machine-learning-enabled-medical-devices-to-assure-safety-effectiveness-an,1,"Deliverable 1: principles for the evaluation of artificial intelligence or machine learning-enabled medical devices to assure safety, effectiveness and ethicality",England,Department of Health & Social Care,https://www.gov.uk/government/publications/g7-health-track-digital-health-final-reports/deliverable-1-principles-for-the-evaluation-of-artificial-intelligence-or-machine-learning-enabled-medical-devices-to-assure-safety-effectiveness-an,December 2021,Government,"Harmonized principles for the clinical evaluation and international deployment of AI/ML-enabled medical devices are being established by G7 nations, with an emphasis placed on safety, performance, ethics, and inclusivity to promote trustworthy innovation in healthcare.","Transparency: 8
+Justice and fairness: 9
+Non-maleficence: 12
+Responsibility: 3
+Privacy: 1
+Beneficence: 1
+Freedom and autonomy: 1
+Trust: 1
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,36,
+https://www.medmalrx.com/?ai-governance-for-health-care/,1,Generating Evidence for Artificial Intelligence Based Medical Devices: A Framework for Training Validation and Evaluation,Global,World Health Organization ,https://iris.who.int/bitstream/handle/10665/349093/9789240038462-eng.pdf?sequence=1,November 2021,Intergovernmental,"The document outlines a framework for the training, validation, and evaluation of artificial intelligence-based medical devices (AI-SaMD) to ensure their safety, performance, and ethical use in healthcare, with a particular focus on global health contexts and low- and middle-income countries (LMICs).","Transparency: 16
+Justice and fairness: 26
+Non-maleficence: 70
+Responsibility: 6
+Privacy: 2
+Beneficence: 7
+Freedom and autonomy: 3
+Trust: 4
+Sustainability: 1
+Dignity: 0
+Solidarity: 0",,37,OCR library was used.
+https://publications.parliament.uk/pa/cm5803/cmselect/cmsctech/1769/report.html,1,The governance of artificial intelligence: interim report,England,"House of Commons Science, Innovation and Technology Committee",https://committees.parliament.uk/publications/41130/documents/205611/default/,July 2023,Government,"The interim report discusses the governance challenges and opportunities posed by the rapid development and deployment of AI, emphasizing the need for regulatory frameworks that balance innovation with public safety, accountability, and ethical considerations, while addressing issues such as bias, privacy, transparency, and international coordination.","Transparency: 10
+Justice and fairness: 9
+Non-maleficence: 48
+Responsibility: 12
+Privacy: 9
+Beneficence: 25
+Freedom and autonomy: 4
+Trust: 3
+Sustainability: 3
+Dignity: 0
+Solidarity: 1",,38,File had to be downloaded. 
+https://assets.publishing.service.gov.uk/media/662fce1e9e82181baa98a988/MHRA_Impact-of-AI-on-the-regulation-of-medical-products.pdf,1,Impact of AI on the regulation of medical products Implementing the AI White Paper principles,England,Medicines and Healthcare products Regulatory Agency,https://assets.publishing.service.gov.uk/media/662fce1e9e82181baa98a988/MHRA_Impact-of-AI-on-the-regulation-of-medical-products.pdf,April 2024,Government,"The report outlines the MHRA's approach to regulating AI in medical products, emphasizing the application of the Pro-innovation AI White Paper's principles to ensure safety, transparency, and fairness while promoting responsible innovation in healthcare.","Transparency: 4
+Justice and fairness: 8
+Non-maleficence: 25
+Responsibility: 7
+Privacy: 0
+Beneficence: 3
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,39,
+https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20210709_8.pdf,1,AI Governance in Japan Ver. 1.1 REPORT FROM THE EXPERT GROUP ON HOW AI PRINCIPLES SHOULD BE IMPLEMENTED,Japan,Ministry of Economy Trade and Industry,https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/pdf/20210709_8.pdf,July 2021,Government,"The report discusses AI governance trends in Japan and globally, emphasizing a risk-based, multi-stakeholder approach, balancing innovation with regulation, and advocating for soft laws to guide AI principles implementation while promoting transparency, fairness, and international harmonization.","Transparency: 35
+Justice and fairness: 24
+Non-maleficence: 47
+Responsibility: 23
+Privacy: 15
+Beneficence: 6
+Freedom and autonomy: 5
+Trust: 7
+Sustainability: 2
+Dignity: 0
+Solidarity: 0",,40,
+https://www.gsk.com/media/10977/gsk-position-on-responsible-ai.pdf,1,Our position on Responsible Artificial Intelligence (AI),England,Gsk,https://www.gsk.com/media/10977/gsk-position-on-responsible-ai.pdf,February 2024,Private,"GSK's Responsible AI policy outlines their commitment to developing and using AI responsibly in biopharma, emphasizing ethical innovation, data privacy, fairness, transparency, and sector-specific regulation, while advocating for global collaboration and regulatory frameworks that balance innovation with risk management.","Transparency: 1
+Justice and fairness: 3
+Non-maleficence: 6
+Responsibility: 4
+Privacy: 3
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,41,
+https://www.manatt.com/insights/white-papers/2024/developing-effective-artificial-intelligence-gover,1,Developing Effective Artificial Intelligence Governance Models Key Insights for Health Systems,USA,UC Davis Health,https://www.manatt.com/Manatt/media/Documents/Articles/UCDH-AI-Governance_2024-05_d.pdf,May 2024,Non-profit,"This report outlines key insights and recommendations for developing effective AI governance models in health systems, emphasizing the need for multidisciplinary oversight, ethical frameworks, risk management, and strategic planning to responsibly implement AI technologies while addressing concerns like health equity, data privacy, and clinical accuracy.","Transparency: 6
+Justice and fairness: 4
+Non-maleficence: 25
+Responsibility: 5
+Privacy: 5
+Beneficence: 2
+Freedom and autonomy: 0
+Trust: 7
+Sustainability: 3
+Dignity: 0
+Solidarity: 0",,42,
+https://www.ihi.org/resources/white-papers/framework-effective-board-governance-health-system-quality,1,Framework for Effective Board Governance of Health System Quality,USA,Institute for Healthcare Improvement,File must be downloaded,2018,Non-profit,"This white paper presents a framework for effective board governance of health system quality, emphasizing the need for boards to prioritize quality, use structured assessment tools, and foster a culture of inquiry and commitment to ensure high-quality, safe, and equitable care across all dimensions of healthcare.","Transparency: 6
+Justice and fairness: 8
+Non-maleficence: 91
+Responsibility: 10
+Privacy: 0
+Beneficence: 2
+Freedom and autonomy: 0
+Trust: 2
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,43,
+https://www.astrazeneca.com/r-d/data-science-and-ai.html,1,"AstraZeneca Code of Ethics Values, Behaviours, and Policies","England, Sweden",Astra Zeneca,https://www.astrazeneca.com/content/dam/az/PDF/Sustainability/Code_of_Ethics_English.pdf,,,"AstraZeneca's Code of Ethics outlines the company's values, guiding principles, and global policies to ensure ethical, transparent, and responsible conduct in science, patient care, workplace behavior, and sustainability across all operations.","Transparency: 4
+Justice and fairness: 4
+Non-maleficence: 5
+Responsibility: 1
+Privacy: 1
+Beneficence: 4
+Freedom and autonomy: 1
+Trust: 3
+Sustainability: 3
+Dignity: 1
+Solidarity: 0",,44,
+https://www.ihi.org/sites/default/files/2024-05/Artificial-Intelligence-in-Health-Care-Implications-for-Safety.pdf,1,Artificial Intelligence in Health Care Implications for Patient and Workforce Safety,USA,Institute for Healthcare Improvement,https://www.ihi.org/sites/default/files/2024-05/Artificial-Intelligence-in-Health-Care-Implications-for-Safety.pdf,2024,Non-profit,"The report examines the potential benefits and risks of generative AI applications, emphasizing the need for careful integration into clinical workflows to enhance patient and workforce safety while addressing challenges such as accuracy, bias, and the preservation of human oversight.","Transparency: 4
+Justice and fairness: 14
+Non-maleficence: 114
+Responsibility: 10
+Privacy: 18
+Beneficence: 16
+Freedom and autonomy: 5
+Trust: 6
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,45,
+https://www.ihi.org/initiatives/ihi-lucian-leape-institute/patient-safety-ai,1,Patient Safety and Artificial Intelligence: Opportunities and Challenges for Care Delivery,USA,Institute for Healthcare Improvement,File must be downloaded,2024,Non-profit,"The report by the IHI Lucian Leape Institute discusses the opportunities and challenges posed by generative artificial intelligence (genAI) in healthcare, emphasizing its potential benefits for documentation, clinical decision support, and patient interaction, while also outlining the necessary governance, ethical considerations, and safety protocols required to ensure patient safety. ​​","Transparency: 16
+Justice and fairness: 6
+Non-maleficence: 245
+Responsibility: 6
+Privacy: 7
+Beneficence: 23
+Freedom and autonomy: 20
+Trust: 11
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,46,
+https://humberandnorthyorkshire.icb.nhs.uk/wp-content/uploads/2023/11/Artificial-Intelligence-Governance-Policy-V1.0.docx,1,Artificial Intelligence (AI) Governance Policy,England,NHS Humber & North Yorkshire ICB,File must be downloaded,November 2023,Government,"The Artificial Intelligence Governance Policy for NHS Humber & North Yorkshire ICB establishes guidelines for the ethical, responsible, and compliant development, implementation, and monitoring of AI systems to enhance patient care while safeguarding personal data and ensuring accountability.","Transparency: 2
+Justice and fairness: 6
+Non-maleficence: 45
+Responsibility: 3
+Privacy: 5
+Beneficence: 1
+Freedom and autonomy: 1
+Trust: 1
+Sustainability: 3
+Dignity: 0
+Solidarity: 0",,47,Docx file
+https://advance.uky.edu/sites/default/files/2024-03/uk-advance-clinical-care-guidelines.pdf,1,Guidelines and Recommendations for the Use of Generative AI in Clinical Care,England,UK Advance,https://advance.uky.edu/sites/default/files/2024-03/uk-advance-clinical-care-guidelines.pdf,March 2024,Non-profit,"The UK ADVANCE guidelines and recommendations emphasize the responsible and ethical use of generative AI in clinical care, addressing key concerns such as data privacy, human accountability, accuracy, and bias while advocating for compliance with existing healthcare policies and governance structures.","Transparency: 4
+Justice and fairness: 4
+Non-maleficence: 7
+Responsibility: 6
+Privacy: 8
+Beneficence: 0
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,48,OCR lib was used.
+https://www.insideeulifesciences.com/2023/10/20/who-publishes-regulatory-considerations-on-ai-for-health/,1,Regulatory considerations on artificial intelligence for health,Global,World Health Organization ,https://iris.who.int/bitstream/handle/10665/373421/9789240078871-eng.pdf?sequence=1&isAllowed=y,2023,Intergovernmental,"This document provides an overview of regulatory considerations on AI for health that covers key general topic areas, namely: documentation and transparency, risk management and AI systems development lifecycle approach, intended use and analytical and clinical validation, AI related data quality, privacy and protection, and engagement and collaboration.","Transparency: 47
+Justice and fairness: 14
+Non-maleficence: 126
+Responsibility: 11
+Privacy: 79
+Beneficence: 7
+Freedom and autonomy: 5
+Trust: 8
+Sustainability: 1
+Dignity: 1
+Solidarity: 0",,49,OCR lib was used.
+https://www.coalitionforhealthai.org/papers/blueprint-for-trustworthy-ai_V1.0.pdf,1,BLUEPRINT FOR TRUSTWORTHY AI IMPLEMENTATION GUIDANCE AND ASSURANCE FOR HEALTHCARE,USA,Coalition for Health AI,https://www.coalitionforhealthai.org/papers/blueprint-for-trustworthy-ai_V1.0.pdf,April 2024,Inter-organizational partnership,"The ""Blueprint for Trustworthy AI Implementation Guidance and Assurance for Healthcare"" outlines essential principles and standards for the safe, effective, and equitable integration of artificial intelligence in healthcare, emphasizing the need for transparency, accountability, and bias management to enhance patient outcomes and trust in AI technologies.","Transparency: 28
+Justice and fairness: 42
+Non-maleficence: 13
+Responsibility: 8
+Privacy: 2
+Beneficence: 2
+Freedom and autonomy: 2
+Trust: 7
+Sustainability: 1
+Dignity: 1
+Solidarity: 0",,50,
+https://assets.publishing.service.gov.uk/media/6384bf98e90e0778a46ce99f/RHC_regulation_of_AI_as_a_Medical_Device_report.pdf,1,The Regulation of Artificial Intelligence as a Medical Device,England,Regulatory Horizons Council,https://assets.publishing.service.gov.uk/media/6384bf98e90e0778a46ce99f/RHC_regulation_of_AI_as_a_Medical_Device_report.pdf,November 2022,Independent governmental organization,"The report discusses the current regulatory landscape for AI in healthcare, identifies gaps in the existing regulatory framework, and provides recommendations to enhance patient safety and innovation through a comprehensive regulatory approach.","Transparency: 21
+Justice and fairness: 28
+Non-maleficence: 148
+Responsibility: 7
+Privacy: 6
+Beneficence: 10
+Freedom and autonomy: 0
+Trust: 16
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,51,
+https://www.iqvia.com/solutions/innovative-models/artificial-intelligence-and-machine-learning,1,Pragmatic Application of Healthcare AI Governance,USA,IQVIA,https://www.iqvia.com/library/white-papers/pragmatic-application-of-healthcare-ai-governance,June 2023,Private,"This document explores regulatory frameworks and guidelines for Artificial Intelligence (AI), highlights common foundational principles of best practice, and provides tangible examples of data and analytics management approaches to meet some of these best practice guidelines.","Transparency: 37
+Justice and fairness: 28
+Non-maleficence: 56
+Responsibility: 22
+Privacy: 47
+Beneficence: 1
+Freedom and autonomy: 2
+Trust: 4
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,52,
+https://www.safercare.vic.gov.au/sites/default/files/2023-07/Advisory%20-%20ChatGPT%20and%20Generative%20AI%20July%202023%20FINAL.pdf,1,Health service use of unregulated Artificial Intelligence (AI),Australia,Victoria State Government Department of Health,https://www.safercare.vic.gov.au/sites/default/files/2023-07/Advisory%20-%20ChatGPT%20and%20Generative%20AI%20July%202023%20FINAL.pdf,July 2023,Government,"The advisory outlines the interim guidelines for the safe use of unregulated generative AI in Victorian healthcare, emphasizing that such AI software should not be utilized for clinical purposes until it complies with national regulations and establishes local procedures for its use to ensure patient safety and regulatory obligations.","Transparency: 2
+Justice and fairness: 0
+Non-maleficence: 7
+Responsibility: 0
+Privacy: 3
+Beneficence: 1
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,53,File had to be downloaded.
+https://www.abhi.org.uk/resource-hub/file/9348,1,The emergence of artificial intelligence and machine learning algorithms in healthcare: Recommendations to support governance and regulation,"England, USA",British Standards Institution& The Association for the Advancement of Medical Instrumentation,File must be downloaded,2019,Inter-organizational partnership,"The position paper outlines recommendations for the governance and regulation of artificial intelligence (AI) and machine learning algorithms in healthcare, emphasizing the need for standardization to ensure safety, transparency, and effective deployment of these technologies across healthcare systems.","Transparency: 5
+Justice and fairness: 4
+Non-maleficence: 18
+Responsibility: 6
+Privacy: 1
+Beneficence: 6
+Freedom and autonomy: 3
+Trust: 2
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,54,
+https://www.feam.eu/wp-content/uploads/Sustainable-AI-to-Drive-Global-Health-white-paper-11-Sep.pdf,1,Sustainable AI to Drive Global Health,Global,Federation of European Academies of Medicine - Independent working group ,https://www.feam.eu/wp-content/uploads/Sustainable-AI-to-Drive-Global-Health-white-paper-11-Sep.pdf,September 2023,Non-profit,"The white paper outlines the potential of data and artificial intelligence (AI) in enhancing healthcare within the European Union and globally, emphasizing the importance of trust, regulatory frameworks, and collaboration to leverage AI for improved patient outcomes and sustainable health practices.","Transparency: 6
+Justice and fairness: 9
+Non-maleficence: 18
+Responsibility: 14
+Privacy: 11
+Beneficence: 10
+Freedom and autonomy: 12
+Trust: 60
+Sustainability: 5
+Dignity: 0
+Solidarity: 0",,55,
+https://www.oecd.org/en/publications/2024/01/collective-action-for-responsible-ai-in-health_9a65136f.html,1,Collective action for responsible AI in health,Global,Organisation for Economic Co-operation and Development ,File must be downloaded,January 2024,Intergovernmental,"The document discusses the need for collective action to ensure responsible artificial intelligence (AI) practices in healthcare, highlighting various challenges and opportunities in deploying AI technologies, and emphasizing the importance of regulatory frameworks, ethical considerations, and stakeholder collaboration to enhance trust and effectiveness in AI applications within the health sector.","Transparency: 18
+Justice and fairness: 15
+Non-maleficence: 68
+Responsibility: 23
+Privacy: 26
+Beneficence: 25
+Freedom and autonomy: 6
+Trust: 23
+Sustainability: 3
+Dignity: 4
+Solidarity: 0",,56,
+https://www.bsigroup.com/en-GB/capabilities/medical-devices/ai-in-medical-devices/,1,AI Machine Learning and Medical Devices Methods and guidance on addressing safety,England,British Standards Institution,https://www.bsigroup.com/siteassets/pdf/en/insights-and-media/insights/white-papers/ai-machine-learning-and-medical-devices-bsi.pdf,,Non-profit,"The document outlines the methods and guidance for ensuring the safety and compliance of machine learning-enabled medical devices (MLMD) within the evolving regulatory landscape, emphasizing the importance of risk management, bias mitigation, and adherence to medical device regulations and standards.","Transparency: 4
+Justice and fairness: 2
+Non-maleficence: 45
+Responsibility: 3
+Privacy: 2
+Beneficence: 1
+Freedom and autonomy: 2
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,57,
+https://www.aomrc.org.uk/publication/artificial-intelligence-in-healthcare/,1,Artificial Intelligence in Healthcare,England,Academy of Medical Royal Colleges,https://www.aomrc.org.uk/publication/artificial-intelligence-in-healthcare/,January 2019,Non-profit,"The report from the Academy of Royal Medical Colleges discusses the current and potential future impact of Artificial Intelligence (AI) in healthcare, emphasizing the importance of patient safety, clinician involvement, ethical considerations, and the need for robust regulation as AI technologies are integrated into medical practice.","Transparency: 5
+Justice and fairness: 2
+Non-maleficence: 28
+Responsibility: 15
+Privacy: 5
+Beneficence: 7
+Freedom and autonomy: 16
+Trust: 19
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,58,
+https://news.nnlm.gov/region_5/american-college-of-physicians-releases-recommendations-for-ai-tools-in-healthcare/,1,Artificial Intelligence in the Provision of Health Care: An American College of Physicians Policy Position Paper,USA,American College of Physicians,https://www.acpjournals.org/doi/10.7326/M24-0146,June 2024,Non-profit,"The American College of Physicians (ACP) position paper outlines the organization's foundational positions and recommendations on the use of artificial intelligence (AI) and machine learning (ML) technologies in healthcare, emphasizing the need for patient-centeredness, privacy, transparency, and further research into their clinical and ethical implications while addressing concerns about their impact on the patient-physician relationship and health disparities.",,,59,The website is protected against web-scraping
+https://bipartisanpolicy.org/blog/first-into-the-breach-onc-final-rule-addressing-ai-transparency-in-health-care/,1,"Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing",USA,Health and Human Services Department,https://www.federalregister.gov/documents/2024/01/09/2023-28857/health-data-technology-and-interoperability-certification-program-updates-algorithm-transparency-and,September 2024,Government,"The final rule implements the EHR Reporting Program of the 21st Century Cures Act by establishing new certification requirements for health IT developers, updating certification criteria and standards to enhance interoperability, algorithm transparency, and information sharing while reducing burdens and costs for developers and users.",,,60,The website is protected against web-scraping
+https://www.advamed.org/member-center/resource-library/principles-for-artificial-intelligence-in-medical-technology/,1,Principles for Artificial Intelligence in Medical Technology,USA,Advanced Medical Technology Association,https://www.advamed.org/wp-content/uploads/2024/02/AI-Principles_1.pdf,,Non-profit,"The principles for artificial intelligence in medical technology emphasize promoting patient access, improving care in underserved communities, educating the public about AI's role, ensuring high-quality data to mitigate bias, providing appropriate incentives for adoption, ensuring clinician training, and protecting patient privacy and data security.","Transparency: 0
+Justice and fairness: 0
+Non-maleficence: 1
+Responsibility: 1
+Privacy: 4
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 2
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,61,
+https://www.hsa.gov.sg/docs/default-source/hprg-mdb/guidance-documents-for-medical-devices/regulatory-guidelines-for-software-medical-devices---a-life-cycle-approach_r2-(2022-apr)-pub.pdf,1,Regulatory Guidelines for Software Medical Devices – A Life Cycle Approach,Singapore,Health Sciences Authority,https://www.hsa.gov.sg/docs/default-source/hprg-mdb/guidance-documents-for-medical-devices/regulatory-guidelines-for-software-medical-devices---a-life-cycle-approach_r2-(2022-apr)-pub.pdf,April 2022,Government,"The ""Regulatory Guidelines for Software Medical Devices"" outlines a comprehensive life cycle approach to ensure the safety, effectiveness, and compliance of software medical devices, including requirements for quality management systems, pre-market registration, post-market management, and specific considerations for artificial intelligence and cybersecurity.","Transparency: 2
+Justice and fairness: 3
+Non-maleficence: 76
+Responsibility: 1
+Privacy: 5
+Beneficence: 0
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 2
+Dignity: 0
+Solidarity: 0
+",,62,
+https://researchbriefings.files.parliament.uk/documents/POST-PN-0637/POST-PN-0637.pdf,1,AI and Healthcare,England,The Parliamentary Office of Science and Technology,https://researchbriefings.files.parliament.uk/documents/POST-PN-0637/POST-PN-0637.pdf,December 2020,Government,"The POSTnote on AI and Healthcare outlines the potential benefits and challenges of integrating artificial intelligence into the healthcare system, emphasizing issues related to safety, privacy, workforce adaptation, and health inequalities, while highlighting the need for regulatory frameworks to ensure effective and ethical implementation.","Transparency: 3
+Justice and fairness: 4
+Non-maleficence: 30
+Responsibility: 14
+Privacy: 9
+Beneficence: 2
+Freedom and autonomy: 3
+Trust: 11
+Sustainability: 3
+Dignity: 0
+Solidarity: 0",,63,
+https://www3.weforum.org/docs/WEF_Patient_First_Health_with_Generative_AI_2024.pdf,1,Patient-First Health with Generative AI: Reshaping the Care Experience,Global,World Economic Forum,https://www3.weforum.org/docs/WEF_Patient_First_Health_with_Generative_AI_2024.pdf,January 2024,International non-governmental organization,"The white paper by the World Economic Forum and ZS discusses the transformative potential of generative AI in healthcare, highlighting its ability to enhance patient engagement, improve health outcomes, and address systemic challenges, while also identifying significant barriers to its adoption, such as mistrust, data limitations, and scalability issues.","Transparency: 3
+Justice and fairness: 1
+Non-maleficence: 6
+Responsibility: 1
+Privacy: 3
+Beneficence: 0
+Freedom and autonomy: 1
+Trust: 10
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,64,
+https://iris.paho.org/bitstream/handle/10665.2/53732/PAHOEIHIS21011_eng.pdf?sequence=5&isAllowed=y,1,Artificial Intelligence in Public Health |DIGITAL TRANSFORMATION TOOLKIT,Global,Pan American Health Organization,https://iris.paho.org/bitstream/handle/10665.2/53732/PAHOEIHIS21011_eng.pdf?sequence=5&isAllowed=y,2021,Specialized agency,"The document outlines guiding principles and applications of Artificial Intelligence in public health (AI4PH), emphasizing the importance of ethical considerations, data protection, and various AI components such as machine learning and natural language processing to enhance public health interventions while ensuring individual rights and equity.","Transparency: 0
+Justice and fairness: 8
+Non-maleficence: 5
+Responsibility: 0
+Privacy: 3
+Beneficence: 3
+Freedom and autonomy: 3
+Trust: 0
+Sustainability: 0
+Dignity: 2
+Solidarity: 0
+",,65,
+https://digital-transformation.hee.nhs.uk/binaries/content/assets/digital-transformation/dart-ed/developingconfidenceinai-oct2022.pdf,1,Developing healthcare workers’ confidence in AI,England,National Health Service,https://digital-transformation.hee.nhs.uk/binaries/content/assets/digital-transformation/dart-ed/developingconfidenceinai-oct2022.pdf,October 2022,Government,"The report outlines the development of educational pathways to enhance healthcare workers' confidence in utilizing artificial intelligence (AI) in medical practice, emphasizing the need for tailored training based on identified workforce archetypes and roles to ensure safe, effective, and ethical AI adoption in healthcare settings .","Transparency: 17
+Justice and fairness: 11
+Non-maleficence: 53
+Responsibility: 20
+Privacy: 6
+Beneficence: 14
+Freedom and autonomy: 3
+Trust: 23
+Sustainability: 1
+Dignity: 0
+Solidarity: 0
+",,66,
+https://society.asco.org/sites/new-www.asco.org/files/ASCO-AI-Principles-2024.pdf,1,Principles for the Responsible Use of Artificial Intelligence in Oncology,USA,American Society of Clinical Oncology (ASCO),https://society.asco.org/sites/new-www.asco.org/files/ASCO-AI-Principles-2024.pdf,2024,Non-profit,"The American Society of Clinical Oncology (ASCO) outlines six principles for the responsible use of artificial intelligence (AI) in oncology, emphasizing transparency, informed stakeholder engagement, equity, accountability, oversight, and human-centered application to enhance patient care while addressing ethical, legal, and operational challenges.","Transparency: 11
+Justice and fairness: 13
+Non-maleficence: 9
+Responsibility: 18
+Privacy: 15
+Beneficence: 5
+Freedom and autonomy: 11
+Trust: 6
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,67,
+https://www.ifpma.org/publications/ifpma-artificial-intelligence-principles/,1,Artificial intelligence (“AI”) ethics principles,Switzerland,International Federation of Pharmaceutical Manufacturers & Associations,File must be downloaded,July 2022,Non-profit,"The IFPMA outlines ethical principles for the responsible development and use of artificial intelligence (AI) in healthcare, emphasizing human empowerment, accountability, human control, fairness, privacy, security, transparency, and continuous adaptation to mitigate risks and biases associated with AI systems.","Transparency: 3
+Justice and fairness: 4
+Non-maleficence: 7
+Responsibility: 3
+Privacy: 3
+Beneficence: 1
+Freedom and autonomy: 1
+Trust: 1
+Sustainability: 0
+Dignity: 1
+Solidarity: 0",,68,
+https://www.americantelemed.org/wp-content/uploads/2023/10/ATA-AI-Principles-23-v2.pdf,1,The ATA’s Artificial Intelligence (AI) Principles,USA,American Telemedicine Association,https://www.americantelemed.org/wp-content/uploads/2023/10/ATA-AI-Principles-23-v2.pdf,October 2023,Non-profit,"The ATA's AI Principles emphasize the importance of trustworthy AI development in healthcare, advocating for accountability, transparency, bias mitigation, clear regulatory frameworks, economic workforce evolution, and privacy to enhance patient and provider trust and improve healthcare delivery, including in telehealth.","Transparency: 3
+Justice and fairness: 0
+Non-maleficence: 1
+Responsibility: 2
+Privacy: 4
+Beneficence: 1
+Freedom and autonomy: 0
+Trust: 2
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,69,
+https://www.techerati.com/press-release/acro-releases-principles-for-responsible-ai-in-clinical-research/,1,ACRO's Principles for Responsible AI,Global,The Association of Clinical Research Organizations,https://www.acrohealth.org/wp-content/uploads/2023/12/ACRO-AI-Principles-Final.pdf,December 2023,Global trade association ,"ACRO's Principles for Responsible AI outline essential guidelines for the development and use of AI technologies in drug development, emphasizing compliance with regulations, ethical considerations, multidisciplinary oversight, quality management, transparency, and continuous monitoring to ensure safe and effective integration into healthcare.","Transparency: 6
+Justice and fairness: 3
+Non-maleficence: 9
+Responsibility: 3
+Privacy: 2
+Beneficence: 0
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,70,
+https://law.queensu.ca/sites/lawwww/files/files/Research/MachineMD/trustworthy-artificial-intelligence-in-health.pdf,1,TRUSTWORTHY AI IN HEALTH,Global,Organisation for Economic Co-operation and Development ,https://law.queensu.ca/sites/lawwww/files/files/Research/MachineMD/trustworthy-artificial-intelligence-in-health.pdf,2020,Intergovernmental,"The OECD's background paper for the G20 AI Dialogue highlights the profound potential of AI to transform healthcare through improved efficiency and outcomes while emphasizing the need for careful governance, transparency, and accountability to mitigate risks associated with its implementation.","Transparency: 14
+Justice and fairness: 8
+Non-maleficence: 18
+Responsibility: 10
+Privacy: 4
+Beneficence: 14
+Freedom and autonomy: 3
+Trust: 5
+Sustainability: 4
+Dignity: 0
+Solidarity: 0
+",,71,
+https://www.hhs.gov/sites/default/files/hhs-trustworthy-ai-playbook.pdf,1,Trustworthy AI (TAI) Playbook,USA,U.S. DEPARTMENT OF HEALTH & HUMAN SERVICES,https://www.hhs.gov/sites/default/files/hhs-trustworthy-ai-playbook.pdf,September 2021,Government,"The HHS Trustworthy AI Playbook outlines essential principles and practices for ensuring that artificial intelligence (AI) systems used within government are fair, transparent, responsible, safe, and robust, emphasizing the importance of trustworthy AI to enhance efficacy and accountability in public service. ​​","Transparency: 43
+Justice and fairness: 50
+Non-maleficence: 95
+Responsibility: 10
+Privacy: 85
+Beneficence: 38
+Freedom and autonomy: 3
+Trust: 19
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,72,
+https://www.healthit.gov/sites/default/files/2023-12/Health_Sector_AI_Commitments_FINAL_120923.pdf,1,HEALTH SECTOR AI COMMITMENTS,USA,Assistant Secretary for Technology Policy,https://www.healthit.gov/sites/default/files/2023-12/Health_Sector_AI_Commitments_FINAL_120923.pdf,September 2023,Government,"Health sector organizations commit to leveraging frontier AI models to enhance healthcare delivery while ensuring safety, security, and trust through principles of fairness, appropriateness, validity, effectiveness, and safety (FAVES), alongside transparent practices and a robust risk management framework.","Transparency: 4
+Justice and fairness: 1
+Non-maleficence: 4
+Responsibility: 0
+Privacy: 1
+Beneficence: 2
+Freedom and autonomy: 0
+Trust: 3
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,73,
+https://www.pmcsa.ac.nz/our-principles-ai-in-healthcare/,1,Capturing the benefits of AI in healthcare for Aotearoa New Zealand,New Zealand,Prime Minister’s Chief Science Advisor,https://bpb-ap-se2.wpmucdn.com/blogs.auckland.ac.nz/dist/f/688/files/2023/12/PMCSA-AI-healthcare-LONG-REPORT-FINAL-pdf-version-v3.pdf,October 2023,Government,"The health sector commits to responsibly developing and deploying AI technologies to enhance healthcare delivery while ensuring patient safety, privacy, and adherence to principles of fairness, transparency, and accountability.","Transparency: 32
+Justice and fairness: 83
+Non-maleficence: 70
+Responsibility: 20
+Privacy: 55
+Beneficence: 50
+Freedom and autonomy: 49
+Trust: 58
+Sustainability: 5
+Dignity: 0
+Solidarity: 0
+",,74,
+https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf,1,Policy Position on Artificial Intelligence,USA,Pfizer,https://cdn.pfizer.com/pfizercom/AI_Policy_Position_12112023.pdf,November 2023,Private,"Pfizer's policy position emphasizes the responsible and ethical use of artificial intelligence in healthcare, committing to principles of human empowerment, privacy, accountability, and transparency while advocating for supportive regulatory frameworks to foster innovation and mitigate risks.","Transparency: 6
+Justice and fairness: 2
+Non-maleficence: 3
+Responsibility: 0
+Privacy: 6
+Beneficence: 1
+Freedom and autonomy: 2
+Trust: 4
+Sustainability: 1
+Dignity: 0
+Solidarity: 0",,75,
+https://www.bsr.org/reports/BSR-AI-Human-Rights-Healthcare.pdf,1,AI and Human Rights in Healthcare,Global,Business for Social Responsibility,https://www.bsr.org/reports/BSR-AI-Human-Rights-Healthcare.pdf,October 2023,Non-profit,"The report explores the impact of artificial intelligence (AI) on human rights within the healthcare sector, highlighting associated risks and opportunities, while providing recommendations for companies to address these human rights concerns effectively.","Transparency: 1
+Justice and fairness: 1
+Non-maleficence: 6
+Responsibility: 1
+Privacy: 11
+Beneficence: 1
+Freedom and autonomy: 9
+Trust: 1
+Sustainability: 3
+Dignity: 1
+Solidarity: 0",,76,
+https://www.doh.gov.ae/-/media/E9C1470A575146B18015DEBE57E47F8D.ashx,1,Policy on Use of Artificial Intelligence (AI) in the Healthcare Sector of the Emirate of Abu Dhabi,United Arab Emirates,Abu Dhabi Department of Health,File must be downloaded,April 2018,Government,"The policy outlines the framework for integrating AI into healthcare, emphasizing principles of safety, transparency, and accountability while aiming to enhance healthcare quality and access while minimizing risks to patient safety.","Transparency: 3
+Justice and fairness: 0
+Non-maleficence: 15
+Responsibility: 2
+Privacy: 5
+Beneficence: 3
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 1
+Dignity: 1
+Solidarity: 0",,77,
+https://www.takeda.com/4a53a8/siteassets/system/who-we-are/companyinformation/positions--guidelines/takeda_position_use-of-ai.pdf,1,Takeda’s Position on Use of Artificial Intelligence (AI),Japan,Takeda,https://www.takeda.com/4a53a8/siteassets/system/who-we-are/companyinformation/positions--guidelines/takeda_position_use-of-ai.pdf,September 2022,Private,"Takeda's position on Artificial Intelligence (AI) emphasizes the ethical and responsible use of AI systems to drive innovation in healthcare while prioritizing medical benefits, promoting transparency, ensuring data security, and maintaining human oversight to enhance patient outcomes and societal trust.","Transparency: 0
+Justice and fairness: 0
+Non-maleficence: 2
+Responsibility: 3
+Privacy: 1
+Beneficence: 3
+Freedom and autonomy: 6
+Trust: 0
+Sustainability: 2
+Dignity: 0
+Solidarity: 0",,78,
+https://www.imdrf.org/sites/default/files/2024-06/Good%20machine%20learning%20practice%20for%20medical%20device%20development%20-%20Guiding%20Principles%20DRAFT%20for%20Consultation.pdf,1,Good machine learning practice for medical device development: Guiding principles - DRAFT,Global,International Medical Device Regulators Forum,https://www.imdrf.org/sites/default/files/2024-06/Good%20machine%20learning%20practice%20for%20medical%20device%20development%20-%20Guiding%20Principles%20DRAFT%20for%20Consultation.pdf,2024,Non-profit,"The draft document outlines guiding principles for Good Machine Learning Practice (GMLP) in the development of AI-enabled medical devices, emphasizing the importance of safety, effectiveness, ethical considerations, and continuous monitoring throughout the product lifecycle.","Transparency: 0
+Justice and fairness: 2
+Non-maleficence: 6
+Responsibility: 0
+Privacy: 0
+Beneficence: 3
+Freedom and autonomy: 3
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,79,
+https://aspe.hhs.gov/sites/default/files/documents/1348a9a067fd4d225981a822dfe25ea5/trustworthy-ai.pdf,1,Trustworthy Artificial Intelligence (TAI) for PatientCentered Outcomes Research (PCOR),USA,NORC at the University of Chicago,https://aspe.hhs.gov/sites/default/files/documents/1348a9a067fd4d225981a822dfe25ea5/trustworthy-ai.pdf,September 2023,Non-profit,"The report provides guidance for U.S. Department of Health and Human Services (HHS) agencies on managing AI throughout its lifecycle, highlighting six key principles of TAI—fairness, transparency, accountability, reliability, privacy, and security—and discusses the challenges and considerations for implementing these principles in patient-centered outcomes research. ​​","Transparency: 26
+Justice and fairness: 45
+Non-maleficence: 55
+Responsibility: 3
+Privacy: 80
+Beneficence: 4
+Freedom and autonomy: 16
+Trust: 32
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,80,
+https://www.elsevier.com/about/responsible-ai,1,Insights 2024 Attitudes Toward AI ,Netherlands,Elsevier,https://assets.ctfassets.net/o78em1y1w4i4/6BWRibyJNQLYkKWwKw7SVf/64c04b53ca9cc0795ac811f583f7eebb/Insights_2024_Attitudes_To_AI_Full_Report.pdf,July 2024,Private,"The report reveals that while researchers and clinicians globally recognize the potential of generative AI to transform knowledge discovery and research productivity, there are mixed sentiments regarding its ethical implications, with a significant emphasis on the need for transparency, accountability, and human oversight to build trust in AI tools. ​​","Transparency: 15
+Justice and fairness: 7
+Non-maleficence: 16
+Responsibility: 5
+Privacy: 7
+Beneficence: 15
+Freedom and autonomy: 5
+Trust: 32
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,81,
+https://www.gao.gov/assets/720/711471.pdf,1,Artificial Intelligence in Health Care Benefits and Challenges of Technologies to Augment Patient Care,USA,United States Government Accountability Office& National Academy of Medicine,https://www.gao.gov/assets/720/711471.pdf,November 2020,Inter-organizational partnership,"The GAO report on Artificial Intelligence in Health Care outlines the potential benefits of AI technologies in augmenting patient care, including improved treatment, reduced provider burden, and increased resource efficiency, while also highlighting significant challenges such as data access, bias, transparency, and privacy, and recommending policy options for enhancing AI integration and effectiveness in health settings. ​​","Transparency: 27
+Justice and fairness: 9
+Non-maleficence: 45
+Responsibility: 56
+Privacy: 72
+Beneficence: 39
+Freedom and autonomy: 13
+Trust: 8
+Sustainability: 3
+Dignity: 0
+Solidarity: 0",,82,
+https://www.fda.gov/files/medical%20devices/published/US-FDA-Artificial-Intelligence-and-Machine-Learning-Discussion-Paper.pdf,1,Proposed Regulatory Framework for Modifications to Artificial Intelligence/Machine Learning (AI/ML)-Based Software as a Medical Device (SaMD),USA,US Food and Drug Administration,https://www.fda.gov/files/medical%20devices/published/US-FDA-Artificial-Intelligence-and-Machine-Learning-Discussion-Paper.pdf,April 2019,Government,"The FDA's discussion paper on the proposed regulatory framework for modifications to AI/ML-based Software as a Medical Device (SaMD) outlines the potential benefits of these technologies in healthcare, emphasizes the need for a risk-based approach to regulation, and suggests a total product lifecycle (TPLC) regulatory framework that enables continuous improvement and real-world performance monitoring while ensuring patient safety and device effectiveness.","Transparency: 13
+Justice and fairness: 5
+Non-maleficence: 20
+Responsibility: 0
+Privacy: 0
+Beneficence: 4
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,83,
+https://ainowinstitute.org/publication/what-can-we-learn-from-the-fda-model-for-ai-regulation,1,What Can We Learn From the FDA Model for AI Regulation?,USA,AI Now Institute,https://ainowinstitute.org/wp-content/uploads/2024/01/AINow_FDA-for-AI-10-Key-Insights_Jan2024.pdf,January 2024,Non-profit,"The memo presents ten key insights from expert deliberations on the potential application of FDA-style regulatory interventions to artificial intelligence (AI), emphasizing the need for a nuanced approach that targets different points in the AI supply chain, addresses issues of efficacy and transparency, and incorporates pre-market approval and robust documentation requirements to enhance accountability and safety in AI development and deployment.","Transparency: 7
+Justice and fairness: 0
+Non-maleficence: 9
+Responsibility: 6
+Privacy: 0
+Beneficence: 9
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,84,
+https://assets.publishing.service.gov.uk/media/64cb71a547915a00142a91c4/a-pro-innovation-approach-to-ai-regulation-amended-web-ready.pdf,1,A pro-innovation approach to AI regulation,England,"Department for Science, Innovation&Technology",https://assets.publishing.service.gov.uk/media/64cb71a547915a00142a91c4/a-pro-innovation-approach-to-ai-regulation-amended-web-ready.pdf,March 2023,Government,"The document presents the UK government's pro-innovation approach to AI regulation, emphasizing the need for a principles-based regulatory framework that adapts to technological advancements while ensuring safety, accountability, and transparency across different sectors involved in AI development and deployment. ​​","Transparency: 71
+Justice and fairness: 74
+Non-maleficence: 102
+Responsibility: 73
+Privacy: 10
+Beneficence: 35
+Freedom and autonomy: 8
+Trust: 30
+Sustainability: 3
+Dignity: 2
+Solidarity: 0",,85,
+https://www.who.int/publications/m/item/artificial-intelligence-for-health,1,Artificial Intelligence for Health,Global,World Health Organization ,https://cdn.who.int/media/docs/default-source/digital-health-documents/who_brochure_ai_web.pdf?sfvrsn=aa4f4e3b_3&download=true,May 2024,Intergovernmental,"The World Health Organization (WHO) is committed to supporting the responsible deployment of artificial intelligence (AI) technologies in health systems worldwide by developing standards, policies, and guidance that promote safe, ethical, and equitable use of AI to enhance healthcare access and address challenges such as workforce gaps and resource limitations.","Transparency: 0
+Justice and fairness: 0
+Non-maleficence: 0
+Responsibility: 0
+Privacy: 0
+Beneficence: 2
+Freedom and autonomy: 0
+Trust: 1
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,86,
+https://www.ansi.org/standards-news/all-news/2021/03/3-29-21-ansi-releases-report-standardization-empowering-ai-enabled-systems-in-healthcare,1,STANDARDIZATION EMPOWERING AI-ENABLED SYSTEMS IN HEALTHCARE,USA,American National Standards Institute,"https://share.ansi.org/Shared%20Documents/News%20and%20Publications/Links%20Within%20Stories/Empowering%20AI-Enabled%20Systems,%20Workshop%20Report.pdf",March 2021,Private,"The report on the ""Standardization Empowering AI-Enabled Systems in Healthcare"" workshop highlights the necessity for coordinated standardization in AI technologies within healthcare to enhance data quality, trust, transparency, and governance frameworks, while addressing challenges related to the implementation and regulation of AI systems to ensure safety and effectiveness in medical applications.","Transparency: 46
+Justice and fairness: 8
+Non-maleficence: 23
+Responsibility: 8
+Privacy: 20
+Beneficence: 6
+Freedom and autonomy: 8
+Trust: 19
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,87,
+https://www.fiercehealthcare.com/ai-and-machine-learning/chai-releases-draft-rubric-quality-assurance-standards-healthcare-ai,1,Assurance Standards Guide Coalition for Health AI (CHAI),USA,Coalition for Health AI,https://chai.org/wp-content/uploads/2024/06/CHAI-Assurance-Standards-Guide-6-26-2024.pdf,2024,Inter-organizational partnership,"The CHAI Assurance Standards Guide serves as a comprehensive framework for developing and deploying AI in healthcare, emphasizing principles of usefulness, fairness, safety, transparency, and security, while integrating ethical considerations and practical guidance across the AI lifecycle to foster trust and accountability among stakeholders.","Transparency: 90
+Justice and fairness: 146
+Non-maleficence: 290
+Responsibility: 62
+Privacy: 283
+Beneficence: 22
+Freedom and autonomy: 26
+Trust: 38
+Sustainability: 3
+Dignity: 1
+Solidarity: 0",,88,
+https://www.nsai.ie/standards/sectors/healthcare-standards/digital-health-technologies,1,Digital Health Technologies and the future of healthcare,Ireland,National Standards Authority of Ireland,https://www.nsai.ie/images/uploads/standards/NSAI_Digital_Health_Technology_v2.0.pdf,,Government,"The article discusses the challenges and advancements in digital health technologies, emphasizing the regulatory frameworks for medical devices and in-vitro diagnostics in Europe, the importance of safety and performance standards, and the potential impact of artificial intelligence in healthcare, particularly regarding the proposed EU AI Act and its implications for high-risk AI systems in the medical sector.","Transparency: 0
+Justice and fairness: 0
+Non-maleficence: 18
+Responsibility: 1
+Privacy: 0
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,89,
+https://shop.cta.tech/products/the-use-of-artificial-intelligence-in-healthcare-trustworthiness-cta-2090,1,The Use of Artificial Intelligence in Health Care: Trustworthiness,USA,American National Standards Institute,https://shop.cta.tech/a/downloads/-/efd2ee85ccdc7a3b/ec5e054a4e4cfa5d,February 2021,Private,"The ANSI/CTA-2090 standard outlines the essential requirements and frameworks necessary for establishing trustworthiness in artificial intelligence (AI) applications within healthcare, emphasizing the importance of human, technical, and regulatory trust to ensure safety, effectiveness, and reliability in AI technologies used for clinical decision-making and patient care.","Transparency: 11
+Justice and fairness: 4
+Non-maleficence: 30
+Responsibility: 4
+Privacy: 25
+Beneficence: 0
+Freedom and autonomy: 15
+Trust: 66
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,90,
+https://haiweb.org/publication/factsheet-the-eu-medical-devices-regulation-and-the-ai-act/,1,THE EU MEDICAL DEVICES REGULATION AND THE EU AI ACT: A SHORT COMPARISON,Netherlands,Health Action International,https://haiweb.org/wp-content/uploads/2023/03/MDR-AIAct_OnePager_FINAL.pdf,March 2023,Non-profit,"The fact sheet compares the EU Medical Devices Regulation (MDR) and the proposed EU AI Act, highlighting that while both frameworks aim to ensure safety and protect fundamental rights in healthcare, the MDR focuses primarily on physical safety standards for medical devices, whereas the AI Act addresses fundamental rights but lacks specific provisions for health-related AI applications, necessitating improvements in data quality, algorithm transparency, and human rights assessments to prevent discrimination and harm.","Transparency: 1
+Justice and fairness: 1
+Non-maleficence: 5
+Responsibility: 0
+Privacy: 1
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,91,
+https://www.datadiversity.org/recommendations,1,"Recommendations for diversity, inclusivity, and generalisability in artificial intelligence health technologies and health datasets",England,STANDING Together Working Group,File must be downloaded,October 2023,Non-profit,"The STANDING Together collaboration has developed international consensus-based recommendations aimed at enhancing diversity, inclusivity, and generalisability in artificial intelligence health technologies and datasets, addressing potential algorithmic bias and health inequity by providing guidelines for comprehensive dataset documentation and equitable use of AI technologies throughout their development lifecycle.","Transparency: 0
+Justice and fairness: 13
+Non-maleficence: 5
+Responsibility: 0
+Privacy: 0
+Beneficence: 0
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,92,
+https://iris.paho.org/bitstream/handle/10665.2/57947/PAHOEIHIS230003_eng.pdf?sequence=1&isAllowed=y,1,Artificial intelligence Digital Transformation Toolkit,Global,Pan American Health Organization,https://iris.paho.org/bitstream/handle/10665.2/57947/PAHOEIHIS230003_eng.pdf?sequence=1&isAllowed=y,2023,Specialized agency,"The Pan American Health Organization (PAHO) outlines the importance of artificial intelligence (AI) as a guiding principle for digital transformation in the health sector, emphasizing the need for ethical implementation, cooperation among stakeholders, and strategies to overcome existing challenges and biases in AI development to enhance health equity and outcomes.","Transparency: 1
+Justice and fairness: 13
+Non-maleficence: 11
+Responsibility: 1
+Privacy: 7
+Beneficence: 3
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 0
+Dignity: 1
+Solidarity: 0",,93,
+https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/dart-ed/horizon-scanning/understanding-healthcare-workers-confidence-in-ai/chapter-3-governance/regulation-and-standards,1,Understanding healthcare workers’ confidence in artificial intelligence (AI),England,National Health Service,https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/dart-ed/horizon-scanning/understanding-healthcare-workers-confidence-in-ai/chapter-3-governance/regulation-and-standards,April 2023,Government,"This chapter details 4 main factors, as identified by interviewees for this research, that relate to the governance of artificial intelligence (AI) technologies and influence confidence in these technologies: regulation and standards; evaluation and validation; guidelines; and liability.","Transparency: 2
+Justice and fairness: 0
+Non-maleficence: 3
+Responsibility: 4
+Privacy: 1
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 1
+Sustainability: 0
+Dignity: 1
+Solidarity: 0",,94,
+https://eithealth.eu/wp-content/uploads/2020/03/EIT-Health-and-McKinsey_Transforming-Healthcare-with-AI.pdf,1,Transforming healthcare with AI: The impact on the workforce and organisations,Global,EITH Health & Mckinsey & Company,https://eithealth.eu/wp-content/uploads/2020/03/EIT-Health-and-McKinsey_Transforming-Healthcare-with-AI.pdf,March 2023,Multisector consortium,"The report outlines the transformative potential of artificial intelligence (AI) in healthcare, emphasizing the need for improved workforce training, data quality, and regulatory frameworks to effectively implement AI technologies that enhance patient care and operational efficiency.","Transparency: 7
+Justice and fairness: 7
+Non-maleficence: 71
+Responsibility: 40
+Privacy: 15
+Beneficence: 29
+Freedom and autonomy: 15
+Trust: 18
+Sustainability: 10
+Dignity: 0
+Solidarity: 0",,95,
+https://www.tga.gov.au/how-we-regulate/manufacturing/manufacture-medical-device/manufacture-specific-types-medical-devices/artificial-intelligence-ai-and-medical-device-software,1,Artificial Intelligence (AI) and medical device software,Australia,Department of Health and Aged Care,https://www.tga.gov.au/how-we-regulate/manufacturing/manufacture-medical-device/manufacture-specific-types-medical-devices/artificial-intelligence-ai-and-medical-device-software,May 2024,Government,"The document outlines the regulatory framework for artificial intelligence (AI) as a medical device in Australia, detailing when AI qualifies as such, the requirements for its safety and performance evidence, and the roles of generative AI and synthetic data in healthcare, while emphasizing the need for transparency and compliance with established medical device regulations.",,,96,The website is protected against web-scraping
+https://www.medical-device-regulation.eu/wp-content/uploads/2020/09/machine_learning_ai_in_medical_devices.pdf,1,MACHINE LEARNING AI IN MEDICAL DEVICES Adapting Regulatory Frameworks and Standards to Ensure Safety and Performance,USA,British Standards Institution& Association for the Advancement of Medical Instrumentation,https://www.medical-device-regulation.eu/wp-content/uploads/2020/09/machine_learning_ai_in_medical_devices.pdf,2020,Inter-organizational partnership,"The document discusses the unique challenges and regulatory needs associated with machine learning artificial intelligence (AI) in medical devices, emphasizing the necessity for adapted regulatory frameworks and standards to ensure safety, performance, and trustworthiness throughout the product lifecycle.","Transparency: 7
+Justice and fairness: 4
+Non-maleficence: 57
+Responsibility: 3
+Privacy: 4
+Beneficence: 2
+Freedom and autonomy: 3
+Trust: 18
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,97,
+https://www.medtecheurope.org/wp-content/uploads/2024/03/medical-technology-industry-perspective-on-the-final-ai-act-1.pdf,1,Medical technology industry perspective on the final AI Act,Belgium,MedTech Europe,https://www.medtecheurope.org/wp-content/uploads/2024/03/medical-technology-industry-perspective-on-the-final-ai-act-1.pdf,March 2024,Private,"MedTech Europe emphasizes the need for clarity and alignment between the AI Act and existing medical device regulations (MDR/IVDR) to ensure safe, effective integration of AI technologies in healthcare while avoiding unnecessary regulatory burdens and maintaining timely access to trustworthy medical innovations.","Transparency: 0
+Justice and fairness: 4
+Non-maleficence: 8
+Responsibility: 0
+Privacy: 0
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,98,
+https://www.ama.com.au/sites/default/files/2022-06/AMA%20Submission%20to%20Automated%20Decision%20Making%20and%20AI%20Regulation_Final.pdf,1,Automated Decision Making and AI Regulation,Australia,Australian Medical Association,https://www.ama.com.au/sites/default/files/2022-06/AMA%20Submission%20to%20Automated%20Decision%20Making%20and%20AI%20Regulation_Final.pdf,April 2022,Non-profit,"The Australian Medical Association (AMA) advocates for careful regulation of Artificial Intelligence (AI) and Automated Decision Making (ADM) in healthcare, emphasizing the need for clear principles that prioritize patient safety, ethical considerations, and equity, while avoiding a one-size-fits-all approach to legislation that could hinder innovation and trust in medical technologies.","Transparency: 2
+Justice and fairness: 5
+Non-maleficence: 4
+Responsibility: 2
+Privacy: 4
+Beneficence: 1
+Freedom and autonomy: 0
+Trust: 2
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,99,
+https://www.digitalhealth.net/2023/06/value-of-regulation-continues-to-rise-as-ai-and-health-technology-booms/,1,Evidence standards framework for digital health technologies,England,National Institute for Health and Care Excellence,https://www.nice.org.uk/corporate/ecd7/resources/evidence-standards-framework-for-digital-health-technologies-pdf-1124017457605,December 2018,Government,"The NICE Evidence Standards Framework for Digital Health Technologies outlines the necessary evidence standards to assess the value and effectiveness of digital health technologies in the UK health and social care system, emphasizing the importance of safety, quality, and equity in their deployment.","Transparency: 3
+Justice and fairness: 8
+Non-maleficence: 18
+Responsibility: 0
+Privacy: 0
+Beneficence: 21
+Freedom and autonomy: 7
+Trust: 0
+Sustainability: 5
+Dignity: 0
+Solidarity: 0",,100,
+https://www.hee.nhs.uk/news-blogs-events/news/ai-digital-healthcare-technologies-capability-framework-published,1,Artificial Intelligence (AI) and Digital Healthcare Technologies Capability framework,England,National Health Service,https://digital-transformation.hee.nhs.uk/building-a-digital-workforce/dart-ed/horizon-scanning/ai-and-digital-healthcare-technologies/framework-structure/ethical-legal-and-regulatory-considerations,February 2023,Government,"The framework emphasizes the importance of ethical, legal, and regulatory considerations in the implementation of digital technologies, particularly Artificial Intelligence (AI), in healthcare, advocating for fairness, transparency, and equity to prevent biases and ensure responsible use.","Transparency: 1
+Justice and fairness: 8
+Non-maleficence: 4
+Responsibility: 6
+Privacy: 2
+Beneficence: 4
+Freedom and autonomy: 12
+Trust: 2
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,101,
+https://www.vde.com/topics-en/health/consulting/approval-of-ai-based-medical-devices-in-europe,1,Good practices for health applications of machine learning: Considerations for manufacturers and regulators,Global,Focus Group on Artificial Intelligence for Health (FG-AI4H),https://www.itu.int/dms_pub/itu-t/opb/fg/T-FG-AI4H-2022-2-PDF-E.pdf,September 2022,Intergovernmental,"The document discusses the ethical, legal, and regulatory considerations surrounding the use of Artificial Intelligence (AI) in healthcare, emphasizing the need for frameworks that promote equity, transparency, and fairness to mitigate biases and protect patient rights.","Transparency: 37
+Justice and fairness: 13
+Non-maleficence: 204
+Responsibility: 8
+Privacy: 10
+Beneficence: 12
+Freedom and autonomy: 15
+Trust: 21
+Sustainability: 3
+Dignity: 0
+Solidarity: 0",,102,
+https://www.nbcc.org/assets/ethics/EthicalPrinciples_for_AI.pdf,1,Ethical Principles for Artificial Intelligence in Counseling,USA,National Board for Certified Counselors,https://www.nbcc.org/assets/ethics/EthicalPrinciples_for_AI.pdf,April 2024,Non-profit,"The document outlines ethical principles for integrating artificial intelligence (AI) in counseling, emphasizing the importance of accountability, client welfare, competence, confidentiality, and transparency to ensure the responsible use of AI tools in clinical practice while prioritizing patient outcomes and ethical standards.","Transparency: 3
+Justice and fairness: 0
+Non-maleficence: 3
+Responsibility: 6
+Privacy: 2
+Beneficence: 0
+Freedom and autonomy: 6
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,103,
+https://www.ccne-ethique.fr/sites/default/files/2023-05/Opinion%20No.141.pdf,1,Medical Diagnosis and Artificial Intelligence: Ethical Issues,France,Comité National Pilote d'Éthique du Numérique,https://www.ccne-ethique.fr/sites/default/files/2023-05/Opinion%20No.141.pdf,November 2022,Independent governmental organization,"The joint opinion by the CCNE and CNPEN emphasizes the ethical considerations surrounding the use of artificial intelligence systems in medical diagnosis, advocating for human oversight, accountability, and the prioritization of patient welfare in the integration of AI technologies into healthcare .","Transparency: 19
+Justice and fairness: 12
+Non-maleficence: 28
+Responsibility: 7
+Privacy: 0
+Beneficence: 15
+Freedom and autonomy: 9
+Trust: 7
+Sustainability: 0
+Dignity: 1
+Solidarity: 1",,104,
+https://www.dermcoll.edu.au/wp-content/uploads/2022/11/ACD-Position-Statement-Use-of-Artifical-Intelligence-in-Dermatology-in-Australia-Nov-2022.pdf,1,Use of Artificial Intelligence in Dermatology in Australia,Australia,The Australasian College of Dermatologists,https://www.dermcoll.edu.au/wp-content/uploads/2022/11/ACD-Position-Statement-Use-of-Artifical-Intelligence-in-Dermatology-in-Australia-Nov-2022.pdf,November 2022,Non-profit,"The Australasian College of Dermatologists endorses the responsible development and ethical integration of artificial intelligence in dermatology, emphasizing patient welfare, transparency, and the need for regulatory approval while advocating for collaboration among stakeholders to ensure safe and effective clinical use.","Transparency: 3
+Justice and fairness: 3
+Non-maleficence: 1
+Responsibility: 1
+Privacy: 2
+Beneficence: 1
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,105,
+https://transform.england.nhs.uk/media/documents/NHSX_AI_report.pdf,1,Artificial Intelligence: How to get it right Putting policy into practice for safe data-driven innovation in health and care ,England,National Health Service,https://transform.england.nhs.uk/media/documents/NHSX_AI_report.pdf,October 2019,Government,"The NHSX report outlines the potential of artificial intelligence (AI) to enhance healthcare delivery in the UK, emphasizing the need for ethical governance, effective training for NHS staff, and a collaborative framework for safe implementation, while addressing challenges like data privacy and infrastructure improvements.","Transparency: 19
+Justice and fairness: 12
+Non-maleficence: 40
+Responsibility: 6
+Privacy: 5
+Beneficence: 25
+Freedom and autonomy: 7
+Trust: 31
+Sustainability: 1
+Dignity: 2
+Solidarity: 0",,106,
+https://iris.paho.org/handle/10665.2/59315,1,Artificial Intelligence Public Health Q&A on artificial intelligence for supporting public health,Global,Pan American Health Organization,https://iris.paho.org/bitstream/handle/10665.2/59315/PAHOEIHIS230030_eng.pdf?sequence=5&isAllowed=y,2024,Specialized agency,"The document outlines guiding principles for the ethical use of artificial intelligence (AI) in public health, emphasizing the importance of transparency, data protection, and accountability to ensure equitable access to healthcare and address potential biases inherent in AI systems .","Transparency: 31
+Justice and fairness: 20
+Non-maleficence: 30
+Responsibility: 9
+Privacy: 14
+Beneficence: 10
+Freedom and autonomy: 9
+Trust: 8
+Sustainability: 2
+Dignity: 1
+Solidarity: 0",,107,
+https://www.nuffieldbioethics.org/publications/ai-in-healthcare-and-research,1,Artificial intelligence (AI) in healthcare and research,England,The Nuffield Council on Bioethics,File must be downloaded,May 2018,Non-profit,"The document discusses the potential applications and ethical implications of artificial intelligence (AI) in healthcare, highlighting its capacity to improve disease detection, patient management, and healthcare delivery while also addressing concerns related to data quality, bias, accountability, and the necessity for transparent governance to ensure public trust and alignment with societal interests.","Transparency: 1
+Justice and fairness: 6
+Non-maleficence: 14
+Responsibility: 1
+Privacy: 2
+Beneficence: 1
+Freedom and autonomy: 3
+Trust: 7
+Sustainability: 1
+Dignity: 2
+Solidarity: 0",,108,
+https://www.novonordisk.com/data-privacy-and-user-rights/data-ethics.html,1,Data and AI ethics,Denmark,Novo Nordisk,https://www.novonordisk.com/data-privacy-and-user-rights/data-ethics.html,,Private,"Novo Nordisk has established data and AI ethics principles to guide ethical decision-making in data usage throughout its operations, emphasizing autonomy, transparency, data quality, fairness, responsible data sharing, and accountability, while ensuring that AI systems respect human rights and minimize bias through careful design and oversight.","Transparency: 4
+Justice and fairness: 4
+Non-maleficence: 14
+Responsibility: 4
+Privacy: 8
+Beneficence: 1
+Freedom and autonomy: 2
+Trust: 1
+Sustainability: 0
+Dignity: 1
+Solidarity: 0
+",,109,
+https://www.bsigroup.com/globalassets/localfiles/es-es/Medical%20devices/Documentos%20tecnicos/bsi-md-ai-ethical-whitepaper-es-gb.pdf,1,Ethical and trustworthy Artificial Intelligence BSI’s introduction to the European Artificial Intelligence Draft Act (AIA),England,British Standards Institution,https://www.bsigroup.com/globalassets/localfiles/es-es/Medical%20devices/Documentos%20tecnicos/bsi-md-ai-ethical-whitepaper-es-gb.pdf,,Non-profit,"The BSI's introduction to the European Artificial Intelligence Draft Act outlines the need for ethical and trustworthy AI, detailing its definitions, prohibited practices, requirements for high-risk AI systems, and the role of notified bodies, while emphasizing the act's potential global impact and the importance of transparency and accountability in AI deployment.","Transparency: 2
+Justice and fairness: 3
+Non-maleficence: 13
+Responsibility: 6
+Privacy: 0
+Beneficence: 1
+Freedom and autonomy: 3
+Trust: 6
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,110,
+https://www.acrrm.org.au/docs/default-source/all-files/college-submission---ethical-principles-of-ai-in-medicine.pdf?sfvrsn=f5064e97_6,1,Feedback on the RANZCR Draft Statement: Ethical Principles of Artificial Intelligence (AI) in Medicine,Australia,Australian College of Rural and Remote Medicine,https://www.acrrm.org.au/docs/default-source/all-files/college-submission---ethical-principles-of-ai-in-medicine.pdf?sfvrsn=f5064e97_6,September 2022,Non-profit,"The Australian College of Rural and Remote Medicine (ACRRM) provides feedback on the RANZCR Draft Statement regarding the ethical principles of artificial intelligence in medicine, emphasizing the importance of patient safety, data privacy, avoidance of bias, transparency, human values, shared responsibility, accountable governance, and alignment with WHO principles to ensure the effective and ethical use of AI in healthcare.","Transparency: 3
+Justice and fairness: 3
+Non-maleficence: 7
+Responsibility: 7
+Privacy: 1
+Beneficence: 2
+Freedom and autonomy: 5
+Trust: 0
+Sustainability: 1
+Dignity: 0
+Solidarity: 0",,111,
+https://www.eerstekamer.nl/bijlage/20201105/artificial_intelligence_in_health/document3/f=/vldiey9antv3.pdf,1,"Artificial intelligence in health care: medical, legal and ethical challenges ahead",Global,Council of Europe,https://www.eerstekamer.nl/bijlage/20201105/artificial_intelligence_in_health/document3/f=/vldiey9antv3.pdf,October 2020,Intergovernmental,"The report by the Committee on Social Affairs, Health and Sustainable Development emphasizes the transformative potential of artificial intelligence (AI) in healthcare, while highlighting the urgent need for comprehensive legal, ethical, and regulatory frameworks to address the associated risks to individual rights and public health, particularly in light of the rapid advancements and deployment of AI technologies.","Transparency: 16
+Justice and fairness: 18
+Non-maleficence: 65
+Responsibility: 38
+Privacy: 31
+Beneficence: 7
+Freedom and autonomy: 37
+Trust: 10
+Sustainability: 3
+Dignity: 4
+Solidarity: 5",,112,
+https://www.gov.uk/government/publications/g7-health-track-digital-health-final-reports/deliverable-2-principles-to-support-the-development-and-deployment-of-artificial-intelligence-or-machine-learning-enabled-medical-devices-across-juri,1,Deliverable 2: principles to support the development and deployment of artificial intelligence or machine learning-enabled medical devices across jurisdictions,England,Department of Health & Social Care,https://www.gov.uk/government/publications/g7-health-track-digital-health-final-reports/deliverable-2-principles-to-support-the-development-and-deployment-of-artificial-intelligence-or-machine-learning-enabled-medical-devices-across-juri,December 2021,Government,"The G7 policy paper outlines principles aimed at harmonizing the development and deployment of artificial intelligence (AI) and machine learning (ML)-enabled medical devices across jurisdictions to enhance patient safety, promote transparency, and foster responsible innovation, while addressing challenges related to data quality, model robustness, and ethical considerations in healthcare.","Transparency: 6
+Justice and fairness: 8
+Non-maleficence: 13
+Responsibility: 0
+Privacy: 0
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,113,
+https://www.medtecheurope.org/resource-library/medtech-europe-signs-joint-healthcare-statement-highlighting-how-the-ai-act-can-give-citizens-the-confidence-to-embrace-ai-enabled-medical-technologies/,1,Stakeholder joint statement on access to innovative healthcare under the Artificial Intelligence Act (AI Act),Belgium,MedTech Europe,https://www.medtecheurope.org/wp-content/uploads/2023/06/230619-ai-act-letter-with-healthcare-stakeholders_final.pdf,June 2023,Private,"The stakeholder joint statement emphasizes the need for the proposed AI Act to align with existing healthcare regulations, clarify definitions, establish a robust data governance framework, and ensure uniform implementation across EU member states to enhance patient safety and access to innovative AI-enabled healthcare solutions while fostering transparency and fairness within the healthcare ecosystem.","Transparency: 0
+Justice and fairness: 2
+Non-maleficence: 6
+Responsibility: 3
+Privacy: 0
+Beneficence: 2
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,114,
+https://news.mit.edu/2023/mit-group-releases-white-papers-governance-ai-1211,1,A Framework for U.S. AI Governance: Creating a Safe and Thriving AI Sector,USA,MIT Schwarzman College of Computing,https://computing.mit.edu/wp-content/uploads/2023/11/AIPolicyBrief.pdf,November 2023,Private,"The policy brief outlines a framework for U.S. AI governance focused on maintaining national AI leadership while ensuring the beneficial deployment of AI through established regulations, clear definitions, data governance, auditing mechanisms, and a proposed regulatory agency to address emerging challenges in AI technology.","Transparency: 3
+Justice and fairness: 0
+Non-maleficence: 5
+Responsibility: 11
+Privacy: 3
+Beneficence: 1
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,115,
+https://www.cadth.ca/sites/default/files/pdf/eh0070_overview_clinical_applications_of_AI.pdf,1,An Overview of Clinical Applications of Artificial Intelligence,Canada,Canadian Agency for Drugs and Technologies in Health,https://www.cadth.ca/sites/default/files/pdf/eh0070_overview_clinical_applications_of_AI.pdf,September 2018,Non-profit,"The CADTH report provides an overview of the clinical applications of artificial intelligence in healthcare, highlighting its potential to improve patient care and service delivery across various specialties, while also addressing challenges such as data reliance, regulatory considerations, ethical implications, and the need for clinician acceptance.","Transparency: 4
+Justice and fairness: 2
+Non-maleficence: 12
+Responsibility: 4
+Privacy: 8
+Beneficence: 2
+Freedom and autonomy: 4
+Trust: 4
+Sustainability: 1
+Dignity: 1
+Solidarity: 0",,116,
+https://lsmu.lt/wp-content/uploads/AI-Guidelines-ED.docx,1,"Guidelines of the Lithuanian University of Health Sciences, for the use of artificial intelligence in studies, research, innovation and clinical practice",Lithuania,Lithuanian University of Health Sciences,File must be downloaded,April 2024,Public research instituition,"The Lithuanian University of Health Sciences has established guidelines to ensure the ethical, legal, and socially responsible development and use of artificial intelligence (AI) technologies in education, research, and clinical practice, emphasizing human-centered approaches, data protection, and transparency.","Transparency: 7
+Justice and fairness: 7
+Non-maleficence: 23
+Responsibility: 13
+Privacy: 4
+Beneficence: 11
+Freedom and autonomy: 11
+Trust: 0
+Sustainability: 1
+Dignity: 2
+Solidarity: 0",,117,
+https://www.ace-hta.gov.sg/docs/default-source/default-library/artificial-intelligence-and-its-clinical-applications.pdf?sfvrsn=21dc796d_0,1,Artificial Intelligence and Its Clinical Applications,Singapore,Agency for Care Effectiveness,https://www.ace-hta.gov.sg/docs/default-source/default-library/artificial-intelligence-and-its-clinical-applications.pdf?sfvrsn=21dc796d_0,September 2020,Government,"The overview discusses the potential and challenges of artificial intelligence (AI) in clinical applications, emphasizing its ability to automate tasks such as disease detection and patient monitoring while highlighting regulatory considerations, implementation issues, and the need for ethical frameworks to ensure safe and effective use in healthcare.","Transparency: 5
+Justice and fairness: 3
+Non-maleficence: 11
+Responsibility: 2
+Privacy: 4
+Beneficence: 7
+Freedom and autonomy: 2
+Trust: 1
+Sustainability: 1
+Dignity: 0
+Solidarity: 0",,118,
+https://www.sfda.gov.sa/sites/default/files/2023-01/MDS-G010ML.pdf,1,Guidance on Artificial Intelligence (AI) and Machine Learning (ML) technologies based Medical Devices,Saudi Arabia,Saudi Food and Drug Authority,https://www.sfda.gov.sa/sites/default/files/2023-01/MDS-G010ML.pdf,November 2022,Government,"This guidance document outlines the requirements for obtaining Medical Devices Marketing Authorization (MDMA) for Artificial Intelligence (AI) and Machine Learning (ML) based medical devices in Saudi Arabia, detailing classification criteria, clinical evaluation, risk management, and quality management systems necessary for their regulatory compliance.","Transparency: 0
+Justice and fairness: 1
+Non-maleficence: 26
+Responsibility: 1
+Privacy: 0
+Beneficence: 3
+Freedom and autonomy: 0
+Trust: 2
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,119,
+https://www.sor.org/getmedia/26c8052b-86e7-4900-8057-d0852f9e5094/AI-Guidance-for-clinical-imaging-and-therapeutic-radiography-workforce-professionals_LLv1,1,Artificial intelligence: Guidance for clinical imaging and therapeutic radiography workforce professionals,England,The Society of Radiographers,https://www.sor.org/getmedia/26c8052b-86e7-4900-8057-d0852f9e5094/AI-Guidance-for-clinical-imaging-and-therapeutic-radiography-workforce-professionals_LLv1,,Non-profit,"This guidance document from the Society of Radiographers outlines recommendations for the integration of artificial intelligence (AI) in clinical imaging and therapeutic radiography in the UK, emphasizing the importance of collaboration among healthcare professionals, education, and stakeholder partnerships to enhance patient care and optimize AI technology development.","Transparency: 1
+Justice and fairness: 6
+Non-maleficence: 5
+Responsibility: 13
+Privacy: 1
+Beneficence: 3
+Freedom and autonomy: 1
+Trust: 11
+Sustainability: 2
+Dignity: 0
+Solidarity: 0",,120,
+https://researchbriefings.files.parliament.uk/documents/POST-PN-0708/POST-PN-0708.pdf,1,Policy implications of artificial intelligence (AI),England,The Parliamentary Office of Science and Technology,https://researchbriefings.files.parliament.uk/documents/POST-PN-0708/POST-PN-0708.pdf,January 2024,Government,"The POST note discusses the rapid development of artificial intelligence (AI) in the UK, highlighting its implications for security, privacy, and democratic processes, while outlining the government's pro-innovation regulatory approach, current legislation gaps, and the potential need for further legal frameworks to address issues such as automated decision-making, algorithmic bias, and workers' rights.","Transparency: 16
+Justice and fairness: 20
+Non-maleficence: 50
+Responsibility: 20
+Privacy: 9
+Beneficence: 5
+Freedom and autonomy: 15
+Trust: 3
+Sustainability: 3
+Dignity: 1
+Solidarity: 0
+",,121,
+https://www.gov.uk/government/publications/good-machine-learning-practice-for-medical-device-development-guiding-principles/good-machine-learning-practice-for-medical-device-development-guiding-principles,1,Good Machine Learning Practice for Medical Device Development: Guiding Principles,England,Medicines & Healthcare products Regulatory Agency,https://www.gov.uk/government/publications/good-machine-learning-practice-for-medical-device-development-guiding-principles/good-machine-learning-practice-for-medical-device-development-guiding-principles,October 2021,Government,"The FDA, Health Canada, and the UK’s MHRA have established 10 guiding principles for Good Machine Learning Practice (GMLP) to enhance the safety, effectiveness, and quality of AI/ML medical devices, emphasizing the importance of multi-disciplinary expertise, robust software engineering, representative clinical data, independent training and test datasets, tailored model design, human-AI collaboration, rigorous testing, clear user information, and ongoing performance monitoring.","Transparency: 1
+Justice and fairness: 0
+Non-maleficence: 4
+Responsibility: 0
+Privacy: 0
+Beneficence: 2
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,122,
+https://www.cpsm.mb.ca/news/advice-to-the-profession-on-the-responsible-use-of-artificial-intelligence-in-the-practice-of-medicine,1,Advice to the Profession: Responsible use of Artificial Intelligence in the Practice of Medicine,Canada,The College of Physicians & Surgeons of Manitoba,https://cpsm.mb.ca/assets/Advice/Advice%20to%20the%20profession%20-%20AI.pdf,June 2024,Non-profit,"The College of Physicians & Surgeons of Manitoba (CPSM) has issued guidance on the responsible and ethical use of generative artificial intelligence (GenAI) in medical practice, emphasizing the importance of education, accountability, informed consent, confidentiality, and equity to ensure safe and effective patient care.","Transparency: 6
+Justice and fairness: 5
+Non-maleficence: 13
+Responsibility: 9
+Privacy: 9
+Beneficence: 5
+Freedom and autonomy: 14
+Trust: 3
+Sustainability: 0
+Dignity: 1
+Solidarity: 0
+",,123,
+https://www.healthcapital.com/hcc/newsletter/05_17/PDF/AI.pdf,1,Artificial Intelligence in Healthcare - The Regulatory Environment,USA,HEALTH CAPITAL CONSULTANTS,https://www.healthcapital.com/hcc/newsletter/05_17/PDF/AI.pdf,May 2017,Private,"The article discusses the challenges of regulating artificial intelligence (AI) in healthcare, highlighting the lack of specific federal statutes, the potential conflicts with HIPAA regarding patient data, and the evolving role of AI in medical device innovation and public health oversight.","Transparency: 0
+Justice and fairness: 0
+Non-maleficence: 0
+Responsibility: 4
+Privacy: 2
+Beneficence: 0
+Freedom and autonomy: 1
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,124,
+https://cpsa.ca/wp-content/uploads/2023/08/AP_Artificial-Intelligence.pdf,1,Artificial Intelligence in Generated Patient Record Content,Canada,The College of Physicians & Surgeons of Alberta,https://cpsa.ca/wp-content/uploads/2023/08/AP_Artificial-Intelligence.pdf,September 2023,Public sector organization,"The document provides guidance from the College of Physicians & Surgeons of Alberta on the responsible use of generative artificial intelligence in patient record content, emphasizing the importance of patient consent, privacy protection, accuracy verification, and caution in clinical decision-making, while noting the current lack of comprehensive research and regulatory support in this area.","Transparency: 1
+Justice and fairness: 1
+Non-maleficence: 19
+Responsibility: 0
+Privacy: 18
+Beneficence: 1
+Freedom and autonomy: 9
+Trust: 1
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,125,
+https://smer.se/wp-content/uploads/2020/06/smer-2020-2-in-brief-artificial-intelligence-in-healthcare.pdf,1,Artificial intelligence in healthcare,Sweden,The Swedish National Council on Medical Ethics,https://smer.se/wp-content/uploads/2020/06/smer-2020-2-in-brief-artificial-intelligence-in-healthcare.pdf,2022,Government,"The publication discusses the potential and challenges of artificial intelligence (AI) in healthcare, emphasizing its ability to enhance diagnostics, treatment personalization, and operational efficiency, while also highlighting ethical, legal, and societal concerns related to patient safety, data privacy, bias, and the evolving roles of healthcare professionals.","Transparency: 14
+Justice and fairness: 4
+Non-maleficence: 13
+Responsibility: 12
+Privacy: 7
+Beneficence: 7
+Freedom and autonomy: 12
+Trust: 23
+Sustainability: 0
+Dignity: 0
+Solidarity: 1
+",,126,
+https://www.urban.org/sites/default/files/2023-09/Building%20Equitable%20Artificial%20Intelligence%20in%20Health%20Care.pdf,1,Building Equitable Artificial Intelligence in Health Care Addressing Current Challenges and Exploring Future Opportunities,USA,THE URBAN INSTITUTE,https://www.urban.org/sites/default/files/2023-09/Building%20Equitable%20Artificial%20Intelligence%20in%20Health%20Care.pdf,September 2023,Non-profit,"The paper examines the biases in AI applications within healthcare that can perpetuate health disparities, reviews current methods for evaluating and mitigating these biases, and discusses the need for equitable AI to improve health outcomes for underserved populations while calling for regulatory changes and better data practices.","Transparency: 3
+Justice and fairness: 52
+Non-maleficence: 6
+Responsibility: 4
+Privacy: 1
+Beneficence: 2
+Freedom and autonomy: 0
+Trust: 4
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,127,
+https://www.ema.europa.eu/en/documents/scientific-guideline/draft-reflection-paper-use-artificial-intelligence-ai-medicinal-product-lifecycle_en.pdf,1,Reflection paper on the use of Artificial Intelligence (AI) in 6 the medicinal product lifecycle - DRAFT,Global,European Medicines Agency,https://www.ema.europa.eu/en/documents/scientific-guideline/draft-reflection-paper-use-artificial-intelligence-ai-medicinal-product-lifecycle_en.pdf,2023,Intergovernmental,"The European Medicines Agency's reflection paper outlines considerations for the use of Artificial Intelligence (AI) and machine learning in the medicinal product lifecycle, addressing regulatory interactions, technical aspects, and ethical implications to ensure patient safety and data integrity.","Transparency: 11
+Justice and fairness: 7
+Non-maleficence: 21
+Responsibility: 7
+Privacy: 2
+Beneficence: 0
+Freedom and autonomy: 5
+Trust: 1
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,128,
+https://nam.edu/wp-content/uploads/2024/04/Artificial-Intelligence-in-Health-Health-Care-and-Biomedical-Science_final_4.8.24V2.pdf,1,"Artifi cial Intelligence in Health, Health Care, and Biomedical Science: An AI Code of Conduct Principles and Commitments Discussion Draft",USA,National Academy of Medicine,https://nam.edu/wp-content/uploads/2024/04/Artificial-Intelligence-in-Health-Health-Care-and-Biomedical-Science_final_4.8.24V2.pdf,April 2024,Non-profit,"The National Academy of Medicine's draft Code of Conduct framework for Artificial Intelligence in health, health care, and biomedical science outlines essential principles and commitments to ensure the responsible and equitable development and application of AI technologies while addressing associated risks and promoting collaboration among stakeholders.","Transparency: 3
+Justice and fairness: 5
+Non-maleficence: 24
+Responsibility: 5
+Privacy: 3
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 4
+Sustainability: 5
+Dignity: 0
+Solidarity: 0",,129,Link is duplicated in row #2
+https://deviceology.net/ai-and-the-evolution-of-clinical-risk-safety-standards/,1,Unsure about AI digital clinical safety risks,England,Deviceology,https://deviceology.net/wp-content/uploads/2024/07/Unsure-about-AI-digital-clinical-safety-risks-1.pdf,July 2024,Private,"The document outlines the emerging clinical safety risks associated with the integration of artificial intelligence (AI) in healthcare, emphasizes the limitations of existing risk management standards, and proposes a new approach to governance that includes specific mitigation strategies for AI-related risks to ensure patient safety and compliance with ethical and regulatory standards.","Transparency: 11
+Justice and fairness: 7
+Non-maleficence: 12
+Responsibility: 1
+Privacy: 4
+Beneficence: 1
+Freedom and autonomy: 1
+Trust: 1
+Sustainability: 0
+Dignity: 0
+Solidarity: 0",,130,
+https://aihealthalliance.org/wp-content/uploads/2021/12/AAAiH_Roadmap_1Dec2021_FINAL.pdf,1,A ROADMAP FOR ARTIFICIAL INTELLIGENCE IN HEALTHCARE FOR AUSTRALIA,Australia,The Australian Alliance for Artificial Intelligence in Healthcare,https://aihealthalliance.org/wp-content/uploads/2021/12/AAAiH_Roadmap_1Dec2021_FINAL.pdf,December 2021,Non-profit,"The ""AI in Healthcare Roadmap for Australia"" outlines a comprehensive strategy to harness the potential of artificial intelligence in the healthcare sector, identifying key priorities such as safety, quality, ethics, privacy, governance, workforce development, and industry competitiveness, while providing actionable recommendations to ensure effective and responsible AI integration into healthcare services.","Transparency: 6
+Justice and fairness: 4
+Non-maleficence: 60
+Responsibility: 0
+Privacy: 20
+Beneficence: 12
+Freedom and autonomy: 6
+Trust: 3
+Sustainability: 12
+Dignity: 0
+Solidarity: 0
+",,131,
+https://www.nice.org.uk/about/what-we-do/our-programmes/evidence-standards-framework-for-digital-health-technologies,1,Evidence standards framework for digital health technologies,England,National Institute for Health and Care Excellence,https://www.nice.org.uk/corporate/ecd7/resources/evidence-standards-framework-for-digital-health-technologies-pdf-1124017457605,August 2022,Government,"The NICE Evidence Standards Framework for Digital Health Technologies outlines the evidence requirements and standards necessary for evaluating the value and effectiveness of digital health technologies within the UK health and social care system, emphasizing safety, performance, economic impact, and considerations for design, deployment, and user acceptability.","Transparency: 3
+Justice and fairness: 8
+Non-maleficence: 18
+Responsibility: 0
+Privacy: 0
+Beneficence: 21
+Freedom and autonomy: 7
+Trust: 0
+Sustainability: 5
+Dignity: 0
+Solidarity: 0",,132,
+https://www.core-md.eu/artificial-intelligence-and-medical-devices-regulation-discussing-the-legal-framework-and-the-ethical-challenges-within-the-core-md-project/,1,REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL on the European Health Data Space,Global,EUROPEAN COMMISSION,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52022PC0197,May 2022,Intergovernmental,"The European Health Data Space (EHDS) aims to enhance individuals' control over their electronic health data while facilitating secure access for researchers, innovators, and policymakers across the EU, thereby addressing existing barriers to data sharing, promoting interoperability, and supporting health-related research and emergency response initiatives.","Transparency: 12
+Justice and fairness: 10
+Non-maleficence: 144
+Responsibility: 11
+Privacy: 7
+Beneficence: 17
+Freedom and autonomy: 15
+Trust: 7
+Sustainability: 2
+Dignity: 0
+Solidarity: 4",,133,
+https://www.mfds.go.kr/eng/brd/m_40/view.do?seq=72628&srchFr=&srchTo=&srchWord=&srchTp=&itm_seq_1=0&itm_seq_2=0&multi_itm_seq=0&company_cd=&company_nm=&page=1,1,Guidance on Clinical Trials Design of Artificial Intelligence(AI)-based Medical Devices,South Korea,National Institute of Food and Drug Safety Evaluation,File must be downloaded,July 2022,Government,"The guidance outlines the review and approval process for clinical trials involving machine learning-enabled medical devices, emphasizing considerations for designing retrospective studies, selecting test datasets, establishing reference standards, and assessing primary endpoints to ensure effective evaluation and regulatory compliance.","Transparency: 1
+Justice and fairness: 2
+Non-maleficence: 11
+Responsibility: 0
+Privacy: 0
+Beneficence: 0
+Freedom and autonomy: 6
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,134,
+https://www.mckinsey.com/industries/life-sciences/our-insights/generative-ai-in-the-pharmaceutical-industry-moving-from-hype-to-reality,1,Generative AI in the pharmaceutical industry: Moving from hype to reality,USA,McKinsey & Company,https://www.mckinsey.com/~/media/mckinsey/industries/life%20sciences/our%20insights/generative%20ai%20in%20the%20pharmaceutical%20industry%20moving%20from%20hype%20to%20reality/generative-ai-in-the-pharmaceutical-industry-moving-from-hype-to-reality-vf.pdf?shouldIndex=false,January 2024,Private,"The McKinsey report discusses the transformative potential of generative AI in the pharmaceutical industry, highlighting its ability to enhance drug discovery, streamline clinical trials, and optimize marketing efforts, with an estimated economic value of $60 billion to $110 billion annually, while emphasizing the need for strategic implementation and change management to fully realize its benefits.","Transparency: 0
+Justice and fairness: 0
+Non-maleficence: 5
+Responsibility: 0
+Privacy: 4
+Beneficence: 1
+Freedom and autonomy: 2
+Trust: 3
+Sustainability: 2
+Dignity: 0
+Solidarity: 0
+",,135,
+https://www.hca.wa.gov/assets/program/hca-artificial-intelligence-ethics-framework.pdf,1,Artificial Intelligence Ethics Framework,USA,The Washington State Health Care Authority,https://www.hca.wa.gov/assets/program/hca-artificial-intelligence-ethics-framework.pdf,March 2024,Government,"The HCA Artificial Intelligence Ethics Framework aims to guide the ethical evaluation and use of AI in healthcare, focusing on fairness, transparency, accountability, and compliance to protect client data while enhancing service delivery and health equity in Washington State.","Transparency: 17
+Justice and fairness: 28
+Non-maleficence: 22
+Responsibility: 17
+Privacy: 13
+Beneficence: 10
+Freedom and autonomy: 9
+Trust: 3
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,136,
+https://www.ranzcr.com/whats-on/news-media/ethical-principles-for-artificial-intelligence-for-medicine-version-2,1,Ethical Principles for AI in Medicine,"Australia, New Zealand",The Royal Australian and New Zealand College of Radiologists,https://www.ranzcr.com/our-work/artificial-intelligence,2023,Non-profit,"The ""Ethical Principles for AI in Medicine"" document by the Royal Australian and New Zealand College of Radiologists outlines nine key ethical principles to guide the safe, equitable, and responsible development and implementation of artificial intelligence tools in healthcare, emphasizing safety, privacy, bias minimization, transparency, and accountability.","Transparency: 5
+Justice and fairness: 5
+Non-maleficence: 9
+Responsibility: 8
+Privacy: 5
+Beneficence: 2
+Freedom and autonomy: 5
+Trust: 1
+Sustainability: 0
+Dignity: 1
+Solidarity: 0",,137,
+https://www.illumina.com/content/dam/illumina-marketing/documents/company/Artificial-Intelligence-Ethics-Principles.pdf,1,Ethical Artificial Intelligence Principles,USA,Illumina,https://www.illumina.com/content/dam/illumina-marketing/documents/company/Artificial-Intelligence-Ethics-Principles.pdf,,Private,"Illumina's ""Ethical Artificial Intelligence Principles"" outline the company's commitment to developing AI systems that prioritize transparency, diversity, values-driven design, and accountability to enhance human health through genomic insights while ensuring compliance with applicable laws.","Transparency: 1
+Justice and fairness: 4
+Non-maleficence: 1
+Responsibility: 1
+Privacy: 1
+Beneficence: 0
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,138,
+https://clias.iecs.org.ar/wp-content/uploads/2024/04/Documento-Tecnico-Numero-3-ENGLISH.pdf,1,Responsible Artificial Intelligence (AI): Keys to Applying Ethical Principles in AI Solutions in the Healthcare Field.,Global,Centro de Inteligencia Artificial y Salud para América Latina y el Caribe,https://clias.iecs.org.ar/wp-content/uploads/2024/04/Documento-Tecnico-Numero-3-ENGLISH.pdf,September 2023,Non-profit,"The document outlines ethical principles for the responsible application of artificial intelligence (AI) in healthcare, emphasizing the importance of transparency, diversity, and accountability while addressing biases in AI models to ensure equitable and beneficial healthcare solutions for all.","Transparency: 28
+Justice and fairness: 22
+Non-maleficence: 20
+Responsibility: 9
+Privacy: 14
+Beneficence: 7
+Freedom and autonomy: 6
+Trust: 5
+Sustainability: 0
+Dignity: 4
+Solidarity: 1",,139,
+https://www.gov.uk/government/news/uk-usa-and-canadian-regulators-identify-10-guiding-principles-to-be-addressed-when-medical-devices-use-ai-or-machine-learning-software,1,Good Machine Learning Practice for Medical Device Development: Guiding Principles,"USA, Canada, England","The U.S. Food and Drug Administration, Health Canada, and the United Kingdom’s Medicines and Healthcare products Regulatory Agency",https://assets.publishing.service.gov.uk/media/617921168fa8f52978e14c0b/GMLP_Guiding_Principles_FINAL.pdf,October 2021,Government,"The document outlines ten guiding principles for Good Machine Learning Practice (GMLP) in medical device development, established by regulatory agencies to promote safe, effective, and high-quality AI/ML medical devices, focusing on aspects like multi-disciplinary expertise, data representativeness, software security, user information, and ongoing monitoring.","Transparency: 1
+Justice and fairness: 0
+Non-maleficence: 5
+Responsibility: 0
+Privacy: 0
+Beneficence: 2
+Freedom and autonomy: 0
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,140,
+https://www.nationalnursesunited.org/sites/default/files/nnu/documents/0424_NursesPatients-BillOfRights_Principles-AI-Justice_flyer.pdf,1,Nurses and Patients’ Bill of Rights: Guiding Principles for A.I. Justice in Nursing and Health Care,USA,National Nurses United,https://www.nationalnursesunited.org/sites/default/files/nnu/documents/0424_NursesPatients-BillOfRights_Principles-AI-Justice_flyer.pdf,April 2024,Non-profit,"The document outlines the Nurses and Patients' Bill of Rights, emphasizing principles for ensuring that artificial intelligence in healthcare maintains high-quality, safe, and equitable patient care while protecting patient privacy and professional judgment.","Transparency: 1
+Justice and fairness: 2
+Non-maleficence: 5
+Responsibility: 0
+Privacy: 2
+Beneficence: 0
+Freedom and autonomy: 3
+Trust: 0
+Sustainability: 0
+Dignity: 0
+Solidarity: 0
+",,141,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
 ,,,,,,,,,,,,
