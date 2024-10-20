@@ -29,14 +29,43 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
   const [selectedCountry, setSelectedCountry] = useState<any>(null);
   const tooltipRef = useRef<HTMLDivElement>(null); // Reference for the tooltip
 
-  let projectionScale = 100;
-  if (width >= 1024) {
-    projectionScale = 250;
-  } else if (width >= 768) {
-    projectionScale = 250;
-  } else {
-    projectionScale = 150;
-  }
+  // let projectionScale = 100;
+  // if (width >= 1024) {
+  //   projectionScale = 250;
+  // } else if (width >= 768) {
+  //   projectionScale = 250;
+  // } else {
+  //   projectionScale = 150;
+  // }
+
+  const [projectionScale, setProjectionScale] = useState(100); // Default scale
+  const getScaleForWidth = (width: number) => {
+    if (width < 576) {
+      return 80; // Extra Small Devices
+    } else if (width >= 576 && width < 768) {
+      return 120; // Small Devices
+    } else if (width >= 768 && width < 992) {
+      return 150; // Medium Devices
+    } else if (width >= 992 && width < 1200) {
+      return 180; // Large Devices
+    } else {
+      return 220; // Extra Large Devices
+    }
+  };
+
+  useEffect(() => {
+    const handleResize = () => {
+      const newScale = getScaleForWidth(window.innerWidth);
+      setProjectionScale(newScale);
+    };
+
+    // Attach resize event listener
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Initial calculation on mount
+
+    // Cleanup on unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleCountryClick = (feature: any) => {
     const countryId = feature.id || "Unknown"; // Use `id` from GeoJSON
@@ -87,6 +116,7 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
         borderColor="#333333"
         graticuleLineColor="#666666"
       />
+
       {/* Show tooltip if a country is clicked */}
       {selectedCountry && (
         <div
