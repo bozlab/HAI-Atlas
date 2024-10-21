@@ -58,11 +58,11 @@ export default async function HomePage() {
         </div>
       </section>
       <section id="geo-map">
-        {/* <div className="container bg-blue-300" style={{ width: "100%", height: "20vh" }}> */}
-        <div className="container w-full min-h-[30vh] sm:min-h-[30vh] md:min-h-[80vh] lg:min-h-[100vh]">
-          <RotatableGeoMap data={geoData} />
-        </div>
-      </section>
+  <div className="container" style={{ width: "100%", height: "100vh" }}>
+    <RotatableGeoMap data={geoData} />
+  </div>
+</section>
+
 
       <section className="py-6 md:py-10">
         <div className="container mx-auto px-4">

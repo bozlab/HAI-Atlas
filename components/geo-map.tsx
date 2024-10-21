@@ -38,35 +38,6 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
   //   projectionScale = 150;
   // }
 
-  const [projectionScale, setProjectionScale] = useState(100); // Default scale
-  const getScaleForWidth = (width: number) => {
-    if (width < 576) {
-      return 80; // Extra Small Devices
-    } else if (width >= 576 && width < 768) {
-      return 120; // Small Devices
-    } else if (width >= 768 && width < 992) {
-      return 150; // Medium Devices
-    } else if (width >= 992 && width < 1200) {
-      return 180; // Large Devices
-    } else {
-      return 220; // Extra Large Devices
-    }
-  };
-
-  useEffect(() => {
-    const handleResize = () => {
-      const newScale = getScaleForWidth(window.innerWidth);
-      setProjectionScale(newScale);
-    };
-
-    // Attach resize event listener
-    window.addEventListener("resize", handleResize);
-    handleResize(); // Initial calculation on mount
-
-    // Cleanup on unmount
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
   const handleCountryClick = (feature: any) => {
     const countryId = feature.id || "Unknown"; // Use `id` from GeoJSON
     const countryData = data.find((item) => item.id === countryId);
@@ -106,13 +77,41 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
     large: 250, // For widths >= 1024
   };
   // let projectionScale = zoom * (width >= 1024 ? 250 : width >= 768 ? 250 : 150);
-  // let projectionScale =
-  // zoom *
-  // (width >= 1024
-  //   ? scaleFactors.large
-  //   : width >= 768
-  //   ? scaleFactors.medium
-  //   : scaleFactors.small);
+  let projectionScale =
+    zoom *
+    (width >= 1024
+      ? scaleFactors.large
+      : width >= 768
+      ? scaleFactors.medium
+      : scaleFactors.small);
+  // const [projectionScale, setProjectionScale] = useState(100); // Default scale
+  // const getScaleForWidth = (width: number) => {
+  //   if (width < 576) {
+  //     return 80; // Extra Small Devices
+  //   } else if (width >= 576 && width < 768) {
+  //     return 120; // Small Devices
+  //   } else if (width >= 768 && width < 992) {
+  //     return 150; // Medium Devices
+  //   } else if (width >= 992 && width < 1200) {
+  //     return 180; // Large Devices
+  //   } else {
+  //     return 220; // Extra Large Devices
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     const newScale = getScaleForWidth(window.innerWidth);
+  //     setProjectionScale(newScale);
+  //   };
+
+  //   // Attach resize event listener
+  //   window.addEventListener("resize", handleResize);
+  //   handleResize(); // Initial calculation on mount
+
+  //   // Cleanup on unmount
+  //   return () => window.removeEventListener("resize", handleResize);
+  // }, []);
 
   const [translate, setTranslate] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false); // State to track dragging
