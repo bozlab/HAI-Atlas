@@ -107,12 +107,12 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
   };
   // let projectionScale = zoom * (width >= 1024 ? 250 : width >= 768 ? 250 : 150);
   // let projectionScale =
-    // zoom *
-    // (width >= 1024
-    //   ? scaleFactors.large
-    //   : width >= 768
-    //   ? scaleFactors.medium
-    //   : scaleFactors.small);
+  // zoom *
+  // (width >= 1024
+  //   ? scaleFactors.large
+  //   : width >= 768
+  //   ? scaleFactors.medium
+  //   : scaleFactors.small);
 
   const [translate, setTranslate] = useState({ x: 0, y: 0 });
   const [isDragging, setIsDragging] = useState(false); // State to track dragging
@@ -245,13 +245,31 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
         mapContainer.removeEventListener("touchend", handleTouchEnd);
       }
     };
-  }, [handleWheel, handleMouseDown, handleMouseMove, handleMouseUp, handleTouchStart, handleTouchMove, handleTouchEnd]);
+  }, [
+    handleWheel,
+    handleMouseDown,
+    handleMouseMove,
+    handleMouseUp,
+    handleTouchStart,
+    handleTouchMove,
+    handleTouchEnd,
+  ]);
 
   return (
     <div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <button onClick={() => handleZoom(-0.1)}>Zoom Out</button>
-        <button onClick={() => handleZoom(0.1)}>Zoom In</button>
+        <button
+          onClick={() => handleZoom(-0.1)}
+          onTouchStart={() => handleZoom(-0.1)}
+        >
+          Zoom Out
+        </button>
+        <button
+          onClick={() => handleZoom(0.1)}
+          onTouchStart={() => handleZoom(0.1)}
+        >
+          Zoom In
+        </button>
       </div>
 
       <div
