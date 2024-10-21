@@ -91,12 +91,12 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
     null
   ); // Starting coordinates for drag
 
-  const handleZoom = useCallback((delta: number) => {  
+  const handleZoom = useCallback((delta: number) => {
     setZoom((prev) => Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, prev + delta))); // Prevent zooming out too far
   }, []);
 
   const handlePan = useCallback(
-    (dx: number, dy: number) => {    
+    (dx: number, dy: number) => {
       const boundary = projectionScale / 2; // Dynamic boundary based on zoom level
       if (zoom < MAX_ZOOM) {
         // Limit panning when zoom is below max
@@ -159,6 +159,36 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
     setDragStart(null); // Reset drag start
   }, []);
 
+  // Touch events (smart phone)
+  const handleTouchStart = useCallback((event: TouchEvent) => {
+    if (event.touches.length === 1) {
+      // Single touch for panning
+      const touch = event.touches[0];
+      setIsDragging(true);
+      setDragStart({ x: touch.clientX, y: touch.clientY });
+    }
+  }, []);
+
+  const handleTouchMove = useCallback(
+    (event: TouchEvent) => {
+      if (!isDragging || !dragStart) return;
+
+      const touch = event.touches[0];
+      const dx = touch.clientX - dragStart.x;
+      const dy = touch.clientY - dragStart.y;
+      handlePan(dx, dy);
+
+      // Update drag start position
+      setDragStart({ x: touch.clientX, y: touch.clientY });
+    },
+    [isDragging, dragStart, handlePan]
+  );
+
+  const handleTouchEnd = useCallback(() => {
+    setIsDragging(false);
+    setDragStart(null); // Reset drag start
+  }, []);
+
   useEffect(() => {
     const mapContainer = document.getElementById("map-container");
     if (mapContainer) {
@@ -167,6 +197,11 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
       mapContainer.addEventListener("mousemove", handleMouseMove);
       mapContainer.addEventListener("mouseup", handleMouseUp);
       mapContainer.addEventListener("mouseleave", handleMouseUp); // Handle mouse leaving the container
+
+      // Add touch event listeners
+      mapContainer.addEventListener("touchstart", handleTouchStart);
+      mapContainer.addEventListener("touchmove", handleTouchMove);
+      mapContainer.addEventListener("touchend", handleTouchEnd);
     }
     return () => {
       if (mapContainer) {
@@ -175,9 +210,13 @@ const GeoMap: React.FC<GeoMapProps> = ({ data }) => {
         mapContainer.removeEventListener("mousemove", handleMouseMove);
         mapContainer.removeEventListener("mouseup", handleMouseUp);
         mapContainer.removeEventListener("mouseleave", handleMouseUp);
+        // Remove touch event listeners
+        mapContainer.removeEventListener("touchstart", handleTouchStart);
+        mapContainer.removeEventListener("touchmove", handleTouchMove);
+        mapContainer.removeEventListener("touchend", handleTouchEnd);
       }
     };
-  }, [handleWheel, handleMouseDown, handleMouseMove, handleMouseUp]);
+  }, [handleWheel, handleMouseDown, handleMouseMove, handleMouseUp, handleTouchStart, handleTouchMove, handleTouchEnd]);
 
   return (
     <div>
